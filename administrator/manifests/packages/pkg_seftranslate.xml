@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+<name>SefTranslate Package</name>
+<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+<author>Andrey Kvasnevskiy</author>
+<creationDate>November 2020</creationDate>
+<packagename>seftranslate</packagename>
+<version>5.1.2 free</version>
+<url>http://www.ordasoft.com</url>
+<description>SefTranslate free Package include component and
+  module for automatical site translate</description>
+
+<scriptfile>install.uninstall.pkg.php</scriptfile>
+<files folder="packages">
+    <folder type="component" id="com_seftranslate" >com_seftranslate_free</folder>
+    <folder type="module" id="mod_seftranslate" client="site" >mod_seftranslate_free</folder>
+</files>
+<updateservers>
+    <server type="extension" priority="1" name="SefTranslate Package`s Update">http://ordasoft.com/xml_update/pkg_seftranslate_update.xml</server>
+</updateservers>
+</extension>

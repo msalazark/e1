@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <view title="SEF Map">
+		<message></message>
+	</view>
+	<state>
+		<name>SEF Map</name>
+		<description>SEF Map</description>
+	</state>
+</metadata>

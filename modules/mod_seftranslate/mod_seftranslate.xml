@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" method="upgrade" client="site" >
+    <name>SEF Translate FREE</name>
+    <author>Aleksey Pakholkov, Andrey Kvasnevskiy - OrdaSoft</author>
+    <creationDate>November 2020</creationDate>
+    <authorEmail>akbet@mail.ru</authorEmail>
+    <authorUrl>http://ordasoft.com</authorUrl>
+    <version>5.1.2 Free</version>
+    <copyright>OrdaSoft - Andrey Kvasnevskiy(akbet@mail.ru)</copyright>
+    <description>Automatic translation of your website with help of Google Translation API</description>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+
+    <files>
+      <filename module="mod_seftranslate">mod_seftranslate.php</filename>
+      <filename>mod_seftranslate.xml</filename>
+      <filename>index.html</filename>
+      <filename>LICENSE.txt</filename>
+      <folder>tmpl</folder>
+      <folder>elements</folder>
+      <folder>js</folder>
+    </files>
+
+    <config>
+      <fields name="params" >
+        <fieldset name="basic" addfieldpath="/modules/mod_seftranslate/elements" >
+          <field
+            name="mod_position"
+            type="list"
+            label="Module position"
+            description="Choose module position" >
+            <option
+              value="mod_position_default">Default</option>
+            <option
+              value="mod_position_top">Top</option>
+            <option
+              value="mod_position_right">Right</option>
+            <option
+              value="mod_position_bottom">Bottom</option>
+            <option
+              value="mod_position_left">Left</option>
+          </field>
+          <field
+                name="trans_metod"
+                type="list"
+                default="qq"
+                label="Translation Method"
+                description="Choose: Instant, jQuery or Redirect translation method. For jQuery you need configure translate API setting in Sef Translate component " >
+            <option value="qq">Instant</option>
+            <option value="q">jQuery</option>
+            <option value="r">Redirect</option>
+          </field>
+          <field
+            name="remeber_language"
+            type="list"
+            default="1"
+            label="Do remeber language?"
+            description="If YES, we wil lsave languge for next menu click" >
+            <option
+              value="1">YES</option>
+            <option
+              value="0">NO</option>
+          </field>
+          <field
+            name="use_flag_lang"
+            type="seflanguage"
+            default="1"
+            class="inputbox"
+            multiple ="true"
+            size="8"
+            label="Language Flags"
+            description="Enter languages which you want to display in the form of flags on frontend" />
+          <field
+            name="flag_size"
+            type="list"
+            default="24"
+            label="Flag Size"
+            description="Select the size of flags" >
+            <option value="16">16</option>
+            <option value="24">24</option>
+            <option value="32">32</option>
+            <option value="48">48</option>
+            <option value="64">64</option>
+          </field>
+          <field
+            name="flag_type"
+            type="list"
+            default="flat"
+            label="Flag Type"
+            description="Select the type of flags">
+            <option
+              value="flat">flat</option>
+            <option
+              value="shiny">shiny</option>
+          </field>
+          <field
+            showon="mod_position:mod_position_default"
+            name="lang_dropdown_list_or_plain_text_list"
+            type="list"
+            default="dropdown_list"
+            label="List/Plain text/Text with flag"
+            description="Select how you want see languages for translate" >
+            <option value="dropdown_list">Dropdown list</option>
+            <option value="plain_text_list">Plain text list</option>
+            <option value="text_list_with_flag">Text list with flag</option>
+          </field>
+          <field
+            showon="lang_dropdown_list_or_plain_text_list:plain_text_list[OR]lang_dropdown_list_or_plain_text_list:text_list_with_flag"
+            name="direction"
+            type="list"
+            default="dropdown_list"
+            label="Direction"
+            description="Select how you want see languages for translate" >
+            <option value="vertical">Vertical</option>
+            <option value="horizontal">Horizontal</option>
+          </field>
+
+          <field
+            showon="mod_position:mod_position_default"
+            name="use_lang"
+            type="seflanguage"
+            default="1"
+            class="inputbox"
+            multiple ="true"
+            size="8"
+            label="Language List"
+            description="Enter languages which you want to display in list on frontend. If you choose no language, language list won't be shown on frontend." />
+        </fieldset>
+        <fieldset  name="advanced" label="Advanced options">
+          <field
+                name="layout"
+                type="modulelayout"
+                label="JFIELD_ALT_LAYOUT_LABEL"
+                description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+          <field
+                name="moduleclass_sfx"
+                type="text"
+                label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+          <field
+                name="cache"
+                type="list"
+                default="1"
+                label="COM_MODULES_FIELD_CACHING_LABEL"
+                description="COM_MODULES_FIELD_CACHING_DESC">
+            <option
+                   value="1">JGLOBAL_USE_GLOBAL</option>
+            <option
+                   value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+          </field>
+          <field
+                name="cache_time"
+                type="text"
+                default="900"
+                label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+        </fieldset>
+      </fields>
+    </config>
+  </extension>

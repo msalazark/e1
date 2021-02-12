@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+  <name>SEF Translate</name>
+  <creationDate>October 2020</creationDate>
+    <author>Aleksey Pakholkov,Andrey Kvasnevskiy</author>
+    <copyright>OrdaSoft - Andrey Kvasnevskiy(akbet@mail.ru)</copyright>
+    <authorEmail>akbet@mail.ru</authorEmail>
+    <authorUrl>http://www.ordasoft.com/</authorUrl>
+    <license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+    <version>5.1.1 Free </version>
+    <description>SEF Translate. Automatic translation of your website with help of Google Translate API or Bing (Microsoft) Translator API.
+    </description>
+    <files folder="../site">
+      <filename>seftranslate.php</filename>
+      <filename>languages.conf.php</filename>
+      <filename>GTranslate.php</filename>
+      <filename>dom_parse_traslate.php</filename>
+      <filename>bing_access_token_authentication.php</filename>
+      <filename>bing_access_token.php</filename>
+      <filename>sefentity.class.php</filename>
+      <filename>sefurl.class.php</filename>
+      <filename>languages.ini</filename>
+      <filename>index.html</filename>
+      <folder>views</folder>
+
+    </files>
+    <languages  folder="../language">
+      <language tag="en-GB">en-GB/en-GB.com_seftranslate.sys.ini</language>
+    </languages>
+
+
+  <install>
+    <queries>
+    </queries>
+  </install>
+  <scriptfile>install.uninstall.script.php</scriptfile>
+  <installfile>install.seftranslate.php</installfile>
+  <installfile>install.seftranslate.helper.php</installfile>
+  <uninstallfile>uninstall.seftranslate.php</uninstallfile>
+  <administration>
+    <menu>COM_SEFTRANSLATE</menu>
+    <files folder="../back">
+      <filename>com_seftranslate.xml</filename>
+      <filename>seftranslate.php</filename>
+      <filename>toolbar.seftranslate.html.php</filename>
+      <filename>toolbar.seftranslate.php</filename>
+      <filename>install.uninstall.script.php</filename>
+      <filename>install.seftranslate.php</filename>
+      <filename>install.seftranslate.helper.php</filename>
+      <filename>uninstall.seftranslate.php</filename>
+      <filename>index.html</filename>
+      <folder>images</folder>
+      <folder>doc</folder>
+      <folder>includes</folder>
+
+    </files>
+
+    <languages  folder="../language">
+      <language tag="en-GB">en-GB/en-GB.com_seftranslate.sys.ini</language>
+    </languages>
+
+
+  </administration>
+</extension>

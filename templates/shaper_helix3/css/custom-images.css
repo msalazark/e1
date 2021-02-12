@@ -1,0 +1,662 @@
+/*********** Canvas ***************/
+/* icono de cerrar del canvas*/
+.close-offcanvas{
+	border:none!important; ;
+	background-image: url("/images/mba/menu-canvas_cerrar.png")!important; ;
+	background-repeat: no-repeat!important; ;
+}
+
+/* Icono Hamburguesa del menu canvas*/
+#offcanvas-toggler {
+    margin-right: 5%;
+    background-image: url("/images/mba/generales/menu-canvas_icono.png");
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position-y: center;
+    height: 90px;
+    padding:0 20px;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+/* modulo Idiomas */
+.select-idioma {
+    background-color: #000000;
+    color: #ffffff;
+	width:100px;
+	background-image:url("/images/mba/generales/general_idioma_flecha.png");
+	background-repeat: no-repeat;
+	background-position: 85% 50%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+        text-decoration:underline;
+        border:none;
+        box-shadow:none!important;
+}
+
+
+.wrapper-dropdown-3:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    /* top: 50%; */
+    margin-top: 5px;
+    background-image: url("/images/mba/generales/general_idioma_flecha.png");
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+}
+
+
+/******** Formulario *************/
+/* Footer - icono Checkbox - revisar porque solo funciona para modulos con sp page builder*/
+.form-builder-checkbox-item label::after, .sppb-addon-form-builder .sppb-form-check-label::after {
+    background-image: url("/images/mba/generales/principal_formulario_check.png")!important;
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+    color: transparent;
+    width: 19px;
+    left:0;
+}
+
+.div-form-select select{
+background-color:#ffffff!important;
+appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("/images/mba/principal/principal-formulario_select_arrow.png") no-repeat 96% center;
+}
+
+/********* Sprites **********/
+.sprite-home {
+    background-image: url("/images/mba/generales/mba_sprites_home.png") ;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/******** Imagen de carga inicial mientras carga la pagina ********/
+.elemento-escondido {
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+	background-image: url("/images/mba/principal/principal-logo_mba.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+/*==========================================
+		MBA - HOME
+==========================================*/
+
+/*Malla curricular - icono de carrusel - Responsive*/
+.seccion-principal-mallacurricular-responsive .fa-angle-down:before {
+    color: transparent;
+    background-image: url("/images/mba/generales/general_idioma_flecha3x.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90%;
+}
+
+/***********************************************
+	MODULO REGION
+************************************************/
+.select-principal-responsive:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    /* top: 50%; */
+    margin-top: 5px;
+    background-image: url("/images/mba/generales/general_idioma_flecha.png");
+    background-repeat: no-repeat;
+    background-position: 20% 10%;
+}
+
+/***********************************************************************
+	MODULO PRINCIPAL - FILTROS DE CIUDAD Y MODALIDAD
+************************************************************************/
+
+/* Principal inicio - foto y filtros */
+.seccion-principal-inicio-filtros{
+    background-image: url("/images/mba/principal/principal-inicio.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 52% 100%;
+}
+
+/**** OTROS - Revisar***/
+.loader-custom {
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+	background-image: url("/images/mba/principal/principal-logo_mba.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*==========================================
+		MBA - HOME
+==========================================*/
+
+/* imagen en vez del texto en la parte superior*/
+#sp-title {
+    background-image: url("/images/mba/principal/principal-logo_mba.png");
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: 100px;
+    background-position-y: center;
+    background-position-x: 90px;
+    display: block!important;
+    line-height: 87px!important;
+    cursor:pointer;  
+    height:90px;
+}
+
+/*Principal Banner - Responsive*/
+
+.seccion-principal-banner-responsive::before {
+    content: "";
+    background-image: url("/images/mba/principal/principal-banner_foto_desktop_responsive.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    background-position: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 1;
+     border-bottom-right-radius: 50px;
+}
+
+/* sprite -internas */
+.sprite-interna {
+    background-image:url("/images/mba/generales/mba_sprites_interna.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+/* Popups - Solicitud de Informacion - Internas*/
+.flecha-interna-popup{
+    color: transparent!important;
+    text-decoration: underline;
+    background-image: url("/images/mba/general-flecha_superior.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 0;
+    top: 0;
+    background-color: #d09b3e;
+    border-top-left-radius: 10px;
+    padding-left: 0px;
+}
+
+
+/*==================================
+		MAESTRIAS
+===================================*/
+
+.icon-download{
+	/*background-image: url(images/maestrias/brochure.svg);*/
+	width: 21px;
+	height: 28px;
+}
+.icon-back-white,
+.icon-next,
+.icon-back{
+	background-image: url("/images/maestrias/icon-back.svg");
+	width: 16px;
+	height: 16px;
+}
+.icon-next{
+	background-image: url("/images/maestrias/icon-forward.svg")!important;
+}
+.icon-back-white{
+	background-image: url("/images/maestrias/icon-back-white-01.svg")!important;
+}
+
+
+/****************** custom select *****************/
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+	display: block;
+ 	position: absolute;
+	content: "";
+	right: 10px;
+	top: calc(50% - 4px);
+	width: 19px;
+	height: 8px;
+	background-image: url("/images/maestrias/dropdown-arrow.svg");
+}
+
+.custom-select{
+	background-image: url("/images/maestrias/select-arrow-01.svg");
+	background-size: 17px 7px;
+}
+
+/**********************************/
+
+.btn-trigger{
+	background-image: url(/images/maestrias/btn-menu.svg);
+}
+
+.btn-close {
+    background-image: url(/images/maestrias/btn-close.svg) !important;
+    position: relative;
+    top: -31%;
+    width: 20px;
+}
+.main-menu > .menu-popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	background-image: url(/images/maestrias/bg-menu.jpg);
+	background-size: cover;
+	color: #fff;
+}
+
+.link-facebook{ background-image: url(/images/maestrias/facebook.svg) !important; }
+.link-twitter{ background-image: url(/images/maestrias/twitter.svg) !important; }
+.link-youtube{ background-image: url(/images/maestrias/youtube.svg) !important; }
+.link-google{ background-image: url(/images/maestrias/googleplus.svg) !important; }
+.link-linkedin{ background-image: url(/images/maestrias/linkedin.svg) !important; }
+
+
+/*********** Home ***************/
+.maestria-info > .container .imagen{
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-image: url(/images/maestrias/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	border-bottom-left-radius: 12px;
+}
+
+.slick-prev{
+	background-image: url(/images/maestrias/der.svg);
+	right: 100px;
+}
+.slick-next{
+	background-image: url(/images/maestrias/izq.svg);
+	right: 40px;
+}
+
+/************** Ventajas **********************/
+.palabras-directora .video,
+.ventajas .video{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	background-image: url(/images/edux/Imagenes/Ee-PADE-PAE-Diplomas-ventajas.jpg);
+	background-position: center;
+	background-size: cover;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.btn-play{
+	background-color: transparent;
+	background-image: url(/images/maestrias/icon-play.svg);
+	width: 73px;
+	height: 73px;
+	border: 0 none;
+}
+
+/************ duracion y horarios ************/
+.duracion-horarios > .imagen{
+	width: 40%;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	right: 0;
+	background-image: url(/images/edux/Imagenes/Ee-PADE-PAE-Diplomas-horario.jpg);
+	background-position: center;
+	background-size: cover;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.icon-calendar{
+	/*background-image: url(/images/maestrias/icon-calendar.svg);*/
+	width: 70px;
+	height: 70px;
+}
+.icon-inauguracion{
+	/*background-image: url(/images/maestrias/icon-inauguracion.svg);*/
+	width: 71px;
+	height: 71px;
+      margin-bottom: 28px;
+}
+.icon-horario{
+	/*background-image: url(/images/maestrias/icon-horario.svg);*/
+	width: 73px;
+	height: 73px;
+}
+.icon-examenes{
+	/*background-image: url(/images/maestrias/icon-examenes.svg);*/
+	width: 93px;
+	height: 67px;
+}
+
+/************** docentes ****************/
+
+.docentes > .imagen{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	background-image: url(/images/maestrias/imagen-docentes.jpg);
+	background-size: cover;
+	background-position: center;
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+/*
+.icon-peru{
+	background-image: url(/images/maestrias/icon-peru.svg);
+}
+.icon-world{
+	background-image: url(/images/maestrias/icon-world.svg);
+}
+.icon-build{
+	background-image: url(/images/maestrias/icon-build.svg);
+}
+.icon-birrete{
+	background-image: url(/images/maestrias/icon-birrete.svg);
+}
+*/
+
+/****************** inversion *************************/
+
+.inversion > .imagen{
+	width: 40%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background-image: url(/images/edux/Imagenes/Ee-PADE-PAE-Diplomas-inversion.jpg);
+	background-size: cover;
+	background-position: center;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.sub-index{
+	background-image: url(/images/maestrias/i.svg);
+	width: 23px;
+	height: 23px;
+}
+
+/*********** experiencia *******************/
+
+.en-que-consiste > .imagen .slick-prev,
+.mod-eventos-list .slick-prev,
+.experiencias .slick-prev{
+	background-image: url(/images/maestrias/prev-01.svg);
+	right: 50px;
+}
+
+.en-que-consiste > .imagen .slick-next,
+.mod-eventos-list .slick-next,
+.experiencias .slick-next{
+	background-image: url(/images/maestrias/next-01.svg);
+	right: 0;
+}
+
+.calendario .evento-item .fecha{
+	background-image: url(/images/maestrias/date-bg.png);
+	background-position: center;
+	width: 59px;
+	height: 62px;
+	text-align: center;
+}
+
+/********************** solicitud informacion *********************/
+
+.informacion > .container{
+	padding-bottom: 80px;
+	background-image: url(/images/maestrias/bg-informacion.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 40% auto;
+}
+
+/*********************** page *************************/
+
+.buscador-page .video,
+.maestria-page .video,
+.maestria-page .imagen{
+	position: absolute;
+	right: 0;
+	left: auto;
+	width: 40%;
+	top: auto;
+	bottom: auto;
+	height: calc(100% - 120px);
+	background-image: url(/images/maestrias/banner02.jpg);
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.palabras-directora .video{
+	background-image: url(/images/maestrias/bg-video-2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.consejo-consultivo .imagen{
+	position: absolute;
+	right: 0;
+	width: 40%;
+	height: 100%;
+	background-image: url(/images/maestrias/imagen-consejo-consultivo.jpg);
+	background-position: center;
+	background-size: cover;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.mision{
+	background-image: url(/images/maestrias/mision-bg.png);
+	background-position: right -15px bottom 25px;
+
+}
+
+.vision{
+	background-image: url(/images/maestrias/vision-bg.png);
+	background-position: right -20px bottom 5px;
+}
+
+.convalida .video{
+	height: 360px;
+	background-image: url(/images/maestrias/video-mba.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 12px;
+}
+
+.innovation-hub > .imagen{
+	background-image: url(/images/Mae-PM-04-ventajas-innovaton.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.imagen-nacional{
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-image: url(/images/maestrias/mapa-peru.png);
+}
+.imagen-internacional{
+	width: 50%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background-image: url(/images/maestrias/mapa-mundo.png);
+}
+
+/************************* boletin **********************/
+
+.boletin{
+	min-height: 0;
+	height: auto;
+	padding: 60px 0;
+	background-image: url(/images/maestrias/bg-boletin.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+/**************************** home filtro ***********************/
+
+section.buscador{
+	min-height: 100vh;
+	background-image: url(/images/maestrias/bg-informacion.jpg);
+	    background-position: right 10% bottom;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+}
+
+.btn-down{
+	background-image: url(/images/maestrias/next-01.svg);
+	width: 37px;
+	height: 37px;
+	display: block;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.searchbox > input{
+	background-image: url(/images/maestrias/lupa.svg)!important;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	padding-left: 60px!important;
+	height: 60px!important;
+	-webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2)!important;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2)!important;
+	border: 0 none!important;
+}
+
+
+.page-prev{
+	background-image: url(/images/maestrias/pag-ant-01.svg);
+}
+.page-next{
+	background-image: url(/images/maestrias/pag-sig-01.svg);
+}
+
+/************************* modal ***********************/
+
+
+.icon-close{
+	background-image: url(/images/maestrias/btn-close.svg);
+	width: 36px;
+	height: 36px;
+}
+/*
+#modalModificar .modal-body{
+	background-image: url(/images/maestrias/arboles-esan.svg);
+	background-position: bottom 40px right 40px;
+	background-repeat: no-repeat;
+}
+*/
+
+/*******************************************************/
+
+/*===============================================
+		MAESTRIAS - RESPONSIVE
+===============================================*/
+
+@media only screen and (max-width: 767px){
+.slick-prev{
+  background-image: url(/images/maestrias/prev-01.svg);
+  right: 40px;
+}
+.slick-next{
+  background-image: url(/images/maestrias/next-01.svg);
+  right: 0;
+}
+
+#modalSolicitud .modal-content{
+  background-image: url(/images/maestrias/brochure.png);
+  background-position: top 30px right 20px;
+  background-repeat: no-repeat;
+  background-size: 30% auto;
+}
+
+/************** page **********************/
+.page-top{
+  background-image: url(/images/maestrias/banner02.jpg);
+  background-size: 150% auto;
+  background-position: top center;
+  color: #fff;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.content.facultad-internacional::before,
+.content.facultad-nacional::before{
+  position: absolute;
+  content: '';
+  display: block;
+  opacity: 0.5;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/images/maestrias/mapa-peru.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 52%;
+}
+
+.content.facultad-internacional::before{
+  background-image: url(/images/maestrias/mapa-mundo.png);
+  background-size: 110% auto;
+  background-position: right -40px bottom -40px;
+}
+
+}

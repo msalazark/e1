@@ -1,0 +1,1992 @@
+/*
+Theme Name: Nombre template
+Theme URI: http://www.url.com
+Author: Cocoa Perú
+Author URI: http://cocoa.pe/
+Description: Plantilla desarrollada para uso de ...
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body, table, td{
+	font-size: 16px;
+	line-height: 1.4;
+	color: #5c5c5c;
+	font-family: 'ceraRegular';
+}
+
+body.open{
+	overflow: hidden;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+button:focus,
+button:active{
+	outline: 0 none !important;
+}
+
+.btn-circle{
+	width: 44px !important;
+	padding: 0 !important;
+	border-radius: 50% !important;
+}
+
+.btn-lg.btn-circle{
+	width: 60px !important;
+}
+
+.icon{
+	display: inline-block;
+}
+.icon-download{
+	background-image: url(/esan2020/images/maestrias/brochure.svg);
+	width: 21px;
+	height: 28px;
+}
+.icon-back-white,
+.icon-next,
+.icon-back{
+	background-image: url(/esan2020/images/maestrias/icon-back.svg);
+	width: 16px;
+	height: 16px;
+}
+.icon-next{
+	background-image: url(/esan2020/images/maestrias/icon-forward.svg);
+}
+.icon-back-white{
+	background-image: url(/esan2020/images/maestrias/icon-back-white-01.svg);
+}
+
+.link-next,
+.link-back{
+	display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	color: #cf0f11;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.link-back > span,
+.link-next > span{
+	text-decoration: underline;
+}
+
+.link-back > .icon{
+	margin-right: 6px;
+}
+
+.link-next > .icon{
+	margin-left: 6px;
+}
+
+.btn-back{
+	line-height: 1;
+}
+.site-header .btn-back{
+	margin-right: 10px;
+}
+
+/*----------------------------------------------------------- custom select -------------------------------------------------------------*/
+
+/* The container must be positioned relative: */
+.ui-select {
+  position: relative;
+}
+
+.ui-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+	display: block;
+ 	position: absolute;
+	content: "";
+	right: 10px;
+	top: calc(50% - 4px);
+	width: 19px;
+	height: 8px;
+	background-image: url(/esan2020/images/maestrias/dropdown-arrow.svg);
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+	padding: 10px;
+  cursor: pointer;
+}
+
+.select-selected{
+	padding-right: 35px;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #272727;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*----------------------------------------------------------- header -------------------------------------------------------------*/
+
+.site-header{
+	background-color: #272727;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	height: 80px;
+}
+
+.submenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.submenu li{
+	margin: 0 15px;
+}
+
+.submenu li > a:not(.btn){
+	display: block;
+	position: relative;
+	font-size: 18px;
+	color: #979797;
+}
+
+.submenu li > a.active:not(.btn),
+.submenu li > a:not(.btn):hover{
+	color: #fff;
+	font-family: 'ceraMedium';
+}
+
+.submenu li > a.active:not(.btn)::after,
+.submenu li > a:not(.btn):hover::after{
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	border-radius: 2.5px;
+	background-color: #fff;
+}
+
+.idioma{
+	margin-right: 30px;
+}
+
+.btn-close,
+.btn-trigger{
+	padding: 0;
+	border: 0 none;
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+}
+
+.btn-trigger{
+	background-image: url(/esan2020/images/maestrias/btn-menu.svg);
+}
+
+.btn-close{
+	background-image: url(/esan2020/images/maestrias/btn-close.svg);
+}
+
+.main-menu > .menu-popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	background-image: url(/esan2020/images/maestrias/bg-menu.jpg);
+	background-size: cover;
+	color: #fff;
+}
+.main-menu > .menu-popup.open{
+	display: block;
+}
+
+	.menu-popup nav{
+		flex-wrap: wrap;
+	}
+
+.menu-popup > .container{
+	opacity: 0;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 0.4s; /* Safari 4.0 - 8.0 */
+	animation-name: example;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.menu-popup > .container > .row > div{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.menu-popup ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-popup nav > ul{
+	width: 25%;
+}
+
+.menu-popup nav li h3{
+	font-size: 35px;
+	font-family: 'ceraBold';
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.menu-popup nav li h3 > span{
+	color: #CF0F11;
+}
+
+.menu-popup nav li{
+	margin-bottom: 6px;
+}
+
+.menu-popup nav a{
+	font-size: 30px;
+	opacity: 0.7;
+}
+
+.menu-popup nav a:hover{
+	color: #CF0F11;
+	opacity: 1;
+}
+
+.menu-popup nav a:hover::before{
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #CF0F11;
+	margin-right: 8px;
+	vertical-align: text-top;
+	margin-top: 10px;
+}
+
+.redes ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.redes h3{
+	font-size: 24px;
+	font-family: 'ceraBold';
+	margin-bottom: 30px;
+}
+
+.redes a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.redes li:not(:last-child){
+	margin-right: 20px;
+}
+
+.link-facebook{ background-image: url(/esan2020/images/maestrias/facebook.svg); }
+.link-twitter{ background-image: url(/esan2020/images/maestrias/twitter.svg); }
+.link-youtube{ background-image: url(/esan2020/images/maestrias/youtube.svg); }
+.link-google{ background-image: url(/esan2020/images/maestrias/googleplus.svg); }
+.link-linkedin{ background-image: url(/esan2020/images/maestrias/linkedin.svg); }
+
+/*----------------------------------------------------------- home -------------------------------------------------------------*/
+
+main{
+	margin-top: 80px;
+}
+
+section{
+	position: relative;
+	min-height: calc(100vh - 80px);
+}
+
+.maestria-info .breadcrumbs{
+	position: absolute;
+	top: 20px;
+}
+
+.breadcrumbs .separator{
+	display: inline-block;
+	padding: 0 6px;
+}
+
+.breadcrumbs a{
+	text-decoration: underline;
+}
+
+.slide-ranking{
+	position: absolute;
+	width: 40%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.maestria-info > .container .imagen{
+	position: absolute;
+	width: 40%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-image: url(/esan2020/images/maestrias/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	border-bottom-left-radius: 12px;
+}
+
+.slide-ranking > div{
+	position: relative;
+	width: calc(100% + 50px);
+	margin-left: -50px;
+	z-index: 2;
+}
+
+.slide-ranking .slider .item{
+	margin-right: 20px;
+}
+
+.slide-ranking > div .title{
+	color: #fff;
+	padding-right: 40px;
+}
+
+.slide-ranking .title h3{
+	font-family: 'ceraBold';
+	font-size: 35px;
+}
+.slide-ranking .title h3 small{
+	font-size: 70%;
+	font-family: 'ceraRegular';
+}
+
+.slick-dots{
+	position: absolute;
+	bottom: -65px;
+	color: #fff;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	right: 160px;
+	font-size: 20px;
+	font-family: 'ceraMedium';
+}
+
+.en-que-consiste > .imagen .slick-dots,
+.experiencias .slick-dots{
+	color: #000;
+	right: 110px;
+}
+
+.en-que-consiste > .imagen .slick-dots{
+	right: 130px;
+}
+
+.slick-dots > li a{
+	font-size: 35px;
+	font-family: 'ceraBold';
+}
+
+.slick-dots > li:not(.slick-active){
+	display: none;
+}
+
+.slick-prev,
+.slick-next{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	padding: 0;
+	border: 0 none;
+	font-size: 0;
+	width: 37px;
+	height: 37px;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: -60px;
+	z-index: 9;
+}
+
+.slick-prev{
+	background-image: url(/esan2020/images/maestrias/der.svg);
+	right: 100px;
+}
+.slick-next{
+	background-image: url(/esan2020/images/maestrias/izq.svg);
+	right: 40px;
+}
+
+.maestria-info .actions{
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	z-index: 9;
+}
+
+.maestria-info > .container{
+	min-height: calc(100vh - 80px);
+	justify-content: center;
+	padding-top: 60px;
+	padding-bottom: 180px;
+}
+
+.maestria-info .content h1{
+	font-family: 'ceraBold';
+	color: #D49C11;
+	font-size: 70px;
+	line-height: 1.2;
+}
+
+.maestria-info .content p{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.maestria-info .content .btn-primary{
+	padding: 0 60px;
+}
+
+.maestria-info .link-back{
+	margin-bottom: 30px;
+}
+
+.maestria-info .evento{
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	max-width: 1520px;
+	left: 50%;
+	margin-left: -760px;
+	padding: 0 15px;
+}
+
+.evento p{
+	font-size: 20px;
+	color: #727272;
+}
+
+.maestria-info .evento-item{
+	position: relative;
+	border-radius: 5px;
+	background-color: #EEEEEE;
+	padding: 20px 30px;
+	max-width: 470px;
+	line-height: 1.2;
+}
+.maestria-info .evento-item .link-next{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.maestria-info .evento-item .fecha{
+	font-size: 30px;
+	font-family: 'ceraBold';
+	color: #020202;
+}
+.maestria-info .evento-item .lugar{
+	font-size: 25px;
+}
+
+/*----------------------------------------------------------- ventajas -------------------------------------------------------------*/
+
+.palabras-directora .video,
+.ventajas .video{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	background-image: url(/esan2020/images/maestrias/bg-video.jpg);
+	background-position: center;
+	background-size: cover;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.ventajas .content{
+	padding: 40px 0;
+}
+
+.ventajas .content > .video{
+	display: none !important;
+}
+
+.btn-play{
+	background-color: transparent;
+	background-image: url(/esan2020/images/maestrias/icon-play.svg);
+	width: 73px;
+	height: 73px;
+	border: 0 none;
+}
+
+.intro{
+	margin-bottom: 40px;
+}
+
+footer h2,
+.intro h2{
+	font-size: 35px;
+	font-family: 'ceraBold';
+	color: #363636;
+	margin-bottom: 30px;
+}
+footer h2::before,
+.intro h2::before{
+	content: '';
+	display: inline-block;
+	width: 5px;
+	height: 20px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-color: #CF0F11;
+	margin-right: 10px;
+}
+
+.intro:only-child,
+.intro h2:only-child{
+	margin-bottom: 0;
+}
+
+.intro p{
+	font-size: 20px;
+}
+
+.why h3{
+	font-size: 30px;
+	color: #000;
+}
+
+.why ul{
+	list-style: none;
+	margin: 30px 0 40px 0;
+	padding: 0;
+}
+
+.why ul li{
+	font-size: 20px;
+}
+
+.why ul li:not(:last-child){
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.why li .icon{
+	width: 90px;
+}
+
+.why li .title{
+	width: calc(45% - 45px);
+	padding-right: 30px;
+	font-family: 'ceraBold';
+	color: #363636;
+}
+.why li .descripcion{
+	width: calc(55% - 45px);
+}
+
+/*----------------------------------------------------------- internacionalización -------------------------------------------------------------*/
+
+.internacionalizacion{
+	overflow: hidden;
+	border-bottom: 1px solid #979797;
+	padding: 40px 0;
+}
+
+.en-que-consiste,
+.sobre-el-programa,
+.malla-content,
+.cards{
+	width: calc(100vw - (100vw - 100% + 16px)/2);
+}
+
+.cards{
+	margin-bottom: 30px;
+}
+
+.card-item{
+	max-width: 500px;
+	border-radius: 12px;
+	border: 0.5px solid #979797;
+	overflow: hidden;
+	margin-right: 30px;
+}
+
+.card-item .content{
+	padding: 30px;
+}
+
+.card-item .content .logo{
+	margin-bottom: 30px;
+}
+
+.card-item .content h3{
+	font-size: 30px;
+	color: #000;
+	font-family: 'ceraMedium';
+	font-weight: normal;
+}
+
+.internacionalizacion .intro{
+	margin-bottom: 40px;
+}
+
+/*----------------------------------------------------------- malla curricular -------------------------------------------------------------*/
+
+.malla{
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+.malla .intro{
+	margin-bottom: 30px;
+}
+
+.especialidades-slick,
+.malla-slick{
+	display: none;
+}
+
+#mallaTabs{
+	width: 22%;
+	list-style: none;
+	flex-direction: column;
+	margin-top: 30px;
+	border: 0 none !important;
+}
+
+#mallaTabs > li:not(:last-child){
+	margin-bottom: 30px;
+}
+
+#mallaTabs .nav-link{
+	opacity: 0.6;
+	color: #000;
+	font-size: 20px;
+	line-height: 1.2;
+	border: 0 none !important;
+}
+
+#mallaTabs .nav-link.active{
+	opacity: 1;
+	font-family: 'ceraMedium';
+}
+
+.periodo-item > .content::before,
+#mallaTabs .nav-link.active::before{
+	content: '';
+	display: block;
+	width: 30px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #CF0F11;
+	margin-top: 17px;
+	margin-right: 15px;
+}
+
+#mallaTabs .nav-link span.nro{
+	font-size: 50px;
+	line-height: 0.8;
+	margin-right: 15px;
+}
+
+#mallaTabs .nav-link.active span.nro{
+	font-family: 'ceraBold';
+}
+
+#mallaTabsContent{
+	width: 77.6%;
+	margin-bottom: 60px;
+}
+
+.periodo-item{
+	border: 0.5px #c7c7c7 solid;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.periodo-item > .content{
+	width: 54%;
+	padding: 30px;
+}
+.periodo-item > .imagen{
+	width: 46%;
+}
+
+.periodo-item > .content ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.periodo-item > .content ul > li{
+	padding-left: 30px;
+	position: relative;
+}
+
+.periodo-item > .content ul > li:not(:last-child){
+	margin-bottom: 15px;
+}
+
+.periodo-item > .content ul > li::before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	width: 4px;
+	height: 7px;
+	border-radius: 2px;
+	background-color: #CF0F11;
+}
+
+#especialidadesTabs{
+	border-bottom: 0 none !important;
+}
+
+#especialidadesTabs > li{
+	width: 33.333%;
+}
+
+#especialidadesTabs > li:not(:first-child){
+	margin-left: -1px;
+}
+
+#especialidadesTabs > li:first-child .nav-link{
+	border-top-left-radius: 12px;
+}
+#especialidadesTabs > li:last-child .nav-link{
+	border-top-right-radius: 12px;
+}
+
+#especialidadesTabs .nav-link{
+	position: relative;
+	font-size: 18px;
+	padding: 25px 30px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	border-radius: 0;
+	background-color: #f7f7f7;
+	border: 0.5px solid #D8D8D8;
+	color: #AEAEAE;
+}
+
+#especialidadesTabs .nav-link.active::after{
+	position: absolute;
+	content: '';
+	display: block;
+	width: 22px;
+	height: 22px;
+	border-left: 0.5px solid #D8D8D8;
+	border-bottom: 0.5px solid #D8D8D8;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	bottom: -11px;
+	background-color: #fff;
+}
+
+#especialidadesTabs .nav-link.active{
+	background-color: #fff;
+	color: #000;
+}
+
+#especialidadesTabs .nav-link .flags{
+	margin-right: 10px;
+	line-height: 1;
+}
+#especialidadesTabs .nav-link .flags > img{
+	margin-right: 10px;
+	max-width: 32px;
+	display: inline-block;
+}
+
+#especialidadesTabsContent{
+	margin-top: 40px;
+}
+
+.especialidad-item .imagen{
+	width: 56%;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+	overflow: hidden;
+}
+.especialidad-item > .content{
+	width: 40%;
+}
+
+.especialidad-item > .content > ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.especialidad-item > .content > ul > li:not(:last-child){
+	margin-bottom: 20px;
+}
+
+/*----------------------------------------------------------- duraicón horarios -------------------------------------------------------------*/
+
+p:last-child{
+	margin-bottom: 0;
+}
+
+.duracion-horarios{
+	margin-bottom: 60px;
+}
+
+.duracion-horarios > .imagen{
+	width: 40%;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	right: 0;
+	background-image: url(/esan2020/images/maestrias/imagen-duracion-horarios.jpg);
+	background-position: center;
+	background-size: cover;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.icon-calendar{
+	background-image: url(/esan2020/images/maestrias/icon-calendar.svg);
+	width: 70px;
+	height: 70px;
+}
+.icon-inauguracion{
+	background-image: url(/esan2020/images/maestrias/icon-inauguracion.svg);
+	width: 71px;
+	height: 71px;
+}
+.icon-horario{
+	background-image: url(/esan2020/images/maestrias/icon-horario.svg);
+	width: 73px;
+	height: 73px;
+}
+.icon-examenes{
+	background-image: url(/esan2020/images/maestrias/icon-examenes.svg);
+	width: 93px;
+	height: 67px;
+}
+
+.grid-item{
+	padding: 40px 60px 60px 40px;
+}
+
+.grid-item .icono{
+	margin-bottom: 10px;
+}
+
+.grid-item .descripcion{
+	font-size: 20px;
+}
+
+.grid-item .descripcion strong{
+	color: #000;
+}
+
+.grid-item:first-child, .grid-item:nth-child(2){
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.grid-item:first-child, .grid-item:nth-child(3){
+	border-right: 1px solid #D8D8D8;
+}
+
+.grid-item .descripcion .fecha{
+	display: inline-block;
+	padding: 8px 10px;
+	background-color: #FAE6E6;
+	border-radius: 8px;
+	color: #000;
+}
+
+/*----------------------------------------------------------- docentes -------------------------------------------------------------*/
+
+.docentes{
+	padding: 40px 0;
+	margin-bottom: 60px;
+}
+
+.docentes > .imagen{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40%;
+	height: 100%;
+	background-image: url(/esan2020/images/maestrias/imagen-docentes.jpg);
+	background-size: cover;
+	background-position: center;
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.docentes .mapa{
+	margin-bottom: 30px;
+}
+
+.cifras-docentes{
+	justify-content: space-between;
+}
+
+.cifras-docentes .cifra-item{
+	width: calc(25% - 13.333px);
+	margin-bottom: 30px;
+}
+
+.cifra-item .icono{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.icon-peru,
+.icon-world,
+.icon-build,
+.icon-birrete{
+	width: 66px;
+	height: 66px;
+}
+
+.icon-peru{
+	background-image: url(/esan2020/images/maestrias/icon-peru.svg);
+}
+.icon-world{
+	background-image: url(/esan2020/images/maestrias/icon-world.svg);
+}
+.icon-build{
+	background-image: url(/esan2020/images/maestrias/icon-build.svg);
+}
+.icon-birrete{
+	background-image: url(/esan2020/images/maestrias/icon-birrete.svg);
+}
+
+.cifra-item .descripcion{
+	font-size: 18px;
+}
+.cifra-item .descripcion strong{
+	font-size: 20px;
+	font-family: 'ceraMedium';
+	color: #000;
+	font-weight: normal;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+/*----------------------------------------------------------- inversion -------------------------------------------------------------*/
+
+.inversion > .imagen{
+	width: 40%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background-image: url(/esan2020/images/maestrias/imagen-inversion.jpg);
+	background-size: cover;
+	background-position: center;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.inversion .content h3{
+	color: #000;
+	font-size: 30px;
+}
+
+.inversion .content h3 > strong{
+	font-family: 'ceraBold';
+	font-weight: normal;
+}
+
+.sub-index{
+	background-image: url(/esan2020/images/maestrias/i.svg);
+	width: 23px;
+	height: 23px;
+}
+
+.inversion .content h3 > .sub-index{
+	margin-left: 8px;
+	margin-bottom: 8px;
+}
+
+.inversion .action-postular{
+	margin-bottom: 30px;
+}
+
+.action-postular{
+	padding: 30px;
+	border-radius: 12px;
+	font-size: 20px;
+}
+
+.links-info{
+	font-size: 20px;
+	justify-content: space-between;
+}
+
+.links-info p{
+	width: 100%;
+	font-family: 'ceraMedium';
+	color: #000;
+}
+.links-info .link-item{
+	width: calc(50% - 15px);
+	border: 0.5px solid #C8C8C8;
+	border-radius: 12px;
+	padding: 30px;
+}
+
+.links-info .link-item:hover{
+	border-color: #CF0F11;
+}
+
+/*----------------------------------------------------------- experiencia -------------------------------------------------------------*/
+
+.experiencia{
+	padding: 60px 0;
+}
+
+.experiencia .content{
+	width: 62%;
+	padding-right: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.experiencia .calendario{
+	width: 38%;
+	padding-left: 30px;
+	border-left: 1px solid #D8D8D8;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.experiencias{
+	position: relative;
+}
+
+.exp-item .imagen{
+	margin-bottom: 30px;
+}
+
+.exp-item .imagen > img{
+	border-radius: 12px;
+}
+
+.experiencias .exp-item{
+	max-width: 340px;
+	margin-right: 30px;
+	font-size: 20px;
+	color: #000;
+}
+
+.exp-item .nombre{
+	font-family: 'ceraBold';
+}
+
+.exp-item .cargo{
+	font-size: 18px;
+}
+
+.exp-item .texto{
+	margin-top: 10px;
+	color: #5C5C5C;
+}
+
+.exp-item .descripcion{
+	padding-bottom: 30px;
+	border-bottom: 6px solid #555555;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.en-que-consiste{
+	padding: 60px 0 90px 0;
+}
+
+.en-que-consiste > .imagen .slick-prev,
+.experiencias .slick-prev{
+	background-image: url(/esan2020/images/maestrias/prev-01.svg);
+	right: 50px;
+}
+
+.en-que-consiste > .imagen .slick-next,
+.experiencias .slick-next{
+	background-image: url(/esan2020/images/maestrias/next-01.svg);
+	right: 0;
+}
+
+.calendario .evento-item{
+	border: 0.5px solid #979797;
+	border-radius: 12px;
+	padding: 20px 30px;
+}
+
+.calendario .evento-item:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.calendario .evento-item .fecha{
+	background-image: url(/esan2020/images/maestrias/date-bg.png);
+	background-position: center;
+	width: 59px;
+	height: 62px;
+	text-align: center;
+}
+
+.calendario .evento-item .fecha .dia{
+	color: #fff;
+	font-size: 10px;
+}
+
+.calendario .evento-item .fecha .nro{
+	font-size: 26px;
+	font-family: 'ceraBold';
+}
+
+.calendario .evento-item .evento-content{
+	width: calc(100% - 110px);
+}
+
+.evento-item .evento-content .categoria{
+	display: block;
+	font-family: 'ceraMedium';
+	color: #000;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.evento-item .evento-content h3{
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+/*----------------------------------------------------------- solicite información -------------------------------------------------------------*/
+
+.informacion > .container{
+	padding-bottom: 80px;
+	background-image: url(/esan2020/images/maestrias/bg-informacion.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 40% auto;
+}
+
+.informacion .formulario{
+	max-width: 540px;
+}
+
+.custom-input > label{
+  position: relative;
+	margin-bottom: 0;
+	width: 100%;
+}
+.custom-input > label .etiqueta {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 14px;
+  color: #666;
+  transform-origin: 0 0;
+  transition: all 0.2s ease;
+}
+
+.custom-input > label input:focus {
+  background: none;
+  outline: none;
+}
+.custom-input > label input:focus + span {
+  color: #363636;
+  transform: translateY(-22px) scale(0.85);
+	background-color: #fff;
+	padding: 0 5px;
+}
+
+.informacion .redes{
+	padding: 20px 30px;
+	border-radius: 12px;
+	margin-top: 30px;
+	max-width: 680px;
+}
+
+.informacion .redes h3{
+	margin-bottom: 0;
+	font-size: 20px;
+	color: #000;
+}
+
+.custom-select{
+	font-size: 14px;
+}
+
+/*----------------------------------------------------------- page -------------------------------------------------------------*/
+
+.page .breadcrumbs{
+	margin-top: 20px;
+}
+
+.page-top .page-title{
+	display: none;
+}
+
+.maestria-page{
+	min-height: calc(100vh - 122px);
+	border-bottom: 1px solid #979797;
+}
+
+.maestria-page .video,
+.maestria-page .imagen{
+	position: absolute;
+	right: 0;
+	left: auto;
+	width: 40%;
+	top: auto;
+	bottom: auto;
+	height: calc(100% - 120px);
+	background-image: url(/esan2020/images/maestrias/banner02.jpg);
+	background-position: center;
+	background-size: cover;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.maestria-page .content h1{
+	font-size: 35px;
+	color: #D49C11;
+	font-family: 'ceraBold';
+}
+.maestria-page .content h2{
+	font-size: 30px;
+	font-family: 'ceraMedium';
+	color: #555555;
+	margin-bottom: 30px;
+}
+.maestria-page .content p{
+	font-size: 25px;
+}
+
+.maestria-page .content .actions{
+	margin-top: 30px;
+	max-width: 470px;
+}
+
+.maestria-page .content .actions > a{
+	width: 100%;
+}
+
+.maestria-page .content .actions > a:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.page-content{
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+.page-content p{
+	font-size: 20px;
+}
+
+.sobre-el-programa{
+	margin-bottom: 60px;
+}
+
+.sobre-el-programa > .content{
+	width: 56%;
+	padding-right: 60px;
+}
+.sobre-el-programa > .imagen{
+	width: 44%;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	overflow: hidden;
+}
+.sobre-el-programa > .imagen img{
+	width: 100%;
+}
+
+.objetivo{
+	border: 0.5px solid #979797;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.objetivo > .content{
+	padding: 70px;
+	width: calc(100% - 574px);
+	max-width: 800px;
+}
+
+.palabras-directora .video{
+	background-image: url(/esan2020/images/maestrias/bg-video-2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.palabras-directora .content .nombre{
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 0;
+}
+.palabras-directora .content .cargo{
+	font-size: 20px;
+	font-family: 'ceraBold';
+	color: #000;
+}
+
+.palabras-directora .content > .video{
+	position: relative;
+	display: none !important;
+}
+
+.scroll-content{
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+/* width */
+.scroll-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.scroll-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+	border-radius: 5px;
+}
+ 
+/* Handle */
+.scroll-content::-webkit-scrollbar-thumb {
+  background: #D8D8D8;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+.scroll-content::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.palabras-directora .content .scroll-content{
+	max-height: 230px;
+	padding-right: 30px;
+	margin: 30px 0;
+	font-size: 20px;
+}
+
+.acreditaciones,
+.membresias{
+	max-width: 640px;
+}
+
+.acreditaciones h3,
+.membresias h3{
+	font-size: 20px;
+	font-family: 'ceraBold';
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.acreditaciones > div .item,
+.membresias > div .item{
+	margin-right: 40px;
+	margin-bottom: 30px;
+}
+
+.consejo-consultivo{
+	padding: 60px 0;
+}
+
+.consejo-consultivo .imagen{
+	position: absolute;
+	right: 0;
+	width: 40%;
+	height: 100%;
+	background-image: url(/esan2020/images/maestrias/imagen-consejo-consultivo.jpg);
+	background-position: center;
+	background-size: cover;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.consejo-integrantes{
+	font-size: 20px;
+}
+
+.item-consejo.w-100 .nombre{
+	font-family: 'ceraBold';
+}
+
+.item-consejo:not(:first-child){
+	margin-top: 30px;
+	width: calc(50% - 15px);
+	padding-right: 30px;
+}
+
+.item-consejo .pais{
+	margin-bottom: 10px;
+}
+
+.item-consejo .nombre{
+	font-size: 30px;
+	line-height: 1.1;
+}
+
+.buscamos{
+	padding: 60px 0;
+}
+
+.buscamos .intro{
+	margin-bottom: 40px;
+}
+
+.mision, .vision{
+	border: 0.5px solid #979797;
+	border-radius: 12px;
+	padding: 70px;
+	font-size: 20px;
+	min-height: 620px;
+	background-repeat: no-repeat;
+}
+
+.mision h3,
+.vision h3{
+	font-size: 30px;
+	color: #000;
+}
+
+.mision{
+	background-image: url(/esan2020/images/maestrias/mision-bg.png);
+	background-position: right -15px bottom 25px;
+
+}
+
+.vision{
+	background-image: url(/esan2020/images/maestrias/vision-bg.png);
+	background-position: right -20px bottom 5px;
+}
+
+.ventajas-page{
+	padding: 60px 0;
+	border-bottom: 1px solid #979797;
+}
+
+.ventajas-page .why ul{
+	margin-bottom: 0;
+}
+
+.ventajas-page .why li .title{
+	width: 420px;
+}
+
+.ventajas-page .why li .descripcion{
+	width: calc(100% - 510px);
+}
+
+.convalida::before{
+	content: '';
+	display: block;
+	width: 1px;
+	height: 100%;
+	top: 0;
+	background-color: #D8D8D8;
+	position: absolute;
+	left: 50%;
+}
+
+.convalida{
+	padding: 60px 0;
+}
+
+.convalida-item{
+	max-width: 670px;
+	margin-bottom: 60px;
+}
+
+.convalida-item .logo{
+	margin-top: 30px;
+}
+
+.convalida .video{
+	height: 360px;
+	background-image: url(/esan2020/images/maestrias/video-mba.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 12px;
+}
+
+.innovation-hub > .imagen{
+	background-image: url(/esan2020/images/maestrias/bg-innovacion.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.valores{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.valores > div{
+	width: 20%;
+	font-size: 20px;
+	
+}
+
+.valores > div:not(:first-child){
+	border-right: 1px solid #D8D8D8;
+	padding-left: 20px;
+}
+
+.valores > div:last-child{
+	border-right: 0 none;
+}
+
+.valores .title{
+	font-size: 30px;
+	color: #CF0F11;
+	font-family: 'ceraBold';
+	line-height: 1;
+}
+
+.valores > div .icon{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.innovation-hub .logos > div{
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.international-week-page{
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+.en-que-consiste > .content{
+	width: calc(100% - 44%);
+	padding-right: 60px;
+	font-size: 20px;
+}
+.en-que-consiste > .imagen{
+	width: 44%;
+}
+
+.en-que-consiste > .imagen img{
+	width: 100%;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+.en-que-consiste > .imagen .slick-next{
+	right: 30px;
+}
+.en-que-consiste > .imagen .slick-prev{
+	right: 80px;
+}
+
+.en-que-consiste > .content .logo{
+	margin: 40px 0;
+}
+
+.contenido-items{
+	margin-top: 60px;
+	max-width: 1200px;
+}
+.contenido-item{
+	width: calc(25% - 22.5px);
+	font-size: 20px;
+	border-right: 1px solid #D8D8D8;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-right: 30px;
+}
+
+.contenido-item:last-child{
+	border: 0 none;
+	margin-right: 0;
+}
+
+.contenido-item .icono{
+	margin-bottom: 30px;
+}
+.contenido-item .cifra{
+	font-size: 35px;
+	font-family: 'ceraMedium';
+	
+}
+
+.docentes-page{
+	padding: 60px 0 200px 0;
+}
+
+.financiamiento-page .content p,
+.docentes-page .content p{
+	font-size: 20px;
+}
+
+.financiamiento-page::before,
+.docentes-page::before{
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	background-color: #979797;
+	opacity: 0.6;
+}
+
+.imagen-nacional,
+.imagen-internacional{
+	position: absolute;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.imagen-nacional{
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-image: url(/esan2020/images/maestrias/mapa-peru.png);
+}
+.imagen-internacional{
+	width: 50%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background-image: url(/esan2020/images/maestrias/mapa-mundo.png);
+}
+
+.content.financiamiento-solicitud,
+.content.facultad-internacional{
+	padding-left: 60px;
+}
+
+/*----------------------------------------------------------- boletin -------------------------------------------------------------*/
+
+.boletin{
+	min-height: 0;
+	height: auto;
+	padding: 60px 0;
+	background-image: url(/esan2020/images/maestrias/bg-boletin.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.boletin .intro h2{
+	color: #fff;
+}
+.boletin .form-control{
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+}
+
+.boletin .custom-input > label .etiqueta{
+	color: #fff;
+}
+
+.boletin .custom-input > label input:focus + span {
+  color: #fff;
+	background-color: #555;
+}
+
+.boletin .custom-input > label input:active,
+.boletin .custom-input > label input:focus{
+	border-color: #fff !important;
+}
+
+/*----------------------------------------------------------- footer -------------------------------------------------------------*/
+
+footer{
+	background-color: #111111;
+	color: #fff;
+}
+
+footer > .container > .row > div{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer > .container > .row:first-child > div:first-child{
+	border-right: 1px solid #393939;
+}
+
+footer > .container > .row:first-child{
+	border-bottom: 1px solid #393939;
+}
+
+footer h2{
+	color: #fff;
+}
+
+.contacto-footer{
+	padding-left: 25px;
+}
+
+.enlaces-footer ul{
+	list-style: none;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.enlaces-footer li a{
+	color: #B8B8B8;
+	text-decoration: underline;
+}
+
+.contacto-footer p{
+	font-size: 20px;
+	color: #b8b8b8;
+}
+
+.contacto-footer .redes{
+	margin-top: 40px;
+}
+
+/*----------------------------------------------------------- bootstrap hooks -------------------------------------------------------------*/
+
+.bg-light{
+	background-color: #F7F7F7 !important;
+}
+
+.btn{
+	display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	height: 44px;
+	border-radius: 22px;
+	font-size: 18px;
+}
+
+select:active,
+select:focus,
+input:active,
+input:focus,
+.btn:active,
+.btn:focus,
+.btn.active{
+	box-shadow: none !important;
+}
+
+.btn-primary{
+	background-color: #CF0F11;
+	border-color: #CF0F11;
+}
+
+.btn-primary:hover{
+	background-color: #EF0B0D;
+	border-color: #CF0F11;
+}
+
+.btn-outline-primary{
+	border-color: #CF0F11;
+	color: #cf0f11;
+}
+
+.btn-outline-primary:hover{
+	background-color: #CF0F11;
+	border-color: #CF0F11;
+	color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary.disabled, .btn-primary:disabled,
+.btn-primary:focus, .btn-primary.focus {
+	background-color: #CF0F11;
+	border-color: #CF0F11;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle,
+.btn-outline-primary.disabled, .btn-outline-primary:disabled,
+.btn-outline-primary:focus, .btn-outline-primary.focus{
+	background-color: transparent;
+	border-color: #CF0F11;
+	color: #cf0f11;
+}
+
+.btn-light{
+	color: #CF0F11;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+	opacity: 0.6;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+	padding: 0 30px;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 30px;
+	letter-spacing: 1px;
+}
+
+.nav-link:not(.btn){
+	padding: 0;
+}
+
+.custom-select,
+.form-control{
+	height: 48px;
+	border-radius: 5px;
+}
+.custom-select:focus,
+.custom-select:active,
+.form-control:focus,
+.form-control:active{
+	border-color: #363636;
+}
+
+.custom-control-label a{
+	text-decoration: underline !important;
+}
+
+.custom-checkbox .custom-control-label::before{
+	border-radius: 0;
+}
+.custom-control-input:checked ~ .custom-control-label::before{
+	border-color: #333;
+	background-color: #fff;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after{
+	  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='bkack' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+
+/*----------------- modal -----------------*/
+
+.icon-close{
+	background-image: url(/esan2020/images/maestrias/btn-close.svg);
+	width: 36px;
+	height: 36px;
+}
+
+.modal-content{
+	border: 0 none !important;
+	border-radius: 12px;
+}
+
+.modal-header{
+	padding: 40px 40px 10px 40px;
+	border-bottom: 0 none;
+	position: relative;
+}
+
+.modal-footer{
+	padding: 10px 40px 40px 40px;
+	border-top: 0 none;
+	justify-content: flex-start !important;
+}
+
+.modal-header .close{
+	padding: 0;
+	position: absolute;
+	margin: 0;
+	opacity: 1;
+	top: -50px;
+	right: 15px;
+}
+
+.modal-body{
+	padding: 0 40px;
+}
+
+.modal-footer > *{
+	margin: 0;
+}
+
+.modal-title{
+	font-size: 35px;
+	font-family: 'ceraBold';
+	color: #000;
+}
+
+.modal-content p{
+	font-size: 25px;
+}
+
+.modal-content p strong{
+	font-weight: normal;
+	color: #CF0F11;
+}

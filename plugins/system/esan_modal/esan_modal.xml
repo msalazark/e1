@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension group="system" type="plugin" version="3.8" method="upgrade">
+	<name>plg_system_esan_modal</name>
+	<author>Attach</author>
+	<creationDate>2020-09-15</creationDate>
+	<version>0.1.0</version>
+	<description>Modal script tools</description>
+
+	<files>
+		<filename plugin="esan_modal">esan_modal.php</filename>
+		<filename>esan_modal.xml</filename>
+		<folder>language</folder>
+		<folder>assets</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_system_esan_modal.ini</language>
+		<language tag="en-GB">en-GB.plg_system_esan_modal.sys.ini</language>
+	</languages>
+</extension>

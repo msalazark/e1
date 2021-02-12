@@ -1,0 +1,73 @@
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'http://35.174.19.13/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'http://35.174.19.13';
+        var MauticLang   = {
+            'submittingMessage': "Please wait..."
+        }
+    }
+</script>
+
+<div id="mauticform_wrapper_formcontactodrv" class="mauticform_wrapper">
+    <form autocomplete="false" role="form" method="post" action="http://35.174.19.13/form/submit?formId=1" id="mauticform_formcontactodrv" data-mautic-form="formcontactodrv" enctype="multipart/form-data">
+        <div class="mauticform-error" id="mauticform_formcontactodrv_error"></div>
+        <div class="mauticform-message" id="mauticform_formcontactodrv_message"></div>
+        <div class="mauticform-innerform">
+
+            
+          <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+
+            <div id="mauticform_formcontactodrv_nombre_y_apellido" data-validate="nombre_y_apellido" data-validation-type="textarea" class="mauticform-row mauticform-text mauticform-field-1 mauticform-required">
+                <textarea id="mauticform_input_formcontactodrv_nombre_y_apellido" name="mauticform[nombre_y_apellido]" value="" placeholder="Nombre y Apellido" class="mauticform-textarea">Nombre y Apellido</textarea>
+                <span class="mauticform-errormsg" style="display: none;">Campo obligatorio</span>
+            </div>
+
+            <div id="mauticform_formcontactodrv_nombre_de_la_empresa" data-validate="nombre_de_la_empresa" data-validation-type="textarea" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
+                <textarea id="mauticform_input_formcontactodrv_nombre_de_la_empresa" name="mauticform[nombre_de_la_empresa]" value="" placeholder="Nombre de la Empresa" class="mauticform-textarea">Nombre de la Empresa</textarea>
+                <span class="mauticform-errormsg" style="display: none;">Campo obligatorio</span>
+            </div>
+
+            <div id="mauticform_formcontactodrv_correo_de_contacto" data-validate="correo_de_contacto" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-3 mauticform-required">
+                <input id="mauticform_input_formcontactodrv_correo_de_contacto" name="mauticform[correo_de_contacto]" value="" placeholder="Correo de Contacto" class="mauticform-input" type="email">
+                <span class="mauticform-errormsg" style="display: none;">Campo obligatorio</span>
+            </div>
+
+            <div id="mauticform_formcontactodrv_telefono_de_contacto" data-validate="telefono_de_contacto" data-validation-type="tel" class="mauticform-row mauticform-tel mauticform-field-4 mauticform-required">
+                <input id="mauticform_input_formcontactodrv_telefono_de_contacto" name="mauticform[telefono_de_contacto]" value="" placeholder="Teléfono de Contacto" class="mauticform-input" type="tel">
+                <span class="mauticform-errormsg" style="display: none;">Campo obligatorio</span>
+            </div>
+
+            <div id="mauticform_formcontactodrv_mensaje" class="mauticform-row mauticform-text mauticform-field-5">
+                <textarea id="mauticform_input_formcontactodrv_mensaje" name="mauticform[mensaje]" value="" placeholder="textarea">Mensaje</textarea>" class="mauticform-textarea">Mensaje</textarea>
+                <span class="mauticform-errormsg" style="display: none;"></span>
+            </div>
+
+            <div id="mauticform_formcontactodrv_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-6">
+                <button type="submit" name="mauticform[submit]" id="mauticform_input_formcontactodrv_submit" value="" class="mauticform-button btn btn-default">Enviar Mensaje</button>
+            </div>
+            </div>
+        </div>
+
+        <input type="hidden" name="mauticform[formId]" id="mauticform_formcontactodrv_id" value="1">
+        <input type="hidden" name="mauticform[return]" id="mauticform_formcontactodrv_return" value="">
+        <input type="hidden" name="mauticform[formName]" id="mauticform_formcontactodrv_name" value="formcontactodrv">
+
+        </form>
+</div>
+
+-----------------------------------------------
+-----------------------------------------------
+Via Javascript (recommended)
+	<script type="text/javascript" src="//35.174.19.13/form/generate.js?id=1"></script>
+
+Via iframe
+	<iframe src="//35.174.19.13/form/1" width="300" height="300"><p>Your browser does not support iframes.</p></iframe>

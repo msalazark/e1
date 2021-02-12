@@ -1,0 +1,36 @@
+.esan-modal-overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.75);
+}
+
+.esan-modal {
+	position: relative;
+	padding: 20px;
+	background: white;
+	border-radius: 10px;
+}
+
+.esan-modal-close {
+	position: absolute;
+	right: 0;
+	top: -45px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	cursor: pointer;
+}
+
+.esan-modal-content {
+	max-width: 80%;
+	max-height: 80%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}

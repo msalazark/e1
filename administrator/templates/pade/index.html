@@ -1,0 +1,1151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>ESAN</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".submenu" data-offset="81">
+	
+	<!-- Modals -->
+	<div class="modal fade" id="modalBrochure" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<form action="">
+					<div class="modal-header">
+						<h5 class="modal-title">Modal title</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<i class="icon icon-close"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-12 col-lg-8">
+								<p>El envío del <strong>brochure</strong> en formato PDF a mi correo electrónico</p>
+								<div class="custom-input">
+									<label for="correoElectronico">
+										<input type="text" id="correoElectronico" class="form-control" placeholder="&nbsp;">
+										<span class="etiqueta">Correo electrónico</span>
+									</label>
+								</div>
+							</div>
+							<div class="d-none d-lg-block col-lg-4">
+								<div class="imagen text-center">
+									<img src="images/brochure.png" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg text-uppercase">Enviar PDF</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modalSolicitud" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<form action="">
+					<div class="modal-header">
+						<h5 class="modal-title">Solicitud de crédito directo</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<i class="icon icon-close"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-12 col-lg-8">
+								<p>Nos pondremos en contacto con usted.</p>
+								<div class="form-group custom-input">
+									<label for="solicitudNombres">
+										<input type="text" id="solicitudNombres" class="form-control" placeholder="&nbsp;">
+										<span class="etiqueta">Nombres y apellidos</span>
+									</label>
+								</div>
+								<div class="form-group custom-input">
+									<label for="solicitudCorreo">
+										<input type="text" id="solicitudCorreo" class="form-control" placeholder="&nbsp;">
+										<span class="etiqueta">Correo electrónico</span>
+									</label>
+								</div>
+								<div class="custom-input">
+									<label for="solicitudNroDNI">
+										<input type="text" id="solicitudNroDNI" class="form-control" placeholder="&nbsp;">
+										<span class="etiqueta">Número de DNI</span>
+									</label>
+								</div>
+							</div>
+							<div class="d-none d-lg-block col-lg-4">
+								<div class="imagen text-center">
+									<img src="images/brochure.png" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-lg text-uppercase">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--Modal PADE-PAE-->
+	<div class="modal fade" id="modalPade" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<form action="">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<i class="icon icon-close"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="slide-pade slide-ranking d-flex flex-wrap align-items-center">
+									<div>
+										<div class="slider">
+											<div class=" d-flex flex-wrap justify-content-between" >
+												<p>De aproximadamente once meses de duración, son programas de especialización diseñados para brindar a los participantes conocimientos precisos, detallados y profundos en las diversas áreas de la gestión empresarial.</p>
+											</div>
+											<div class=" d-flex flex-wrap justify-content-between">
+												<p>De aproximadamente once meses de duración, son programas de especialización diseñados para brindar a los participantes conocimientos precisos, detallados y profundos en las diversas áreas de la gestión empresarial.</p>
+											</div>
+											<div class=" d-flex flex-wrap justify-content-between">
+												<p>De aproximadamente once meses de duración, son programas de especialización diseñados para brindar a los participantes conocimientos precisos, detallados y profundos en las diversas áreas de la gestión empresarial.</p>
+											</div>
+											<div class=" d-flex flex-wrap justify-content-between">
+												<p>De aproximadamente once meses de duración, son programas de especialización diseñados para brindar a los participantes conocimientos precisos, detallados y profundos en las diversas áreas de la gestión empresarial.</p>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<header class="site-header position-fixed d-flex align-items-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+					<div class="logo d-flex align-items-center">
+						<a href="index.html" class="btn-back d-none"><i class="icon icon-back-white"></i></a>
+						<a href="index.html"><img src="images/logo-esan.svg" alt="" class="img-fluid"></a>
+					</div>
+					<div class="submenu">
+						<ul class="d-flex align-items-center">
+							<li class="nav-item"><a class="nav-link link-to" href="#ventajas">Ventajas</a></li>
+							<li class="nav-item"><a class="nav-link link-to" href="#internacionalizacion">Internacionalización</a></li>
+							<li class="nav-item"><a class="nav-link link-to" href="#malla">Malla curricular</a></li>
+							<li class="nav-item"><a class="nav-link link-to" href="#duracion">Duración y horarios</a></li>
+							<li class="nav-item"><a class="nav-link link-to" href="#facultad">Facultad</a></li>
+							<li class="nav-item"><a class="nav-link link-to" href="#inversion">Inversión</a></li>
+							<li class="nav-item"><a href="#informacion" class="btn btn-secondary nav-link link-to">Solicitar información</a></li>
+						</ul>
+					</div>
+					<div class="d-flex align-items-center">
+						<div class="idioma ui-select">
+							<select>
+								<option value="0" selected>Español</option>
+								<option value="1">Inglés</option>
+							</select>
+						</div>
+						<div class="main-menu">
+							<button class="btn-trigger"></button>
+							<div class="menu-popup">
+								<div class="container">
+									<div class="row">
+										<div class="col-12 d-flex flex-column justify-content-between vh-100">
+											<div class="menu-header d-flex align-items-center justify-content-between">
+												<div class="logo">
+													<img src="images/logo.svg" alt="" class="img-fluid">
+												</div>
+												<button class="btn-close"></button>
+											</div>
+											<nav class="d-flex justify-content-between">
+												<ul>
+													<li><h3><span>1|</span> ESAN</h3></li>
+													<li><a href="#">Acerca de ESAN</a></li>
+													<li><a href="#">Facultad</a></li>
+													<li><a href="#">Investigación</a></li>
+												</ul>
+												<ul>
+													<li><h3><span>2|</span> Programas</h3></li>
+													<li><a href="#">Educación ejecutiva</a></li>
+													<li><a href="#">Maestrías</a></li>
+													<li><a href="#">MBAs</a></li>
+													<li><a href="#">Doctorado</a></li>
+												</ul>
+												<ul>
+													<li><h3><span>3|</span> Empresas</h3></li>
+													<li><a href="#">Programas para tus trabajadores</a></li>
+												</ul>
+												<ul>
+													<li><h3><span>4|</span> Comunidad</h3></li>
+													<li><a href="#">Conexión ESAN</a></li>
+													<li><a href="#">Sala de prensa</a></li>
+													<li><a href="#">Doctorados</a></li>
+													<li><a href="#">Testimonios</a></li>
+													<li><a href="#">ESAN Alumni</a></li>
+												</ul>
+											</nav>
+											<div class="redes">
+												<h3>Síguenos en nuestras redes sociales</h3>
+												<ul class="d-flex">
+													<li><a href="#" class="link-facebook"></a></li>
+													<li><a href="#" class="link-twitter"></a></li>
+													<li><a href="#" class="link-youtube"></a></li>
+													<li><a href="#" class="link-google"></a></li>
+													<li><a href="#" class="link-linkedin"></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main class="home">
+		<section class="maestria-info">
+			<div class="container d-flex flex-column">
+				<div class="breadcrumbs">
+					<a href="#">Inicio</a><span class="separator">&gt;</span>
+					<a href="#">Programas</a><span class="separator">&gt;</span>
+					<a href="#">Educación ejecutiva</a><span class="separator">&gt;</span>
+					<span>Dirección de Marketing Digital y Comercio Electrónico</span>
+				</div>
+				<div class="imagen"></div>
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<div class="content">
+							<h1>Dirección de Marketing Digital y Comercio Electrónico (PADE)</h1>
+							<div class="text-right">
+								<a href="#" class="link-back"><i class="icon icon-back"></i><span>Modificar</span></a>
+							</div>
+							<p>Sin estrategia online, un negocio está destinado a la extinción. El programa ofrece conocimientos y herramientas para comprender el uso de los medios digitales y su aplicación estratégica.</p>
+							<a href="#" class="btn btn-primary btn-lg text-uppercase">Conocer más</a><br>
+							<a href="#" class="link-next conocer" data-toggle="modal" data-target="#modalPade" ><span>Conocer sobre PADE, PAE, PEE y Diplomas</span><i class="icon icon-next"></i></a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="evento">
+				<p>Fecha de inicio:</p>
+				<div class="evento-item">
+					<div class="fecha">20 de mayo</div>
+					<div class="lugar">del 2020</div>
+					<a href="#" class="link-next"><span>Saber más</span><i class="icon icon-next"></i></a>
+				</div>
+			</div>
+			<div class="actions">
+				<a href="#" data-toggle="modal" data-target="#modalSolicitud" class="btn btn-primary btn-lg text-uppercase">Preinscribirme</a> <a href="#" data-toggle="modal" data-target="#modalBrochure" class="btn btn-primary btn-lg btn-circle"><i class="icon icon-download"></i></a>
+			</div>
+			<div class="slide-ranking d-flex flex-wrap align-items-center">
+				<div>
+					<div class="title text-right">
+						<h3><small>Nos encontramos en los</small><br>rankings más prestigiosos.</h3>
+					</div>
+					<div class="slider">
+						<div class="item">
+							<img src="images/slide-1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item">
+							<img src="images/slide-2.png" alt="" class="img-fluid">
+						</div>
+						<div class="item">
+							<img src="images/slide-3.png" alt="" class="img-fluid">
+						</div>
+						<div class="item">
+							<img src="images/slide-1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item">
+							<img src="images/slide-2.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<div style="height: 140px"></div>
+		
+		<section class="ventajas d-flex align-items-center flex-wrap" id="ventajas">
+			<div class="video d-flex align-items-center justify-content-center">
+				<button class="btn-play"></button>
+			</div>
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-12 col-lg-7">
+						<div class="content">
+							<div class="intro">
+								<h2>Ventajas</h2>
+								<p>En la actualidad las empresas necesitan de directivos capaces de mejorar su productividad de manera integral, es por ello que el PADE Internacional en Dirección de Ventas, se basa en cuatro pilares estratégicos que proporcionarán a los participantes, una visión plena del negocio que le ayude a optimizar el rendimiento de su institución.</p>
+							</div>
+							<div class="video align-items-center justify-content-center">
+								<button class="btn-play"></button>
+							</div>
+							<div class="why">
+								<h3>¿Por qué estudiar el programa?</h3>
+								<ul>
+									<li class="why-item d-flex flex-wrap">
+										<div class="icon">
+											<img src="images/icon-acceder.svg" alt="">
+										</div>
+										<div class="title">
+											01. Aprendizaje <br>Integral
+										</div>
+										<div class="descripcion">
+											El PADE busca formar a profesionales que ocuparán puestos claves, brindándoles una sólida formación en su área de interés, desarrollando conocimientos.
+										</div>
+									</li>
+									<li class="why-item d-flex flex-wrap">
+										<div class="icon">
+											<img src="images/icon-fortalecer.svg" alt="">
+										</div>
+										<div class="title">
+											02. Componente <br>internacional
+										</div>
+										<div class="descripcion">
+											El programa incluye un viaje de estudios, que les proporcionará un enriquecimiento profesional al mostrar realidades y modelos de gestión diferentes.
+										</div>
+									</li>
+									<li class="why-item d-flex flex-wrap">
+										<div class="icon">
+											<img src="images/icon-ampliar.svg" alt="">
+										</div>
+										<div class="title">
+											03. Plana docente de <br>primer nivel
+										</div>
+										<div class="descripcion">
+											La plana docente está integrada por profesionales formados en ESAN y en las mejores escuelas de negocios del mundo.
+										</div>
+									</li>
+									<li class="why-item d-flex flex-wrap">
+										<div class="icon">
+											<img src="images/icon-Internacional.svg" alt="">
+										</div>
+										<div class="title">
+											04. Certificado Internacional
+										</div>
+										<div class="descripcion">
+											La plana docente está integrada por profesionales formados en ESAN y en las mejores escuelas de negocios del mundo.
+										</div>
+									</li>
+								</ul>
+							</div>
+							<a href="#" class="link-next"><span>Conocer todas las ventajas</span><i class="icon icon-next"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div style="height: 140px"></div>
+
+		<section class="internacionalizacion d-flex align-items-center" id="internacionalizacion">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-7 ">
+						<div class="content">
+						<div class="intro">
+							<h2>Internacionalización</h2>
+							<p>
+								La Universidad ESAN, férrea en el concepto de globalización e internacionalización y segura de que los peruanos se merecen programas que cuenten con alianzas de primer nivel, convocó al Tecnológico de Monterrey, campus Guadalajara, para darle al PADE Internacional en Dirección de Ventas, un enfoque internacional enmarcado en la realidad latinoamericana.
+							</p>
+							<p>
+								La currícula del programa cuenta con un stage internacional* en Guadalajara - México, que comprende una asignatura de la estructura curricular. Incluye conferencias gerenciales y visitas a empresas relacionados al sector.
+							</p>
+							<p>
+								El programa satisface los estándares de competitividad más exigentes. Por esta razón, su estructura curricular está al nivel de los principales programas ofrecidos en las escuelas de negocios más renombradas del mundo.
+							</p>
+							
+						</div>
+						<div class="movil-img">
+							<img src="images/tecnologico.svg" alt="">
+							<img src="images/kb-maestria-en-organizacion-y-direccion-de-personas.jpg" id="tec-resp">
+						</div>
+					</div>
+					</div>					
+				</div>
+			</div>
+				<div class="imagen"></div>
+
+				<div class="gris"></div>
+		</section>
+		<div style="height: 140px"></div>
+		<section class="diploma d-flex align-items-center" id="diploma">
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-12 col-lg-7 ">
+						<div class="content">
+						<div class="intro">
+							<h2>Diplomas</h2>
+							<p>
+								Los participantes que cumplan satisfactoriamente con los requisitos y normas del programa, recibirán:
+							</p>
+							<div class="grid d-flex flex-wrap">
+							<div class="col-12 col-lg-6 w-50">
+									<div class="icono">
+										<i class="icon icon-inauguracion"></i>
+									</div>
+									<div class="descripcion">
+										<p>Diploma del PADE Internacional en Dirección de Marketing Digital y Comercio Electrónico, otorgado por ESAN Graduate School of Business y la Universidad ESAN.</p>
+									</div>
+								</div>
+								<div class="col-12 col-lg-6 w-50">
+									<div class="icono">
+										<i class="icon icon-inauguracion"></i>
+									</div>
+									<div class="descripcion">
+										<p>Diploma European Certificate in Marketing Interactive emitido por ESIC-FEDMA.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="movil-img">
+							<img src="images/diploma-re.jpg" id="dipl-res">
+						</div>
+					</div>
+					</div>					
+				</div>
+			</div>			
+				<div class="imagen"></div>
+		</section>
+		<div style="height: 140px"></div>
+
+		<section class="malla d-flex align-items-center" id="malla">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-5">
+						<div class="intro">
+							<h2>Malla Curricular</h2>
+							<p>La malla curricular del programa está estructurado bajo 4 módulos complementarios que en su conjunto logran el objetivo académico del programa:</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="malla-content d-flex flex-wrap justify-content-between">
+							<ul class="nav nav-tabs" id="mallaTabs" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link d-flex active" data-toggle="tab" href="#primer-periodo" role="tab" aria-selected="true"><span class="nro">01</span><span>Módulo</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex" data-toggle="tab" href="#segundo-periodo" role="tab" aria-selected="false"><span class="nro">02</span><span>Módulo</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex" data-toggle="tab" href="#tercer-periodo" role="tab" aria-selected="false"><span class="nro">03</span><span>Módulo</span></a>
+								</li>
+							</ul>
+							<div class="tab-content" id="mallaTabsContent">
+								<div class="tab-pane fade show active" id="primer-periodo" role="tabpanel">
+									<div class="periodo-item d-flex flex-wrap justify-content-between">
+										<div class="content">
+											<ul>
+												<li>Taller de team building</li>
+												<li>La gestión de ventas dentro del proceso de marketing</li>
+												<li>Análisis de datos y pronóstico de ventas</li>
+												<li>Gestión de marca</li>
+												<li>Gestión de clientes y CRM</li>
+												<li>Costeo para la gestión de ventas</li>
+												<li>E-commerce</li>
+											</ul><br>
+											<p>*Este curso será dictado en el Tecnológico de Monterrey<br>
+
+											Nota: Todos los cursos tienen una sesión adicional de evaluación, cuya modalidad será fijada por el profesor.</p>
+										</div>
+										<div class="imagen">
+											<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="segundo-periodo" role="tabpanel">
+									<div class="periodo-item d-flex flex-wrap justify-content-between">
+										<div class="content">
+											<ul>
+												<li>Fundamentos de estadística</li>
+												<li>Contabilidad gerencial y de costos</li>
+												<li>Administración y diseño organizacional</li>
+												<li>Ética, responsabilidad social y desarrollo sostenible</li>
+												<li>Gestión del talento humano</li>
+												<li>Relaciones laborales en la empresa</li>
+												<li>Comportamiento organizacional</li>
+											</ul>
+										</div>
+										<div class="imagen">
+											<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="tercer-periodo" role="tabpanel">
+									<div class="periodo-item d-flex flex-wrap justify-content-between">
+										<div class="content">
+											<ul>
+												<li>Fundamentos de estadística</li>
+												<li>Contabilidad gerencial y de costos</li>
+												<li>Administración y diseño organizacional</li>
+												<li>Ética, responsabilidad social y desarrollo sostenible</li>
+												<li>Gestión del talento humano</li>
+												<li>Relaciones laborales en la empresa</li>
+												<li>Comportamiento organizacional</li>
+											</ul>
+										</div>
+										<div class="imagen">
+											<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="malla-slick">
+							<div>								
+								<div class="periodo-item d-flex flex-wrap justify-content-between">
+									<div class="content">
+										<ul>
+												<li>Taller de team building</li>
+												<li>La gestión de ventas dentro del proceso de marketing</li>
+												<li>Análisis de datos y pronóstico de ventas</li>
+												<li>Gestión de marca</li>
+												<li>Gestión de clientes y CRM</li>
+												<li>Costeo para la gestión de ventas</li>
+												<li>E-commerce</li>
+										</ul>
+									</div>
+									<div class="imagen">
+										<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="periodo-item d-flex flex-wrap justify-content-between">
+									<div class="content">
+										<ul>
+												<li>Taller de team building</li>
+												<li>La gestión de ventas dentro del proceso de marketing</li>
+												<li>Análisis de datos y pronóstico de ventas</li>
+												<li>Gestión de marca</li>
+												<li>Gestión de clientes y CRM</li>
+												<li>Costeo para la gestión de ventas</li>
+												<li>E-commerce</li>
+										</ul>
+									</div>
+									<div class="imagen">
+										<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="periodo-item d-flex flex-wrap justify-content-between">
+									<div class="content">
+										<ul>
+												<li>Taller de team building</li>
+												<li>La gestión de ventas dentro del proceso de marketing</li>
+												<li>Análisis de datos y pronóstico de ventas</li>
+												<li>Gestión de marca</li>
+												<li>Gestión de clientes y CRM</li>
+												<li>Costeo para la gestión de ventas</li>
+												<li>E-commerce</li>
+										</ul>
+									</div>
+									<div class="imagen">
+										<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="periodo-item d-flex flex-wrap justify-content-between">
+									<div class="content">
+										<ul>
+												<li>Taller de team building</li>
+												<li>La gestión de ventas dentro del proceso de marketing</li>
+												<li>Análisis de datos y pronóstico de ventas</li>
+												<li>Gestión de marca</li>
+												<li>Gestión de clientes y CRM</li>
+												<li>Costeo para la gestión de ventas</li>
+												<li>E-commerce</li>
+										</ul>
+									</div>
+									<div class="imagen">
+										<img src="images/imagen-malla.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+		
+		<section class="duracion-horarios d-flex align-items-center flex-wrap" id="duracion">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-7">
+						<div class="content">
+							<div class="intro">
+								<h2>Duración y horarios</h2>
+							</div>
+							<div class="grid d-flex flex-wrap">
+								<div class="grid-item w-50">
+									<div class="icono">
+										<i class="icon icon-fireworks"></i>
+									</div>
+									<div class="descripcion">
+										<p>
+											<span class="text-uppercase"><strong>Inauguración</strong></span><br>
+											<span class="fecha">20 de mayo</span>
+										</p>
+									</div>
+								</div>
+								<div class="grid-item w-50">
+									<div class="icono">
+										<i class="icon icon-calendar"></i>
+									</div>
+									<div class="descripcion">
+										<p>
+											<strong>Duración</strong><br>
+											2 meses.
+										</p>
+									</div>
+								</div>
+								<div class="grid-item w-50">
+									<div class="icono">
+										<i class="icon icon-examenes"></i>
+									</div>
+									<div class="descripcion">
+										<p>
+											<strong>Semipresencial</strong>
+										</p>
+									</div>
+								</div>
+								<div class="grid-item w-50">
+									<div class="icono">
+										<i class="icon icon-horario"></i>
+									</div>
+									<div class="descripcion">
+										<p>
+											<strong>Horario</strong><br>
+											Lun a Jue de 7:00 p.m. a 10:30 p.m. Primer, segundo y tercer período.
+										</p>
+									</div>
+								</div>
+								<div class="col-lg-12" style="margin-top: 30px">
+									<p>Los exámenes y evaluaciones se programarán los días xxxxx en horario de clases.</p>
+									<a href="#" class="btn btn-primary btn-lg text-uppercase">Conocer los requisitoss</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="imagen"></div>
+
+		</section>
+		<a href="#" class="btn btn-primary btn-lg text-uppercase mostrar-res">Conocer los requisitoss</a>
+		<section class="docentes d-flex align-items-center flex-wrap" id="docentes">
+			<div class="imagen"></div>
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-12 col-lg-7">
+						<div class="content">
+							<div class="intro">
+								<h2>Docentes</h2>
+							</div>
+							<div class="docente-text">
+								<img src="images/prof-rafa.jpg" id="profe-res">
+								<h3>Profesor Rafael Navas</h3>
+								<h4>Coordinador del programa</h4>
+								<div class="contenedor">
+									<p>
+									Turias eiundam vendic totae nulparior a con nimin re eum consequiat dolor aut estium debistrum re, voluptatiur re nosmagnis dolupid ut voluptia natquis cillabo ressita voluptatumcullupt atiur, sim rem re restemp ernatur re intiae ni od quat
+									voluptas nosamusaped ut laut audiscidit escid quuntiocumquat.
+									Ilignati nonetur sum simi, sinvendunda dolorestio. Acerionplique doluptat.
+									Arcilla volupid et alitati doluptam sum resedis dolum invellabo. Min enis erum expero is mollautempos dolupta perrumquo dolut eic tet iunde comnit odi consed et
+									eum rerro officabo. Et quos eum consequi dolorias con nonsequam dem fuga. Xeruptae lit eturiscias ent parchit, voluptia veliquae pore numquam dolorro tet vel in estrum ab
+									int asitate ctatustis quibusae lab ipsapic aerunt, nis doloreres nobitia dolorro vitatendit, nitioratia nati ut quo volor alitior as quaturio magnis reris esequiam, tem. Rovidus, si optiand iatiae corror minisque sint acerspe ritaerum unto tem fugit lanis arunt.
+								</p>
+								</div>
+							</div>
+							<a href="#" class="btn btn-primary btn-lg text-uppercase">Conocer a los docentes</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="inversion d-flex align-items-center flex-wrap" id="inversion">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-7">
+						<div class="content">
+							<div class="intro">
+								<h2>Inversión</h2>
+								<h3>Inversión al contado <strong>S/ 23,190</strong><i class="icon sub-index"></i></h3>
+								<a href="#" class="btn btn-primary btn-lg text-uppercase">PAGAR CON DÉBITO/CRÉDITO</a>				
+								<p style="margin-top: 15px">*Tipo de cambio referencial, oficial venta publicado por la SBS al xx/xx/xxxx, el tipo de cambio se actualizará al día de la cancelación. Consultar el tipo de cambio antes de realizar el abono en Soles.</p><br>
+								<p>Conoce nuestros requisitos de solicitud de crédito directo o cómo financiar a través de bancos.</p>
+							</div>							
+							<div class="links-info d-flex flex-wrap">
+								<p>La información en sus manos</p>
+								<a href="#" class="d-block link-item">
+									<p>Conoce nuestros requisitos de</p>
+									<span class="link-next"><span>Solicitud de crédito directo</span><i class="icon icon-next"></i></span>
+								</a>
+								<a href="#" class="d-block link-item">
+									<p>O como financiar</p>
+									<span class="link-next"><span>A través de bancos</span><i class="icon icon-next"></i></span>
+								</a>
+							</div>
+							<div class="action-postular bg-light d-flex align-items-center justify-content-between">
+								<div style="width: 60%">
+									<h4><strong>¿Le ayudamos?</strong></h4>
+								<p>Déjenos sus datos y nosotros nos <br>contactaremos con usted.</p>
+								</div>
+								<a href="#" class="btn btn-primary btn-lg text-uppercase">Dejar datos</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="imagen"></div>
+		</section>
+		
+		<section class="curso-online d-flex align-items-center flex-wrap" id="curso-online">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div>
+								<div class="d-flex flex-wrap justify-content-between">
+
+									<div class="imagen">
+										<img src="images/Adicionales.svg" alt="" class="img-fluid">
+									</div>
+									<div class="content">
+										<div class="intro">
+											<h2>Para el curso online</h2>
+											<p>Los cursos online se dictarán con la Plataforma Blackboard Collaborate Ultra.</p>
+											<a href="#"><span class="link-next" href="#"><span>Solicitud de crédito directo</span><i class="icon icon-next"></i></span></a>
+										</div>
+										<div class="movil-img"> 
+											<img src="images/curso-online.jpg" id="dipl-res">
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="experiencia" id="experiencia">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex flex-wrap justify-content-between">
+						<div class="content">
+							<div class="intro">
+								<h2>La experiencia Esan</h2>
+							</div>
+							<div class="experiencias">
+								<div class="exp-item">
+									<div class="imagen">
+										<img src="images/exp-imagen.jpg" alt="" class="img-fluid">
+									</div>
+									<div class="descripcion">
+										<div class="nombre">Diana Olaya</div>
+										<div class="cargo">Directora de Relaciones internacionales en la Cámara del Pacífico.</div>
+										<div class="texto">"El MBA me ha permitido escalar mi  emprendimiento y convertirla en una compañía sostenible con una cartera de productos más amplia."</div>
+									</div>
+								</div>
+								<div class="exp-item">
+									<div class="imagen">
+										<img src="images/exp-imagen.jpg" alt="" class="img-fluid">
+									</div>
+									<div class="descripcion">
+										<div class="nombre">Diana Olaya</div>
+										<div class="cargo">Directora de Relaciones internacionales en la Cámara del Pacífico.</div>
+										<div class="texto">"El MBA me ha permitido escalar mi  emprendimiento y convertirla en una compañía sostenible con una cartera de productos más amplia."</div>
+									</div>
+								</div>
+								<div class="exp-item">
+									<div class="imagen">
+										<img src="images/exp-imagen.jpg" alt="" class="img-fluid">
+									</div>
+									<div class="descripcion">
+										<div class="nombre">Diana Olaya</div>
+										<div class="cargo">Directora de Relaciones internacionales en la Cámara del Pacífico.</div>
+										<div class="texto">"El MBA me ha permitido escalar mi  emprendimiento y convertirla en una compañía sostenible con una cartera de productos más amplia."</div>
+									</div>
+								</div>
+								<div class="exp-item">
+									<div class="imagen">
+										<img src="images/exp-imagen.jpg" alt="" class="img-fluid">
+									</div>
+									<div class="descripcion">
+										<div class="nombre">Diana Olaya</div>
+										<div class="cargo">Directora de Relaciones internacionales en la Cámara del Pacífico.</div>
+										<div class="texto">"El MBA me ha permitido escalar mi  emprendimiento y convertirla en una compañía sostenible con una cartera de productos más amplia."</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="calendario">
+							<div class="intro">
+								<h2>Calendario</h2>
+							</div>
+							<a href="#" class="evento-item d-flex flex-wrap justify-content-between">
+								<div class="fecha d-flex flex-column justify-content-center">
+									<span class="dia">MIE</span>
+									<span class="nro">12</span>
+								</div>
+								<div class="evento-content">
+									<span class="categoria">Conferencias</span>
+									<h3>Supply Chain Management, los retos del sector retail.</h3>
+								</div>
+								<i class="icon icon-next"></i>
+							</a>
+							<a href="#" class="evento-item d-flex flex-wrap justify-content-between">
+								<div class="fecha d-flex flex-column justify-content-center">
+									<span class="dia">MIE</span>
+									<span class="nro">12</span>
+								</div>
+								<div class="evento-content">
+									<span class="categoria">Conferencias</span>
+									<h3>Supply Chain Management, los retos del sector retail.</h3>
+								</div>
+								<i class="icon icon-next"></i>
+							</a>
+							<a href="#" class="evento-item d-flex flex-wrap justify-content-between">
+								<div class="fecha d-flex flex-column justify-content-center">
+									<span class="dia">MIE</span>
+									<span class="nro">12</span>
+								</div>
+								<div class="evento-content">
+									<span class="categoria">Conferencias</span>
+									<h3>Supply Chain Management, los retos del sector retail.</h3>
+								</div>
+								<i class="icon icon-next"></i>
+							</a>
+							<a href="#" class="evento-item d-flex flex-wrap justify-content-between">
+								<div class="fecha d-flex flex-column justify-content-center">
+									<span class="dia">MIE</span>
+									<span class="nro">12</span>
+								</div>
+								<div class="evento-content">
+									<span class="categoria">Conferencias</span>
+									<h3>Supply Chain Management, los retos del sector retail.</h3>
+								</div>
+								<i class="icon icon-next"></i>
+							</a>
+							<a href="#" class="link-next"><span>Ver todos</span><i class="icon icon-next"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="informacion" id="informacion">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-7 cambio" style="background-color: #cde1f1;">
+						<div class="content col-lg-10">
+							<div class="intro">
+								<h2>Solicite más información</h2>
+								<p>Entender qué es la felicidad para reconocer diversas oportunidades comerciales que ayuden a promoverla. En contextos como el mercado peruano, con grandes deudas de infraestructura y de valores, las empresas pueden participar en impulsar el bienestar colectivo.</p>
+							</div>
+							<div class="formulario">
+								<form action="" class="needs-validation" novalidate>
+									<div class="form-group custom-input">
+										<label for="nombres">
+											<input type="text" id="nombres" class="form-control" placeholder="&nbsp;">
+											<span class="etiqueta">Nombres y apellidos</span>
+										</label>
+									</div>
+									<div class="form-group custom-input">
+										<label for="correo">
+											<input type="text" id="correo" class="form-control" placeholder="&nbsp;">
+											<span class="etiqueta">Correo electrónico</span>
+										</label>
+									</div>
+									<div class="form-row">
+										<div class="col-4 col-md-4">
+											<div class="form-group">
+												<select name="tipoDocumento" id="tipoDocumento" class="custom-select">
+													<option value="dni" selected>DNI</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-8 col-md-8 custom-input">
+											<div class="form-group custom-input">
+												<label for="nroDocumento">
+													<input type="text" id="nroDocumento" class="form-control" placeholder="&nbsp;">
+													<span class="etiqueta">Número de documento</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group custom-input">
+										<label for="nroCelular">
+											<input type="text" id="nroCelular" class="form-control" placeholder="&nbsp;">
+											<span class="etiqueta">Número de celular</span>
+										</label>
+									</div>
+									<div class="form-group">
+										<select name="gradoAcademico" id="gradoAcademico" class="custom-select">
+											<option selected>Seleccione un Grado académico</option>
+											<option value="01">Grado 1</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<select name="comoEntero" id="comoEntero" class="custom-select">
+											<option selected>Seleccione cómo se enteró del programa</option>
+											<option value="01">Medio 1</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="condiciones">
+											<label for="condiciones" class="custom-control-label">Acepto las <a href="#" target="_blank">condiciones de tratamiento para mis datos personales</a></label>
+										</div>
+									</div>
+									<button class="btn btn-primary btn-lg text-uppercase">Solicitar información</button>
+								</form>
+							</div>
+							<div class="redes d-flex justify-content-between align-items-center bg-light redes2">
+								<h3>También podría solicitar información con:</h3>
+								<ul class="d-flex">
+									<li><a href="#" class="link-facebook"></a></li>
+									<li><a href="#" class="link-google"></a></li>
+									<li><a href="#" class="link-linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-lg-5">
+							<div class="mover">
+								<img src="images/Foto-formularios.svg" alt="">
+								<div class="redes  justify-content-between align-items-center bg-light col-lg-5">
+								<h3>También podría solicitar <br>información con:</h3>
+								<ul class="d-flex">
+									<li><a href="#" class="link-facebook"></a></li>
+									<li><a href="#" class="link-google"></a></li>
+									<li><a href="#" class="link-linkedin"></a></li>
+								</ul>
+							</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="boletin">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-5">
+						<div class="content">
+							<div class="intro">
+								<h2>Mantente al día</h2>
+								<p>A través de conexión Esan.</p>
+								<form action="" class="needs-validation" novalidate>
+									<div class="form-group custom-input">
+										<label for="correoBoletin">
+											<input type="text" id="correoBoletin" class="form-control" placeholder="&nbsp;">
+											<span class="etiqueta">Déjenos su correo</span>
+										</label>
+									</div>
+									<div class="form-group">
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="newsletter">
+											<label for="newsletter" class="custom-control-label">Suscribirme también al Newsletter de Noticias y Novedades.</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="custom-control custom-checkbox">
+											<input type="checkbox" class="custom-control-input" id="condiciones02">
+											<label for="condiciones02" class="custom-control-label">Acepto las <a href="#">condiciones de tratamiento para mis datos personales</a></label>
+										</div>
+									</div>
+									<div>
+										<button class="btn btn-light btn-lg text-uppercase">Mantenerte informado</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="enlaces-footer">
+						<h2>Más de Esan</h2>
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<ul>
+									<li><a href="#">Transparencia universitaria</a></li>
+									<li><a href="#">Portal académico</a></li>
+									<li><a href="#">Esan Data</a></li>
+									<li><a href="#">Google Apps</a></li>
+								</ul>
+							</div>
+							<div class="col-12 col-lg-6">
+								<ul>
+									<li><a href="#">Biblioteca</a></li>
+									<li><a href="#">Factura electrónica</a></li>
+									<li><a href="#">Libro de reclamaciones</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="contacto-footer">
+						<h2>Comuníquese con nosotros</h2>
+						<p>
+							Teléfono.: 317-7200, 712-7200<br>
+							Correo: <a href="mailto:informes@esan.edu.pe">informes@esan.edu.pe</a><br>
+							Alonso de Molina 1652, Monterrico, Surco
+						</p>
+						<div class="redes">
+							<h3>Síguenos en nuestras redes sociales</h3>
+							<ul class="d-flex">
+								<li><a href="#" class="link-facebook"></a></li>
+								<li><a href="#" class="link-twitter"></a></li>
+								<li><a href="#" class="link-youtube"></a></li>
+								<li><a href="#" class="link-google"></a></li>
+								<li><a href="#" class="link-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="text-center">
+						<p><strong>© Universidad ESAN 2019</strong><br>Todos los derechos reservados</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script>
+		$('.slider').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			centerMode: false,
+			variableWidth: true,
+			customPaging: function(slick,index) {
+				return '<a>0' + (index + 1) + '</a>/0' + slick.slideCount;
+			}
+		});
+		
+		$('.cards').slick({
+			dots: false,
+			arrows: false,
+		  	infinite: true,
+		  	speed: 300,
+		  	slidesToShow: 1,
+		  	centerMode: false,
+		  	variableWidth: true,
+		});
+		
+		$('.malla-slick').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			centerMode: false,
+			variableWidth: true,
+			customPaging: function(slick,index) {
+				return '<a>0' + (index + 1) + '</a>/0' + slick.slideCount;
+			}
+		});
+		
+		$('.especialidades-slick').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			centerMode: false,
+			variableWidth: true,
+			customPaging: function(slick,index) {
+				return '<a>0' + (index + 1) + '</a>/0' + slick.slideCount;
+			}
+		});
+		
+		    $('.experiencias')
+			.on('afterChange init', function(event, slick, direction){
+				console.log('afterChange/init', event, slick, slick.$slides);
+				// remove all prev/next
+				slick.$slides.removeClass('prevdiv').removeClass('nextdiv');
+				for (var i = 0; i < slick.$slides.length; i++)
+				{
+					var $slide = $(slick.$slides[i]);
+					if ($slide.hasClass('slick-current')) {
+						$slide.prev().addClass('prevdiv');
+						$slide.next().addClass('nextdiv');
+						break;
+					}
+				}
+			  }
+			)
+			.on('beforeChange', function(event, slick) {
+				// optional, but cleaner maybe
+				// remove all prev/next
+				slick.$slides.removeClass('prevdiv').removeClass('nextdiv');
+			})
+		
+		$('.experiencias').slick({
+		  	dots: true,
+			infinite: true,
+		  	speed: 300,
+		  	slidesToShow: 1,
+		  	centerMode: false,
+		  	variableWidth: true,
+			customPaging: function(slick,index) {
+				return '<a>0' + (index + 1) + '</a>/0' + slick.slideCount;
+			},
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						centerMode: true
+					}
+				}
+			]
+		});
+	</script>
+</body>
+</html>

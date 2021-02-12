@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="ESAN Blog Artículos">
+		<message>Muestra el listado de artículos de un blog</message>
+	</layout>
+	<fields name="request" addfieldpath="/administrator/components/com_esan_blog/models/fields">
+		<fieldset name="request">
+			<field name="blog" type="BlogAlias" label="Blog"></field>
+			<field name="pagina_items" type="integer" label="Artículos por página" default="9" first="6" last="30" step="3"></field>
+			<field name="destacados" type="radio" default="1" label="Mostrar destacados" class="btn-group btn-group-yesno">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

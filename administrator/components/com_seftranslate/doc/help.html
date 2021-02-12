@@ -1,0 +1,181 @@
+<div class="cont_wrapper">
+	<h1>SEF Translate </h1>
+<p>
+<span style="color:red;" >Important</span>: This component not work together with component JoomFish.
+</p>
+
+<p>
+For start use <b>SEF Translate Pro</b> you need:
+<ol style="list-style-type: none;">
+<li>1. Install SEF Translate component.</li>
+<li>2. Install SEF Translate module.</li>
+<li>3. Go to setting SEF Translate module.</li>
+<ol style="list-style-type: none;">
+<li>3.1 Please check option "Module position" Now in sefTranslate Pro version - you may set so position: "Default", "Top", "Right", "Left", "Bottom"</li>
+<li>3.2 Set method translate for your site, when user click to flag or check language on select on your site.<br>
+	If select Jquery then when user select translate your site automatic translate without redirect.<br>
+	If select Redirect then when user select translate start redirect and open your page on select language.<br>
+    If select Instant you get fast and high quality Google translation using Ajax technology.<br>
+	If you use redirect method translate and cache page that when user is authentication's on Joomla him page not save on cache and method translate switch to Jquery. This functional for security users data.
+	</li>
+<li>3.3 Select language flags which you need for view on frontend.</li>
+<li>3.4 Please check option "SefTranslate images" If you use Joomla Native multi language site, with that you may defined where from we will take flags images for these Native translated languages</li>
+<li>3.5 Please check option "Flag Size" Flag size at module for languages</li>
+<li>3.6 Please check option "Flag Type" - Now you may select flag image type from "shiny" or "flat"</li>
+<li>3.7 Select language which to need view on frontend in drop-down menu. If you do not select a language, you will not see the drop down menu. "Module position" must be "Default"!</li>
+<li>3.8 Please set option "Use SEF" That option need for correct define URL for translate when you use "Redirect". If you use on self site SEF for URLs - please set to YES, if not use - please set to NO</li>
+</ol>
+<li>3.9 Please check option "Hide module sef" If you set it to YES - when user login on your site, Module for Sef translate - will hide for him (That need for safe translate quota)</li>
+</ol>
+
+
+
+<li>4. Go to setting SEF Translate component tab General.</li>
+<ol style="list-style-type: none;">
+<li>4.1 On tab "<b><em>General</em></b>" field "<b><em>Main site language</em></b>" select language of your site.</li>
+<!--li>4.2 On tab "<b><em>General</em></b>" field  "<b><em>No translate phrases</em></b>" insert phrase or worlds which you want not translate.  </li-->
+<li>4.2 Select translate algorithm, by default set 1. You need check what algorithm best for you.".  </li>
+<li>4.3 If you want not save to cache some pages, but continue them translate with aJax, please set they urls or url part on tab "<b><em>General</em></b>" field  "<b><em>Untranslatable Pages</em></b>".  </li>
+<li>4.4 If you want not translate some page, please set it on tab "<b><em>General</em></b>" field  "<b><em>Untranslatable Pages</em></b>".  </li>
+<li>4.5 There are option for set where to you will save cache - to files or to database. In case save cache - you will save inode quota for some hosting, also you will have possibility manual correct page what was translated. Base url use as main page for translate for this URL and this language - without check cookies and post values". Depending on the option what you selected where to save cache - you will see pages in "Page manager"(only commerce version) from files or from DataBase </li>
+<li>4.6 You may select with what Translate API need for translate. For now we support Bing translate Api and Google Translate API. Bing selected as default - because Google last time ask money for use self translate API, but google support more languages". Bing support <a href="http://www.microsofttranslator.com/help/">so languages</a>  </li>
+<li>4.7 If you have problems with service google translate. You can help add <a href="http://code.google.com/apis/ajaxsearch/signup.html">API key </a> on tab "<b><em>General</em></b>" field "<b><em>Google API Translate</em></b>" </li>
+<li>4.8 For work with Azure Microsoft Translator API.  Subscribe to the Azure.com  on <a href="http://azure.com/" >Azure Marketplace</a>. Basic subscriptions, up to 2 million characters a month, are free. Translating more than 2 million characters per month requires a payment. You may pick from any of the available subscription offers. <br />
+
+<li> a. Sign up for a Microsoft Azure account (credit card required)<br />
+    If you don't already have an Azure account, sign up for a Microsoft Azure account at <a href="http://azure.com/" >Azure Marketplace</a>. </li>
+<li> b. After you have created an Azure account, subscribe to Azure. You will not be charged for Azure unless you use it. Then sign into the <a href="http://portal.azure.com" >Azure portal</a>.</li>
+<li> c. Add a Microsoft Translator API subscription to your Azure account.<br />
+    <div style="margin-left:20px;">
+    - Select the + New option.<br />
+    - Select Intelligence from the list of services.<br />
+    - Select Cognitive Services APIs.<br />
+    - Select the API Type option.<br />
+    - Select Text Translation. In the Pricing Tier section, select the pricing tier that fits your needs.<br />
+    - Fill out the rest of the form, and press the Create button<br />
+    <b>You are now subscribed to Microsoft Translator!</b><br /></div></li>
+<li>d. Retrieve your authentication key.
+    <div style="margin-left:20px;">
+    - Go to All Resources and select the <a href="https://portal.azure.com/#create/Microsoft.CognitiveServices/apitype/TextTranslation" >Microsoft Translator API</a> you subscribed to.<br />
+    - Go to the Keys option and copy your subscription key to access the service.</div></li>
+
+<li>4.9 On tab "<b><em>General</em></b>" field "<b><em>Joomla native multi languages</em></b>" You need set this option if your site support native translation from Joomla for some languages. Not use this option together with <em>Joomla FaLang multi languages</em></li>
+<li>4.10 On tab "<b><em>General</em></b>" field "<b><em>Joomla Falang multi languages</em></b>" You need set this option if your site support FaLang translation from Joomla for some languages. Not use this option together with <em>Joomla native multi languages</em> </li>
+<li>4.11 On tab "<b><em>General</em></b>" field "<b><em>Translate Iframes</em></b>" You need set this option if no need iFrame translate or have some errors with iFrame translation</li>
+<li>4.12 On tab "<b><em>General</em></b>" field "<b><em>Translate Urls</em></b>" You need set this option if you wish translate self url address. Any translated url - you may at next manual correct or translate in Url manager(only commerce version)</li>
+<li>4.13 On tab "<b><em>General</em></b>" field "<b><em>Use User IP</em></b>" select use <a href="http://code.google.com/apis/ajaxsearch/documentation/reference.html#_intro_fonje">User IP</a> argument. This argument supplies the IP address of the end-user on whose behalf the request is being made. That option you must set if have some problem with translate from Google. Google limited translation number without that parameter</li>
+<!--li>4.6 On tab "<b><em>General</em></b>" field "<b><em>No translate tags</em></b>" select support google not translate tags - if you want use so tags on self site.(<em>< meta name="google" value="notranslate" ..., < span class="notranslate">...< / span></em>) </li-->
+<li>4.14 On tab "<b><em>General</em></b>" option "<b><em>Debug </em></b>" need for error check. If some page after translate show blank page - please set that option to "Yes" </li>
+Joomla multi languages
+</ol>
+<li>5. Go to setting SEF Translate component tab Cache.</li>
+<ol style="list-style-type: none;">
+<li>5.1 On tab "<b><em>Cache</em></b>" field "<b><em>Caching</em></b>" select use caching for you translate page. When use cache and some module or component show dynamic info it has bad work. </li>
+<li>5.2 On tab "<b><em>Cache</em></b>" field "<b><em>Cache time</em></b>" insert count time after this cache it has been update.</li>
+<li>5.3 For identification site pages when we create cache, we use POST+COOKIE+URL. If you have page which after reload have different value for some keys in POST or in COOKIE (for example use google analytics), please set these keys for remove from cache page name defination<b>Warning! Only for experienced users</b>. In ours site we remove from cache page define all COOKIES. <b>Remark:</b> We turn off Cache at time redirect mode when User has Login to site. Module work switch to AJAX mode - that do for site security</li>
+<li>5.4 On tab "<b><em>Cache</em></b>" button "<b><em>Clear Cache</em></b>" give possibility clear cache.</li>
+</ol>
+<p>
+<span style="color:red;" >Important</span>: To ensure correct work the site map is necessary that on the server was installed SOAP client (php extension), and included options that are in the configuration file (php.ini) those options which are responsible for supporting the soap. Also you need enable the CURL php extension.
+</p>
+<li>6. Go to setting SEF Translate component tab Map.</li>
+<ol style="list-style-type: none;">
+<li>6.1 On tab "<b><em>Map</em></b>" field "<b><em>Site Map Component</em></b>" select component  used to generate a site map.<br>
+	If you set "not use" or set not install component you have generated site map only main menu.<br>
+	If set component you have generated site map it this component and additional it will translate to all selected languages</li>
+<li>6.2 On tab "<b><em>Map</em></b>" field "<b><em>Languages sitemap</em></b>" select languages to which need translate site maps.</li>
+<li>6.3 On tab "<b><em>Map</em></b>" field "<b><em>XML Sitemap URL</em></b>" that link for XML site map for registration on Search Engines like Google or Yahoo.</li>
+<li>6.4 On tab "<b><em>Map</em></b>" field "<b><em>HTML Sitemap URL</em></b>" that link for HTML site map for show to yours users.</li>
+<li>6.5 On tab "<b><em>Map</em></b>" field "<b><em>Use cache for Site Map</em></b>" select use cache for Site map or not.</li>
+<li>6.6 On tab "<b><em>Map</em></b>" in field "<b><em>Clear cache Site map</em></b>" if click on button "Clear.." you have clear cache site map. If at now is have not cache you see "Cache is clear".</li>
+<li>6.7 If you have very much long site map and when created translate site map you have error. You can take advantage of step by step add one language on your cache site map on tab "<b><em>Map</em></b>" field "<b><em>Add Language to Sitemap</em></b>". Please click Add. On new page select language and click add language.</li>
+<li>6.8 <b><span style="color:red;" >IMPORTANT!!!</span></b> For see "map site" on different languages, you need add Bing or Google Translate API keys.</li>
+</ol>
+<li>7. For view site map you need add menu on this component(SEF Translate). <span style="color:red;" >Important</span>: Please add this page to "<b><em>Untranslatable Pages</em></b>"</li>
+<li>8. For use redirect you need configure redirect with built-in functions joomla or an additional component such as sh404SEF. Next  you must add in .htaccess file  after RewriteEngine On and activate the option in the settings of joomla responsible for redirect. <br>
+	<ol style="list-style-type: none;">
+	<em>RewriteRule ^([a-z]{2})/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^([a-z]{2})$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br />
+	RewriteRule ^(zh-CN)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^(zh-CN)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br />
+	RewriteRule ^(zh-TW)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^(zh-TW)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br />
+	RewriteRule ^(bs-Latn)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^(bs-Latn)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br>
+	RewriteRule ^(ceb)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br>
+	RewriteRule ^(ceb)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br />
+	RewriteRule ^(hmn)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^(hmn)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br />
+	RewriteRule ^(mww)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^(mww)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br />
+	RewriteRule ^(yua)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br />
+	RewriteRule ^(yua)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br /></em> </ol>
+  If you don't have .htaccess file in your website home directory, copy htaccess.txt and rename it to .htaccess<br /></li><br />
+<li>8.1 If you use Joomla Native multi language site or FaLang, <span style="color:red;">important</span> if for redirect you will set exactly for every language what you set in sefTranslate. And not add redirect for Native languages or FaLang what you set in Joomla content. Below language configure for France, Russia and Chine<br>
+  <ol style="list-style-type: none;">
+  <em>RewriteRule ^(fr)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br>
+  RewriteRule ^(fr)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br>
+  RewriteRule ^(ru)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br>
+  RewriteRule ^(ru)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br>
+  RewriteRule ^(zh-CN)/(.*)$ components/com_seftranslate/translate.php?seflang=$1&sefurl=$2 [L,QSA]<br>
+  RewriteRule ^(zh-CN)$ components/com_seftranslate/translate.php?seflang=$1 [L,QSA]<br>
+  </em>
+  </ol>
+</li>
+<li>9. For view translated file (if you save translate to files) - for next manual edit. You need go to file:<br /> {yours site}/components/com_seftranslate/translate.php and  rows:<br /> 
+        //$original_t .= "&lt;!-- sef_translate:".$fileName." --&gt;"; <br />
+        //echo "&lt;!-- sef_translate:".$fileName." --&gt;"; <br />
+replace to: <br />
+        $original_t .= "&lt;!-- sef_translate:".$fileName." --&gt;"; <br />
+        echo "&lt;!-- sef_translate:".$fileName." --&gt;"; <br />
+<br />
+And you at end all yours translated pages will see row like:<br />
+&lt;!-- sef_translate:99107586c60db878c4f2430139b387dd.csh --&gt; <br />
+Where 99107586c60db878c4f2430139b387dd.csh - file with translate from folder:<br />
+{yours site}/components/com_seftranslate/cache/<br />
+Now you may correct translated file content with help "Page manager" - if switch option "save cache" - to "files"
+ <span style="color:red;" >Important</span>: Please remember - that file will rewrited - when cache time will expire, if you not set file as "manual transtated" or "base page(only commerce version)".
+ </li>
+
+<li>10. Go to setting SEF Translate component tab URLs.(only commerce version)</li>
+<ol style="list-style-type: none;"><br />
+<li>10.1 Possibility edit manual translated text with MCE editor or without editor. For use MCE editor in editor options need set: "Functionality" -> "Extended", "Code Clean up on Startup"-> 'OFF', "Entity Encoding"-> "Raw", "Custom plugin"->"fullpage"<br />
+</li>
+</ol>
+
+<p />
+For start use <b>SEF Translate Free</b> you need:
+<ol style="list-style-type: none;">
+<li>1. Install SEF Translate component.</li>
+<li>2. Install SEF Translate module.</li>
+<li>3. Go to setting SEF Translate module.</li>
+<ol style="list-style-type: none;">
+<li>3.1 Set method translate for your site, when user click to flag or check language on select on you site.<br>
+	If select Jquery then when user select translate you site automatic translate without redirect.<br>
+	If select Redirect then start redirect and open you page on select language.(This option use google translate bar and not work in localhost)</li>
+<li>3.2 Select language flags which to need for view on frontend.</li>
+<li>3.3 Select language which to need view on frontend in drop-down menu. If you do not select a language, you will not see the drop down menu. "Module position" must be "Default"!</li>
+</ol>
+<li>4. Go to setting SEF Translate component.</li>
+<ol style="list-style-type: none;">
+<li>4.1 On tab "<b><em>General</em></b>" field "<b><em>Site Language</em></b>" select language of your site.</li>
+<li>4.2 You may select with what Translate API need do translate. For Now we support Bing translate Api and Google Translate API. Bing selected as default - because Google last time ask money for use self translate API, but google support more languages". Bing support <a href="http://www.microsofttranslator.com/help/">so languages</a>  </li>
+<li>4.3 If you have problems with service google translate. You can help add <a href="http://code.google.com/apis/ajaxsearch/signup.html">API key </a> on tab "<b><em>General</em></b>" field "<b><em>Google API Translate</em></b>" </li>
+<li>4.4 For work with Bing translate API.  Subscribe to the Microsoft Translator API on <a href="http://go.microsoft.com/?linkid=9782667">Azure Marketplace</a>. Basic subscriptions, up to 2 million characters a month, are free. Translating more than 2 million characters per month requires a payment. You may pick from any of the available subscription offers. <br />
+<li> <a href="https://signup.live.com/signup.aspx?lic=1">This link to register your Windows Live ID</a>, when you register your Windows Live ID you have to login and <a href="https://datamarket.azure.com/developer/applications"> REGISTER</a>  your application.</li>
+   <li> <div style="margin-left:20px;"><b>Client ID</b>: you have to enter any id; example "567"<br>
+         Name: you have to enter any Name;example "Translate"<br>
+         <b>Client secret</b>:generated automatically;<br>
+         Redirect URI:you must enter URL of your website;</div></li> 
+   
+<li>Hence give information to fill in the text box in settings component.</li> 
+<li>4.5 On tab "<b><em>Map</em></b>" field "<b><em>Site Map Language</em></b>" select language for Site map.</li>
+<li>4.6 On tab "<b><em>Map</em></b>" field "<b><em>Use cache for Site Map</em></b>" select use cache for Site map.</li>
+<li>4.7 On tab "<b><em>Map</em></b>" field "<b><em>Clear cache Site map</em></b>" click on button "Clear.." for clear cache for site map. If at now is have not cache you see "Cache is clear".</li>
+<li>4.8 <b><span style="color:red;" >IMPORTANT!!!</span></b> For see "map site" on different languages, you need add Bing or Google Translate API keys.</li>
+
+</ol>
+
+<li>5. For view site map you need add menu on this component.</li>
+</ol>
+</div>

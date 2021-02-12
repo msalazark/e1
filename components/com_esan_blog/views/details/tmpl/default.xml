@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="ESAN Blog Artículo">
+		<message>Muestra detalle de un artículo</message>
+	</layout>
+	<fields name="request" addfieldpath="/administrator/components/com_esan_blog/models/fields">
+		<fieldset name="request">
+			<field name="blog" type="Blog" label="Blog"></field>
+			<field name="articulo" type="text" label="Artículo"></field>
+		</fieldset>
+	</fields>
+</metadata>

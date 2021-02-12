@@ -1,0 +1,16 @@
+.home-eventos{
+    height:230px;
+}
+
+.home-extranjeros{
+    border:solid 1px;
+    border-color:rgba(204, 204, 204, 0.5);
+    border-radius:8px;
+}
+
+.home-inversion-movil{
+    border:solid 1px;
+    border-color:#ffffff;
+    /*opacity:0.1;*/
+    border-radius:8px;
+}

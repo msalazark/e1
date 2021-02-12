@@ -1,0 +1,1622 @@
+@media only screen and (max-width: 1680px){
+	
+	.maestria-info .content h1{
+		font-size: 65px;
+	}
+	.maestria-info .content p{
+		font-size: 22px;
+	}
+	
+	.link-next, .link-back,
+	.why ul li,
+	.intro p{
+		font-size: 18px;
+	}
+	
+	footer h2, .intro h2{
+		font-size: 32px;
+	}
+	
+	.card-item{
+		max-width: 460px;
+	}
+	
+	.periodo-item > .content::before, #mallaTabs .nav-link.active::before{
+		margin-top: 12px;
+	}
+	
+	.periodo-item > .content{
+		width: 52%;
+	}
+	.periodo-item > .imagen{
+		width: 48%;
+	}
+}
+
+@media only screen and (max-width: 1442px){
+	
+	.contenido-item .cifra,
+	footer h2, .intro h2{
+		font-size: 28px;
+	}
+	
+	.menu-popup > .container > .row > div{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.maestria-page .content p,
+	.redes h3{
+		font-size: 20px;
+	}
+	
+	.valores .title,
+	.why h3,
+	.maestria-page .content h2,
+	.menu-popup nav a{
+		font-size: 22px;
+	}
+	
+	.exp-item .cargo,
+	.cifra-item .descripcion,
+	body, table, td{
+		font-size: 14px;
+	}
+	
+	.submenu li{
+		margin: 0 10px;
+	}
+	
+	.docentes-page .content p,
+	.contenido-item,
+	.en-que-consiste > .content,
+	.valores > div,
+	.mision, .vision,
+	.acreditaciones h3, .membresias h3,
+	.palabras-directora .content .cargo,
+	.palabras-directora .content .scroll-content,
+	.page-content p,
+	.contacto-footer p,
+	.enlaces-footer ul,
+	.informacion .redes h3,
+	.evento-item .evento-content h3,
+	.evento-item .evento-content .categoria,
+	.experiencias .exp-item,
+	.links-info,
+	.action-postular,
+	.cifra-item .descripcion strong,
+	.grid-item .descripcion,
+	.especialidad-item > .content > ul,
+	#especialidadesTabs .nav-link,
+	#mallaTabs .nav-link,
+	.periodo-item > .content ul,
+	.link-next, .link-back, .why ul li, .intro p,
+	.btn,
+	.submenu li > a:not(.btn){
+		font-size: 16px;
+	}
+	
+	.evento p,
+	.maestria-info .content p{
+		font-size: 18px;
+	}
+	
+	.select-items div, .select-selected{
+		padding: 8px;
+	}
+	.select-selected{
+		padding-right: 32px;
+	}
+	
+	.maestria-info > .container{
+		padding-bottom: 180px;
+	}
+	
+	.maestria-info .content h1{
+		font-size: 54px;
+		line-height: 1.1;
+	}
+	
+	.maestria-info .link-back{
+		margin-bottom: 20px;
+	}
+	
+	.btn-lg.btn-circle{
+		width: 50px;
+	}
+	.btn-lg, .btn-group-lg > .btn{
+		height: 50px;
+	}
+	
+	footer h2, .intro h2,
+	.maestria-info .content p{
+		margin-bottom: 20px;
+	}
+	
+	.maestria-info .evento-item{
+		max-width: 420px;
+	}
+	
+	.intro{
+		margin-bottom: 30px;
+	}
+	
+	.mision h3, .vision h3,
+	.item-consejo .nombre,
+	.palabras-directora .content .nombre,
+	.maestria-info .evento-item .fecha{
+		font-size: 25px;
+	}
+	.maestria-info .evento-item .lugar{
+		font-size: 20px;
+	}
+	
+	.maestria-page .content h1,
+	.ventajas .why h3,
+	.slide-ranking .title h3{
+		font-size: 28px;
+	}
+	
+	.slide-ranking .slick-slide img{
+		max-height: 140px;
+	}
+	
+	.card-item{
+		max-width: 380px;
+	}
+	.card-item .content{
+		padding: 20px;
+	}
+	.exp-item .imagen,
+	.card-item .content .logo{
+		margin-bottom: 20px;
+	}
+	
+	.card-item .content .logo > img{
+		max-height: 50px;
+		width: auto;
+	}
+	.inversion .content h3,
+	.card-item .content h3{
+		font-size: 24px;
+	}
+	
+	.periodo-item > .content::before, #mallaTabs .nav-link.active::before{
+		width: 26px;
+		height: 8px;
+	}
+	
+	.periodo-item > .content ul > li:not(:last-child){
+		margin-bottom: 10px;
+	}
+	
+	#mallaTabs .nav-link span.nro{
+		font-size: 40px;
+	}
+	
+	#especialidadesTabs .nav-link{
+		padding: 18px 25px;
+	}
+	
+	.grid-item{
+		padding: 30px 40px 40px 30px;
+	}
+	
+	.grid-item .descripcion{
+		max-width: 180px;
+	}
+	.icon-peru, .icon-world, .icon-build, .icon-birrete,
+	.icon{
+		background-size: cover;
+	}
+	
+	.icon-horario,
+	.icon-calendar,
+	.icon-inauguracion{
+		width: 60px;
+		height: 60px;
+	}
+	.icon-examenes{
+		width: 80px;
+		height: 58px;
+	}
+	
+	.docentes .mapa > img{
+		max-width: 440px;
+	}
+	
+	.icon-peru, .icon-world, .icon-build, .icon-birrete{
+		width: 55px;
+		height: 55px;
+	}
+	.cifra-item .icono{
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+	
+	.action-postular{
+		padding: 20px;
+	}
+	.experiencia{
+		padding: 40px 0;
+	}
+	
+	.experiencia .content{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.experiencias .exp-item{
+		max-width: 270px;
+	}
+	
+	.exp-item .descripcion{
+		padding-bottom: 20px;
+		border-bottom-width: 4px;
+	}
+	
+	.informacion .redes{
+		max-width: 600px;
+	}
+	.redes a{
+		width: 42px;
+		height: 42px;
+		background-size: cover;
+	}
+	
+	.menu-popup nav li h3{
+		font-size: 28px;
+	}
+	
+	.custom-select, .form-control{
+		height: 40px;
+	}
+	.custom-input > label .etiqueta{
+		top: 12px;
+	}
+	
+	.custom-input > label input:focus + span {
+	  color: #363636;
+	  transform: translateY(-18px) scale(0.85);
+	}
+	
+	.maestria-page{
+		min-height: calc(100vh - 118px);
+	}
+	
+	.contacto-footer .redes{
+		margin-top: 30px;
+	}
+	
+	.maestria-page .imagen{
+		height: calc(100% - 80px);
+	}
+	.maestria-page .content .actions{
+		max-width: 400px;
+	}
+	.objetivo > .content{
+		padding: 50px;
+		width: calc(100% - 574px);
+	}
+	.objetivo > .imagen{
+		max-width: 460px;
+	}
+	
+	.acreditaciones > div .item, .membresias > div .item{
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.acreditaciones > div .item img, .membresias > div .item img{
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+	
+	.palabras-directora .content .scroll-content{
+		max-height: 170px;
+	}
+	
+	.palabras-directora .content{
+		padding: 40px 0;
+	}
+	
+	.consejo-integrantes{
+		font-size: 16px;
+	}
+	.item-consejo .pais img{
+		max-width: 34px;
+	}
+	.mision, .vision{
+		padding: 50px;
+		min-height: 520px;
+	}
+	
+	.mision{
+		background-size: auto 40%;
+	}
+	.vision{
+		background-size: auto 55%;
+		background-position: right -15px bottom 5px;
+	}
+	
+	.contacto-footer,
+	.enlaces-footer{
+		font-size: 12px;
+	}
+	
+	.enlaces-footer ul li{
+		margin-bottom: 5px;
+	}
+	
+	.redes li:not(:last-child){
+		margin-right: 15px;
+	}
+	footer .redes h3{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	footer .redes a{
+		width: 30px;
+		height: 30px;
+	}
+	
+	.ventajas-page .why li .title{
+		width: 370px;
+	}
+	.ventajas-page .why li .descripcion{
+		width: calc(100% - 460px);
+	}
+	
+	.convalida-item{
+		max-width: 560px;
+	}
+	.convalida-item .logo{
+		margin-top: 20px;
+	}
+	
+	.convalida-item .logo > img{
+		max-width: 300px;
+		max-height: 85px;
+	}
+	
+	.convalida .video{
+		height: 300px;
+	}
+	
+	.contenido-item .icono > img,
+	.valores > div .icon > img{
+		max-width: 50px;
+	}
+	
+	.innovation-hub .logos > div > img{
+		max-width: 210px;
+		max-height: 55px;
+	}
+	
+	.contenido-item .icono{
+		margin-bottom: 20px;
+	}
+	
+	.docentes-page{
+		padding: 60px 0 120px 0;
+	}
+	
+	.imagen-nacional{
+		background-size: auto 500px;
+	}
+	.imagen-internacional{
+		background-size: auto 400px;
+	}
+	
+	.maestria-info .evento{
+		max-width: 1400px;
+		margin-left: -700px;
+	}
+	
+}
+
+@media only screen and (max-width: 1200px){
+	
+	.submenu{
+		position: fixed;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		overflow-x: auto;
+		background-color: #F7F7F7;
+		padding-left: 15px;
+		padding-right: 15px;
+		-webkit-overflow-scrolling: touch;
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+		padding: 8px 0;
+	}
+	
+	.submenu::-webkit-scrollbar {
+		display: none;
+	}
+	
+	.submenu > ul{
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	
+	.submenu li{
+		white-space: nowrap;
+	}
+	
+	.submenu li > a:not(.btn){
+		color: #363636;
+	}
+	.submenu li > a.active:not(.btn), .submenu li > a:not(.btn):hover{
+		color: #363636;
+		font-family: 'ceraBold';
+	}
+	
+	.submenu li > a.active:not(.btn)::after, .submenu li > a:not(.btn):hover::after{
+		background-color: #363636;
+		bottom: -4px;
+	}
+	
+	.buscador-header{
+		padding: 15px 0;
+	}
+	
+	.buscador-header .caption{
+		padding-top: 25px;
+		max-width: 700px;
+	}
+	
+	.buscador-header .caption p{
+		font-size: 22px;
+	}
+	
+	.radio-buscador label .checkmark{
+		width: 30px;
+		height: 30px;
+	}
+	.radio-buscador label > input:checked ~ .checkmark::after{
+		width: 18px;
+		height: 18px;
+		top: calc(50% - 9px);
+	    left: calc(50% - 9px);
+	}
+	.buscador .btn-down{
+		bottom: 30px;
+	}
+	
+	.buscador-page .content h1{
+		font-size: 26px;
+	}
+	.buscador-page .content h2{
+		font-size: 22px;
+	}
+	.buscador-page .content p{
+		font-size: 20px;
+	}
+	.searchbox > input{
+		height: 50px;
+		padding-left: 50px;
+		background-position: 15px center;
+		background-size: 20px 20px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 992px){
+
+}
+
+@media only screen and (max-width: 767px){
+	
+	.financiamiento-page .content p,
+	.consejo-integrantes,
+	.maestria-page .content p,
+	.maestria-info .content p,
+	.docentes-page .content p, .contenido-item, .en-que-consiste > .content, .valores > div, .mision, .vision, .palabras-directora .content .cargo, .palabras-directora .content .scroll-content, .page-content p, .contacto-footer p, .enlaces-footer ul, .informacion .redes h3, .evento-item .evento-content h3, .evento-item .evento-content .categoria, .experiencias .exp-item, .links-info, .action-postular, .cifra-item .descripcion strong, .grid-item .descripcion, .especialidad-item > .content > ul, #especialidadesTabs .nav-link, #mallaTabs .nav-link, .periodo-item > .content ul, .link-next, .link-back, .why ul li, .intro p, .btn, .submenu li > a:not(.btn){
+		font-size: 14px;
+	}
+	
+	.card-item .content h3{
+		font-size: 16px;
+		font-family: 'ceraBold';
+	}
+	
+	.maestria-info .evento-item .fecha{
+		font-size: 22px;
+	}
+	 .acreditaciones h3, .membresias h3,
+	.maestria-info .evento-item .lugar{
+		font-size: 18px;
+	}
+	
+	.site-header{
+		height: 70px;
+	}
+	
+	.submenu{
+		top: 70px;
+		padding: 0 8px;
+	}
+	
+	.site-header .logo{
+		max-width: 95px;
+	}
+	
+	.btn-close, .btn-trigger{
+		width: 28px;
+		height: 28px;
+		background-size: 100% auto;
+	}
+	
+	.idioma{
+		margin-right: 20px;
+	}
+	.select-selected{
+		padding-right: 25px;
+	}
+	
+	.select-selected:after{
+		right: 0;
+	}
+	
+	main{
+		margin-top: 114px;
+	}
+	
+	.maestria-info > .container{
+		position: relative;
+		padding-top: 30px;
+		padding-bottom: 0;
+		min-height: 0;
+	}
+	
+	.maestria-info .content{
+		position: relative;
+		background-color: rgba(255,255,255,0.7);
+		padding: 20px 20px 20px 0;
+		width: 87%;
+		border-bottom-right-radius: 12px;
+		border-top-right-radius: 12px;
+		z-index: 9;
+	}
+	
+	.maestria-info > .container .imagen{
+		width: 50%;
+		background-position: left center;
+		background-size: auto 160%;
+	}
+	
+	.maestria-info .evento{
+		position: static;
+		margin-left: 0;
+		max-width: inherit;
+		margin-top: 30px;
+	}
+	.maestria-info .evento-item{
+		padding: 15px;
+		line-height: 1.4;
+	}
+	
+	.maestria-info .evento-item .link-next{
+		bottom: 10px;
+	}
+	
+	.maestria-info .link-back,
+	.maestria-info .breadcrumbs{
+		display: none;
+	}
+	
+	.maestria-info .content .btn-primary{
+		padding: 0 25px;
+	}
+	
+	.maestria-info .actions{
+		position: static;
+		padding: 0 15px;
+		margin-top: 30px;
+		text-align: right;
+	}
+	
+	.slide-ranking > div .title{
+		color: #000;
+		text-align: left !important;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+	
+	.slide-ranking > div{
+		width: 100%;
+		margin-left: 0;
+		padding: 0 15px;
+	}
+	
+	.grid-item .descripcion strong{
+		font-size: 18px;
+	}
+	
+	.ventajas .why h3{
+		font-size: 20px;
+	}
+	
+	.slide-ranking .title h3{
+		font-size: 22px;
+	}
+	
+	.slide-ranking .slider .item{
+		max-height: 120px;
+		margin-right: 15px;
+	}
+	
+	.slide-ranking .item:not(.slick-active){
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		transform-origin: left bottom;
+	}
+	
+	.slide-ranking .slick-slide img{
+		max-height: 120px;
+		width: auto;
+	}
+	
+	.slide-ranking .slider .item:not(.slick-current){
+		max-height: 140px;
+	}
+	
+	.slick-prev{
+		background-image: url(../images/prev-01.svg);
+		right: 40px;
+	}
+	.slick-next{
+		background-image: url(../images/next-01.svg);
+		right: 0;
+	}
+	
+	.slick-dots{
+		color: #000;
+		right: 80px;
+		bottom: -55px;
+	}
+	
+	.contenido-item .cifra, footer h2, .intro h2{
+		font-size: 22px;
+	}
+	
+	.slide-ranking{
+		position: relative;
+		width: 100%;
+		bottom: auto;
+		right: auto;
+		top: auto;
+		margin-top: 30px;
+		padding-bottom: 60px;
+	}
+	
+	.maestria-info .content h1{
+		font-size: 30px;
+	}
+		
+	.ventajas > .video{
+		display: none !important;
+	}
+	
+	.ventajas .content > .video{
+		display: -webkit-box; 
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex; 
+		display: flex !important;
+		width: 100%;
+		position: relative;
+		height: 184px;
+		margin-left: -15px;
+		margin-bottom: 30px;
+	}
+	
+	.btn-play{
+		width: 40px;
+		height: 40px;
+		background-size: cover;
+	}
+	
+	.why li .icon{
+		width: 75px;
+	}
+	
+	.why li .title{
+		width: calc(100% - 75px);
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.why li .descripcion{
+		width: 100%;
+		margin-top: 8px;
+	}
+	
+	.ventajas .content{
+		padding-bottom: 0;
+	}
+	
+	.card-item{
+		max-width: 246px;
+	}
+	
+	.docentes .mapa > img{
+		max-width: 100%;
+	}
+
+	.experiencia .content,
+	.experiencia .calendario{
+		width: 100%;
+	}
+	
+	.experiencia .content{
+		padding-right: 0;
+	}
+	
+	.experiencias .exp-item{
+		max-width: 195px;
+	}
+	
+	.experiencias{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	
+	.experiencia .calendario{
+		padding-left: 0;
+		border: 0 none;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.calendario .evento-item{
+		padding: 15px;
+	}
+	.calendario .evento-item:not(:last-child){
+		margin-bottom: 15px;
+	}
+	
+	.docentes{
+		padding: 0;
+		margin-bottom: 40px;
+	}
+	
+	.docentes .btn-primary{
+		width: 100%;
+	}
+	
+	.inversion > .imagen,
+	.docentes > .imagen{
+		display: none;
+	}
+	
+	.cifras-docentes .cifra-item{
+		width: 50%;	
+		padding: 0 10px;
+	}
+	
+	.cifra-item .icono,
+	.cifra-item .descripcion{
+		text-align: left !important;
+	}
+	
+	.cifra-item .descripcion strong{
+		font-size: 18px !important;
+	}
+	
+	.duracion-horarios{
+		padding: 20px 0;
+	}
+	
+	.duracion-horarios .content{
+		position: relative;
+		z-index: 9;
+		padding: 30px 15px 30px 0;
+		background-color: rgba(255,255,255,0.95);
+		width: 75%;
+		border-bottom-right-radius: 12px;
+		border-top-right-radius: 12px;
+		
+	}
+	
+	.duracion-horarios .imagen{
+		width: 50%;
+		background-position: right -40px center;
+	}
+	
+	.duracion-horarios .grid-item{
+		width: 100% !important;
+		padding: 15px 10px 15px 0;
+		display: -webkit-box; 
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex; 
+		display: flex;
+		flex-wrap: wrap;
+		border: 0 none;
+		border-bottom: 1px solid #D8D8D8;
+	}
+	
+	.duracion-horarios .grid-item:last-child{
+		border: 0 none !important;
+	}
+	
+	.grid-item .icono{
+		width: 40px;
+		margin-right: 20px;
+	}
+	
+	.icon-horario, .icon-calendar, .icon-inauguracion{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.icon-examenes {
+		width: 40px;
+		height: 29px;
+	}
+	
+	.grid-item .descripcion{
+		width: calc(100% - 60px);
+	}
+	.inversion .action-postular{
+		padding: 15px;
+		flex-wrap: wrap;
+	}
+	
+	.inversion .action-postular > span{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	.inversion .action-postular > .btn{
+		margin-left: auto;
+	}
+	
+	.btn-lg.btn-circle{
+		width: 40px !important;
+	}
+	
+	.icon-download{
+		width: 16px;
+		height: 20px;
+	}
+	
+	.btn-lg, .btn-group-lg > .btn{
+		height: 40px;
+	}
+	
+	.links-info > p{
+		font-size: 18px;
+	}
+	
+	.links-info .link-item{
+		width: calc(50% - 7.5px);
+		padding: 15px;
+	}
+	
+	.link-next > span{
+		width: calc(100% - 22px);
+	}
+	
+	.link-item p{
+		font-size: 16px;
+		line-height: 1.3;
+		margin-bottom: 12px;
+	}
+	
+	.slick-prev, .slick-next{
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+		bottom: -50px;
+	}
+	
+	.experiencias .slick-next{
+		right: 15px;
+	}
+	.experiencias .slick-prev{
+		right: 55px;
+	}
+	.experiencias .slick-dots{
+		right: 100px;
+		line-height: 1;
+		bottom: -50px;
+	}
+	
+	.exp-item .descripcion{
+		border-bottom: 0 none;
+		padding-bottom: 0;
+	}
+	.exp-item .nombre{
+		font-size: 18px;
+	}
+	.exp-item .cargo{
+		font-size: 16px;
+	}
+	
+	.exp-item.prevdiv{
+		transform-origin: right bottom;
+	}
+	.exp-item{
+		transform-origin: left bottom;
+	}
+	
+	.exp-item:not(.slick-current){
+		-moz-transform: scale(0.6);
+		-webkit-transform: scale(0.6);
+		-o-transform: scale(0.6);
+		-ms-transform: scale(0.6);
+		transform: scale(0.6);
+	}
+
+	.why ul li{
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #D8D8D8;
+	}
+	.why ul{
+		margin-bottom: 0;
+	}
+	
+	.internacionalizacion{
+		border-bottom: 0 none;
+		padding-bottom: 0;
+	}
+	
+	.internacionalizacion .intro{
+		margin-bottom: 30px;
+	}
+	
+	.cards{
+		width: calc(100% + 15px);
+	}
+	
+	.card-item{
+		margin-right: 15px;
+	}
+	
+	.card-item:not(.slick-active){
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		transform-origin: left bottom;
+	}
+	
+	.card-item .content .logo{
+		margin-bottom: 10px;
+	}
+	.card-item .content .logo > img{
+		max-height: 40px;
+	}
+	
+	.especialidades-slick,
+	.malla-slick{
+		display: block;
+		width: calc(100% + 15px);
+		padding-bottom: 50px;
+		margin-bottom: 60px;
+	}
+	
+	.malla-slick div.slick-slide::before{
+		content: '';
+		display: block;
+		width: 30px;
+		height: 10px;
+		background-color: #CF0F11;
+		border-radius: 5px;
+		margin-bottom: 15px;
+	}
+	
+	#especialidadesTabs,
+	#especialidadesTabsContent,
+	#mallaTabsContent,
+	#mallaTabs{
+		display: none;
+	}
+	
+	.especialidades-slick .slick-dots,
+	.malla-slick .slick-dots{
+		bottom: -10px;
+		right: 100px;
+	}
+	
+	.especialidades-slick .slick-prev,
+	.especialidades-slick .slick-next,
+	.malla-slick .slick-prev,
+	.malla-slick .slick-next{
+		bottom: 0;
+	}
+	
+	.especialidades-slick .slick-prev,
+	.malla-slick .slick-prev{
+		right: 55px;
+	}
+	.especialidades-slick .slick-next,
+	.malla-slick .slick-next{
+		right: 15px;
+	}
+	
+	.especialidad-item,
+	.periodo-item{
+		overflow: hidden;
+		border-radius: 12px;
+		max-width: 280px;
+		margin-right: 15px;
+	}
+	.especialidad-tab{
+		max-width: 280px;
+		font-family: 'ceraBold';
+		font-size: 18px;
+		color: #000;
+		 margin-bottom: 8px;
+		align-items: flex-start !important;
+		line-height: 1.2;
+	}
+	
+	.especialidad-tab > span:not(.flags){
+		width: calc(100% - 70px);
+	}
+	
+	.especialidad-item > .content,
+	.periodo-item > .content{
+		order: 2;
+		padding: 15px;
+	}	
+	
+	.periodo-item > .content::before{
+		display: none;
+	}
+	.periodo-item > .content ul > li::before{
+		width: 3px;
+		height: 5px;
+		top: 4px;
+	}
+	
+	.especialidad-item > .content > ul,
+	.periodo-item > .content ul{
+		margin-top: 0;
+	}
+	.periodo-item > .content ul > li{
+		padding-left: 20px
+	}
+	.especialidad-item > .imagen,
+	.periodo-item > .imagen{
+		order: 1;
+	}
+	.especialidad-item > .content,
+	.especialidad-item > .imagen,
+	.periodo-item > .content,
+	.periodo-item > .imagen{
+		width: 100%;
+	}
+	
+	.especialidad-item{
+		border: 0.5px #c7c7c7 solid;
+	}
+	.especialidad-item .imagen{
+		border-bottom-left-radius: 0;
+	}
+	.especialidad-tab > .flags > img{
+		max-width: 30px;
+		display: inline-block;
+		margin-right: 4px;
+	}
+	
+	.especialidades-slick{
+		margin-bottom: 0;
+	}
+	
+	.custom-select, .form-control{
+		height: 46px;
+	}
+	.custom-input > label .etiqueta{
+		top: 18px;
+	}
+	.custom-input > label input:focus + span {
+	  transform: translateY(-25px) scale(0.85);
+	}
+	
+	.boletin .btn,
+	.formulario .btn-primary{
+		width: 100%;
+	}
+	
+	.informacion .redes{
+		padding: 15px;
+		flex-wrap: wrap;
+	}
+	.informacion .redes h3{
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.redes ul{
+		margin-left: auto;
+	}
+	.informacion > .container{
+		padding-bottom: 30px;
+	}
+	
+	footer > .container > .row:first-child > div:first-child{
+		border-right: 0 none;
+		border-bottom: 1px solid #393939;
+		padding-bottom: 20px;
+	}
+	footer > .container > .row > div{
+		padding-top: 20px;
+	}
+	.contacto-footer{
+		padding-left: 0;
+	}
+	footer .redes a{
+		width: 38px;
+		height: 38px;
+	}
+	footer > .container > .row > div{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	section{
+		min-height: calc(100vh - 114px);
+	}
+	
+	.modal-header{
+		padding: 30px 20px 10px 20px;
+	}
+	.modal-body{
+		padding: 0 20px;
+	}
+	.modal-footer{
+		padding: 10px 20px 30px 20px;
+	}
+	
+	.modal-title{
+		font-size: 20px;
+		line-height: 1.3;
+	}
+	.modal-content p{
+		font-size: 14px;
+	}
+	
+	.modal-header .close{
+		top: -40px;
+	}
+	
+	.modal-header .close .icon-close{
+		width: 30px;
+		height: 30px;
+	}
+	
+	#modalSolicitud .modal-content p,
+	#modalSolicitud .modal-title{
+		max-width: 142px;
+	}
+	
+	#modalSolicitud .modal-content{
+		background-image: url(../images/brochure.png);
+		background-position: top 30px right 20px;
+		background-repeat: no-repeat;
+		background-size: 30% auto;
+	}
+	
+	.menu-popup > .container > .row > div{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	
+	.menu-popup nav > ul{
+		width: 100%;
+		margin-top: 20px;
+		padding: 0 30px;
+	}
+	
+	.menu-popup nav li h3{
+		font-size: 18px;
+	}
+	.menu-popup nav a{
+		font-size: 16px;
+		line-height: 1.2;
+	}
+	.menu-popup nav{
+		margin-top: 15px;
+		max-height: calc(100vh - 58px);
+		overflow: hidden;
+		overflow-y: auto;
+	}
+	.menu-popup .redes{
+		display: none;
+	}
+	
+	/*------------------------------------ page ------------------------------------------*/
+	
+	.maestria-page{
+		min-height: inherit;
+		border-bottom: 0 none;
+		padding-top: 30px;
+	}
+	
+	main.page{
+		margin-top: 70px;
+	}
+	
+	.page-top .page-title{
+		display: block;
+		font-family: 'ceraBold';
+		font-size: 24px;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	
+	.page-top{
+		background-image: url(../images/banner02.jpg);
+		background-size: 150% auto;
+		background-position: top center;
+		color: #fff;
+		padding-bottom: 20px;
+		border-bottom-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+	}
+	
+	.page-top .breadcrumbs{
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	
+	.maestria-page .video,
+	.buscador-page .content h1,
+	.buscador-page .video,
+	.maestria-page .content h1,
+	.maestria-page .imagen{
+		display: none !important;
+	}
+	
+	.maestria-page .content h2{
+		margin-bottom: 15px;
+		font-size: 22px;
+		font-family: 'ceraBold';
+	}
+	.maestria-page .content .actions{
+		margin-top: 20px;
+	}
+	.maestria-page .content .actions > a:not(:last-child){
+		margin-bottom: 15px;
+	}
+	.btn-lg, .btn-group-lg > .btn{
+		padding: 0 15px;
+	}
+	
+	.en-que-consiste,
+	.sobre-el-programa{
+		width: auto;
+	}
+	
+	.en-que-consiste > .content,
+	.sobre-el-programa > .content{
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+	
+	.palabras-directora > .video{
+		display: none !important;
+	}
+	
+	.palabras-directora .content > .video{
+		display: -webkit-box; 
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex; 
+		display: flex !important;
+	}
+	
+	.palabras-directora .content > .video,
+	.sobre-el-programa > .imagen{
+		width: calc(100% + 15px);
+		border-top-left-radius: 0;
+    	border-bottom-left-radius: 0;
+		border-top-right-radius: 12px;
+    	border-bottom-right-radius: 12px;
+		margin-left: -15px;
+	}
+	
+	.en-que-consiste > .imagen img{
+		border-top-left-radius: 0;
+    	border-bottom-left-radius: 0;
+		border-top-right-radius: 12px;
+    	border-bottom-right-radius: 12px;
+	}
+	
+	.en-que-consiste > .imagen{
+		width: calc(100% + 15px);
+		margin-left: -15px;
+	}
+	
+	.palabras-directora .nombre,
+	.palabras-directora .cargo,
+	.palabras-directora .scroll-content{
+		display: none;
+	}
+	
+	.acreditaciones > div .item, .membresias > div .item{
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	
+	.membresias{
+		margin-top: 30px;
+	}
+	
+	.membresias > div .item{
+		margin-bottom: 0;
+	}
+	
+	.membresias .slick-track{
+		display: -webkit-box; 
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex; 
+		display: flex !important;
+		align-items: center;
+	}
+	
+	.objetivo{
+		border: 0 none;
+	}
+	
+	.objetivo > .content,
+	.objetivo > .imagen{
+		width: 100%;
+	}
+	.objetivo > .content{
+		padding: 0;
+	}
+	
+	.palabras-directora .content > .video{
+		position: static;
+		height: 184px;
+		margin-bottom: 30px;
+	}
+	
+	.palabras-directora .content{
+		padding: 0 0 60px 0;
+	}
+	
+	.consejo-consultivo .imagen{
+		display: none;
+	}
+	
+	.item-consejo .nombre{
+		font-size: 18px;
+		color: #000;
+	}
+	
+	.buscamos,
+	.consejo-consultivo{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.buscamos{
+		min-height: inherit;
+	}
+	
+	.item-consejo .pais img{
+		max-width: 20px;
+	}
+	
+	.item-consejo:not(:first-child){
+		width: 100%;
+		padding-right: 0;
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px solid #D8D8D8;
+	}
+	
+	.buscamos .intro{
+		margin-bottom: 30px;
+	}
+	
+	.mision, .vision{
+		padding: 0;
+		border: 0 none !important;
+		min-height:inherit;
+	}
+	
+	.mision h3, .vision h3{
+		font-size: 18px;
+		font-family: 'ceraBold';
+	}
+	.mision p, .vision p{
+		max-width: 70%;
+	}
+	
+	.mision{
+		background-position: right bottom;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #D8D8D8 !important;
+		border-radius: 0;
+		padding-bottom: 30px;
+	}
+	.vision{
+		background-position: right bottom;
+	}
+	
+	.boletin{
+		padding: 40px 0;
+	}
+	
+	#modalModificar button[type=submit],
+	.buscador-content button[type=submit]{
+		min-width: 100%;
+	}
+	
+	.buscador-header .caption p{
+		font-size: 16px;
+	}
+	
+	.buscador-header .logo{
+		padding-bottom: 15px;
+	}
+	
+	.buscador-header .caption{
+		padding-top: 15px;
+		max-width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.buscador-header .logo img{
+		max-width: 110px;
+	}
+	
+	.radio-buscador label .etiqueta{
+		font-size: 14px;
+	}
+	
+	.buscador-content{
+		padding-top: 20px;
+	}
+	.buscador .btn-down{
+		position: static;
+		margin: 20px auto;
+	}
+	
+	.buscador-page{
+		min-height: 0;
+		padding-top: 30px;
+	}
+	
+	.buscador-page .content h2{
+		font-family: 'ceraBold';
+		color: #000;
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+	
+	.resultados{
+		border-top: 0;
+		padding-top: 0;
+	}
+	
+	.resultado-item{
+		margin-top: 30px;
+	}
+	
+	.en-que-consiste > .content .logo{
+		margin: 20px 0;
+	}
+	.en-que-consiste > .content .logo img{
+		max-width: 100px;
+	}
+	
+	.convalida::before,
+	.imagen-nacional,
+	.imagen-internacional{
+		display: none !important;
+	}
+	
+	.financiamiento-page::before, .docentes-page::before{
+		display: none;
+	}
+	
+	.content.facultad-internacional,
+	.content.facultad-nacional{
+		position: relative;
+	}
+	
+	.content.financiamiento-solicitud,
+	.content.facultad-internacional{
+		padding-left: 0;
+		margin-top: 40px;
+	}
+	
+	.intro{
+		margin-bottom: 20px;
+	}
+	
+	.content.facultad-internacional::before,
+	.content.facultad-nacional::before{
+		position: absolute;
+		content: '';
+		display: block;
+		opacity: 0.5;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url(../images/mapa-peru.png);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-size: auto 52%;
+	}
+	
+	.content.facultad-internacional::before{
+		background-image: url(../images/mapa-mundo.png);
+		background-size: 110% auto;
+		background-position: right -40px bottom -40px;
+	}
+	
+	.docentes-page,
+	.financiamiento-page{
+		padding: 60px 0;
+	}
+	
+	.international-week-page{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.contenido-items{
+		margin-top: 0;
+	}
+	.contenido-item{
+		width: 100%;
+		border: 0;
+		border-bottom: 1px solid #D8D8D8;
+		padding-right: 0;
+		margin-right: 0;
+		padding-top: 0;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.contenido-item .icono{
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+	
+	.contenido-item .cifra{
+		font-size: 18px;
+		color: #000;
+		font-family: 'ceraBold';
+	}
+	.why h3{
+		font-size: 18px;
+	}
+	
+	.ventajas-page .why li .title{
+		width: calc(100% - 75px);
+	}
+	.ventajas-page .why li .descripcion{
+		width: 100%;
+	}
+	
+	.ventajas-page{
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+	
+	.convalida{
+		padding-top: 20px;
+	}
+}

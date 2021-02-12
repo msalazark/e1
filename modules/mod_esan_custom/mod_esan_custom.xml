@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_esan_custom</name>
+	<creationDate>2020-10-22</creationDate>
+	<author>Attach</author>
+	<authorEmail>lgarcia@attachmedia.com</authorEmail>
+	<authorUrl>http://attachmedia.com</authorUrl>
+	<version>0.1.0</version>
+	<description>Contenido HTML simple.</description>
+	<files>
+		<filename module="mod_esan_custom">mod_esan_custom.php</filename>
+		<filename>mod_esan_custom.xml</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_esan_custom.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_esan_custom.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="html_code" filter="raw" type="textarea" default="" label="Código HTML" cols="20" rows="5" description="Codigo HTML/CSS/JS" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'ceraBold';
+    src: url('cera-bold-webfont.woff2') format('woff2'),
+         url('cera-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ceraMedium';
+    src: url('cera-medium-webfont.woff2') format('woff2'),
+         url('cera-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ceraRegular';
+    src: url('cera-regular-webfont.woff2') format('woff2'),
+         url('cera-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

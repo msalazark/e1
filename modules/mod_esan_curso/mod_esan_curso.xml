@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_esan_curso</name>
+	<creationDate>2020-08-11</creationDate>
+	<author>Attach</author>
+	<authorEmail>lgarcia@attachmedia.com</authorEmail>
+	<authorUrl>http://attachmedia.com</authorUrl>
+	<version>0.1.3</version>
+	<description>Obtiene la información de un curso para ser usado en código html/php. Los datos se guardan en la variable `$curso`.</description>
+	<files>
+		<filename module="mod_esan_curso">mod_esan_curso.php</filename>
+		<filename>mod_esan_curso.xml</filename>
+		<filename>helper.php</filename>
+		<folder>models</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_esan_curso.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_esan_curso.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_esan_curso/models/fields">
+			<fieldset name="basic">
+				<field name="curso_id" type="Curso" label="Curso" description="Esan Curso" />
+				<field name="html_code" filter="raw" type="textarea" default="" label="Código HTML/PHP" cols="20" rows="5" description="Codigo HTML/PHP/CSS/JS" />
+				<field name="dump_js" type="radio" class="btn-group btn-group-yesno" default="0" label="Mostrar variable javascript" description="Se agregará la variable javascript `EsanCurso`">
+					<option value="0">No</option>
+					<option value="1">Sí</option>
+				</field>
+				<field name="programas" type="radio" class="btn-group btn-group-yesno" default="0" label="Cargar programas" description="Cargar el listado de ciudades disponobles del curso">
+					<option value="0">No</option>
+					<option value="1">Sí</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

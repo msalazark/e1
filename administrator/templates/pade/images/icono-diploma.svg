@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="131px" height="120px" viewBox="0 0 131 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PADE-DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-Home-(PADE---Desktop)" transform="translate(-1063.000000, -3706.000000)" fill="#FFFFFF" stroke="#555555" stroke-width="3">
+            <g id="Group-15" transform="translate(1065.000000, 3708.000000)">
+                <polyline id="Path-28" points="50.5597098 93 50.5597098 115.284598 63.5 109.466518 77.0385045 115.284598 77.0385045 92.0251116"></polyline>
+                <rect id="Rectangle" x="0" y="0" width="127" height="87" rx="8"></rect>
+                <path d="M20.6940119,10 C49.4213256,10 78.1486393,10 106.875953,10 C106.875953,15.4010404 110.250635,18.9347373 117,20.601091 L117,66.5990237 C110.567612,67.4181659 106.980699,70.885158 106.239261,77 C77.6654721,77 49.0916833,77 20.5178946,77 C19.6785964,77 19.6785964,66.5 10,66.2950545 C10,43.5 10,43.5 10,20.6134141 C21.8421117,18.4204201 19.7960079,10 20.6940119,10 Z" id="Rectangle"></path>
+                <circle id="Oval" cx="63.5" cy="82.5" r="16.5"></circle>
+                <circle id="Oval" cx="63.5" cy="82.5" r="10.5"></circle>
+                <line x1="34.1054688" y1="32" x2="93.0262277" y2="32" id="Path-31-Copy" stroke-linecap="round"></line>
+                <line x1="47" y1="22" x2="77" y2="22" id="Path-31-Copy-2" stroke-linecap="round"></line>
+                <line x1="34.1054688" y1="42.249442" x2="93.0262277" y2="42.249442" id="Path-31" stroke-linecap="round"></line>
+                <line x1="34.1054688" y1="54.1919643" x2="43.7142857" y2="54.1919643" id="Path-32" stroke-linecap="round"></line>
+                <line x1="83" y1="54.1919643" x2="92.608817" y2="54.1919643" id="Path-32-Copy" stroke-linecap="round"></line>
+                <circle id="Oval" cx="63.5" cy="54.5" r="4.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

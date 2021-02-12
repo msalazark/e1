@@ -1,0 +1,497 @@
+
+/* slider --------- */
+
+.genits-slider .evento-tipo {
+	display: inline-block;
+	background: #008FFE;
+	color: white;
+	padding: 0 0.5rem;
+	height: 28px;
+	border-radius: 14px;
+	font-size: 1.25rem;
+}
+
+
+/* elemento listado --------- */
+
+.evento {
+	flex-direction: row;
+}
+
+.evento .genit-img {
+	width: 30%;
+	height: auto;
+	border-radius: 10px 0 0 10px;
+}
+
+.evento .evento-tipo {
+	font-size: 0.875rem;
+	margin-bottom: 0.5rem;
+}
+
+.evento-icon {
+	margin: 0.75rem 0;
+	padding-left: 1.5rem;
+	background-repeat: no-repeat;
+	background-size: 1rem 1rem;
+	font-size: 0.875rem;
+}
+
+.evento-fecha {
+	background-image: url(/images/evento/calendar.svg);
+}
+
+.evento-lugar {
+	background-image: url(/images/evento/location.svg);
+}
+
+.evento-hora {
+	background-image: url(/images/evento/clock.svg);
+}
+
+.evento-costo {
+	background-image: url(/images/evento/coins.svg);
+}
+li:hover #hover-facebook {
+    display: block;
+}
+li:hover #hover-facebook-ocultar {
+    display: none;
+}
+#hover-facebook {
+    display: none;
+    position: absolute;
+    left: 34px;
+    top: 33px;
+}
+li:hover #hover-twiter {
+    display: block;
+}
+li:hover #hover-twitter-ocultar {
+    display: none;
+}
+#hover-twiter {
+    display: none;
+    position: absolute;
+    left: 34px;
+    top: 29%;
+    width: 54%;
+}
+li:hover #hover-youtube {
+    display: block;
+}
+li:hover #hover-youtube-ocultar {
+    display: none;
+}
+#hover-youtube {
+    display: none;
+    position: absolute;
+    left: 34px;
+    top: 42%;
+    width: 48%;
+
+}
+
+li:hover #hover-instagram {
+    display: block;
+}
+li:hover #hover-instagram-ocultar {
+    display: none;
+}
+#hover-instagram {
+    display: none;
+    position: absolute;
+    left: 34px;
+    top: 56%;
+    width: 44%;
+
+}
+#hover-linkedin {
+    display: none;
+    position: absolute;
+    left: 34px;
+    top: 70%;
+    width: 55%;
+
+}
+li:hover #hover-linkedin {
+    display: block;
+}
+li:hover #hover-linkedin-ocultar {
+    display: none;
+}
+.evento h1 {
+	font-weight: bold;
+	color: #000;
+	font-size: 2rem;
+	line-height: 1.2;
+	padding-top: 55px;
+}
+#author-event{
+	margin-top: 20px;
+	font-weight: 500;
+	color: #000;
+}
+#img-evento{
+	position: relative;
+	left: 10%;
+}
+.borde-evento{
+	border-radius: 12px;
+	border: solid 0.5px #979797;
+	margin-top: 80px !important;
+	width: 100%;
+	margin: auto;
+	vertical-align: middle;
+	position: relative;
+	height: 100px;
+	margin-bottom: 40px;
+
+}
+a.genit-btn.outline {
+	margin-top: -10px;
+}
+#tercer-bloque{
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+#img-evento2{
+	position: relative;
+	right: 10%;
+}
+#content-event p {
+	font-size: 16px;
+}
+#costo {
+    position: relative;
+    top: 40%;
+    font-size: 16px;
+}
+#content-event h2{
+	font-size: 20px;
+}
+#content-event{
+	padding-top: 80px;
+}
+.borde-docente-eve {
+	width: 100%;
+	border-radius: 12px;
+	border: solid 1px #979797;
+	margin-top: 25px;
+}
+.img-docent-eve {
+	width: 20%;
+	float: left;
+}
+.img-docent-eve img{
+	width: 80%;
+	border-radius: 10px 0 0 10px;
+}
+#docente{
+	padding-bottom: 50px;
+}
+.conten-doce {
+	width: 80%;
+	float: right;
+	padding: 30px;
+	padding-top: 5%;
+}
+.conten-doce h3 {
+	font-weight: bold;
+	color: #000;
+}
+.conten-doce p {
+	font-size: 16px;
+}
+.top-evento{
+	display: none;
+}
+#location{
+	background-image: url(/images/evento/location.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	position: absolute;
+	top: 40%;
+	background-position-x: 9px;
+	font-size: 16px;
+}
+#data{
+	font-size: 16px;
+	background-image: url(/images/evento/calendar.svg);
+	background-repeat: no-repeat;
+	background-size: 12%;
+	padding-left: 30px;
+	position: absolute;
+	top: 40%;
+}
+#hours{
+	font-size: 16px;
+	background-image: url(/images/evento/hours.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 30px;
+	position: absolute;
+	top: 40%;
+}
+#boton-even{
+	position: absolute;
+	top: 24%;
+	margin-top: 0px;
+	height: auto;
+	right: 35px;
+}
+.borde-evento > div > div {
+	height: 80px;
+}
+
+@media (max-width: 960px) {
+	.top-evento {
+		display: block;
+		background-image: url(/images/eventos/24P9CV.png);
+		height: 197px;
+		border-bottom-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+		background-size: cover;
+		color: #fff;
+		margin-bottom: 25px;
+	}
+	.top-evento h1 {
+		color: #fff;
+		font-size: 22px;
+	}
+	.top-evento p {
+		color: #fff !important;
+	}
+	#descripcion-event h1{
+		display: none;
+	}
+	#descripcion-event #seminario{
+		display: none;
+	}
+	#img-evento{
+		display: none;
+	}
+	#tercer-bloque {
+		padding-top: 0px;
+	}
+	#content-event {
+		padding-top: 40px;
+	}
+	.borde-docente-eve {
+		max-width: 360px;
+		margin: auto;
+		margin-top: 23px;
+	}
+	.img-docent-eve img {
+		width: 100%;
+		border-radius: 50%;
+		margin: 15px;
+		margin-top: 25px;
+		height: 70px;
+	}
+
+	.order {
+		order: 2;
+		margin-top: 40px;
+	}
+
+	.submenu {
+		display: none;
+	}
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* FORM REGISTROS */
+
+.evento-form > .genits-title {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.evento-form > p {
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+
+.evento-form .effields {
+	margin-top: 32px;
+}
+
+.evento-form .efentry {
+	margin-bottom: 26px;
+}
+
+.evento-form .efentry-box input,
+.evento-form .efentry-box select {
+	display: block;
+	border-radius: 10px;
+	border: 1px solid #EEEEEE;
+	background: white;
+	padding: 0 0 0 20px;
+}
+::placeholder { color: #687983; }
+.evento-form .efentry-box input:focus,
+.evento-form .efentry-box select:focus {
+	border-color: #92C8E5;
+}
+
+.evento-form .efentry-box input {
+	width: 100%;
+}
+
+.evento-form .efentry-2-col {
+	display: flex;
+	justify-content: space-between;
+}
+
+.evento-form .efentry-2-col select {
+	flex-shrink: 0;
+	flex-grow: 0;
+	width: calc(35% - 26px);
+}
+
+.evento-form .efentry-2-col input {
+	flex-shrink: 0;
+	flex-grow: 0;
+	width: 65%;
+}
+
+.evento-form .efentry-checkbox {
+	font-size: 16px;
+}
+
+.evento-form .efentry-checkbox em {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+
+.evento-contact h3 {
+	font-weight: bold;
+	color: black;
+}
+
+.evento-contact h3,
+.evento-contact p {
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+
+@media (max-width: 959px) {
+	.evento-suscribe {
+		position: relative;
+		margin-top: 200px;
+		margin-bottom: 40px;
+		padding: 60px 20px 30px 20px;
+		background: #EEEEEE;
+		border-radius: 12px;
+	}
+
+	.evento-suscribe::before {
+		display: block;
+		content: '';
+		width: 100%;
+		height: 260px;
+		position: absolute;
+		left: 0;
+		top: -220px;
+		background: url(/images/evento/form-registro-bg.png) no-repeat center bottom;
+		background-size: 90% 260px;
+	}
+
+	.evento-form .efentry {
+		margin-bottom: 16px;
+	}
+
+	.evento-form .efentry-2-col select {
+		width: calc(40% - 16px);
+	}
+
+	.evento-form .efentry-2-col input {
+		width: 60%;
+	}
+
+	.evento-form .efentry-checkbox input {
+		width: auto;
+	}
+
+	.evento-form .efentry-button button {
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 959px) {
+
+	.evento-suscribe {
+		display: flex;
+		position: relative;
+		min-height: 810px;
+		margin-bottom: 60px;
+	}
+
+	.evento-suscribe::before {
+		display: block;
+		content: '';
+		width: 75%;
+		height: 100%;
+		background: #EEEEEE;
+		border-radius: 12px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1;
+	}
+
+	.evento-form {
+		width: 50%;
+		z-index: 2;
+		padding: 50px 40px;
+	}
+
+	.evento-form .efentry-box input,
+	.evento-form .efentry-box select {
+		height: 48px;
+	}
+
+	.evento-contact {
+		position: relative;
+		width: 50%;
+		background: url(/images/evento/form-registro-bg.png) no-repeat right 0 bottom 20px;
+		background-size: contain;
+		z-index: 2;
+	}
+
+	.evento-contact-inner {
+		position: absolute;
+		right: 20px;
+		bottom: 95px;
+		width: 300px;
+		padding: 36px 18px;
+		border: 12px;
+	}
+
+	.evento-contact-inner::before {
+		display: block;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: white;
+		border-radius: 10px;
+		transform: skewy(-7deg);
+		z-index: 1;
+	}
+
+	.evento-contact-inner > div {
+		position: relative;
+		z-index: 2;
+	}
+
+}

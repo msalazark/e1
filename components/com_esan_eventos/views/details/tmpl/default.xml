@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="ESAN Evento">
+		<message>Muestra detalle de un evento</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field name="evento" type="text" label="Alias de evento"></field>
+		</fieldset>
+	</fields>
+</metadata>

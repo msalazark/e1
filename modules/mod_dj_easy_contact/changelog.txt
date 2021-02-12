@@ -1,0 +1,44 @@
+= 1.4.9 =
++ removed HTML tags from email messages
++ fixed reCaptcha integration
+
+= 1.4.8 =
++ added redirect option after form submit
+
+= 1.4.7 =
++ added consent checkbox
+
+= 1.4.6 =
++ added Invisible Captcha
+
+= 1.4.5 =
++ added possibilty to enable few DJ-EasyContact modules on the same subpage 
++ added multilanguage captcha
++ CSS fixes for templates with Bootstrap 3
+
+= 1.4.4 =
++ fixed wrong image URL when CSS is compressed (style 5)
++ fixed hidden labels for some templates (style 5)
++ removed W3C validation error
+
+= 1.4.3 =
++ alert-error message after form successfully submit
++ added new style 5 - modal view
+
+= 1.4.2 =
++ fixes for Litespeed servers with PHP 5.6 and above
+
+= 1.4.1 =
++ remove HTML output in alert window when DJ EasyContact is loaded in some module positions
+
+= 1.2 =
++ remove NOTICE message (if Error Repoting was enabled)
++ add field "Name" to email message for admin
+
+= 1.1 =
++ AJAX form submitting
++ 'thank you' message
++ possibility of change senders name
++ built-in styles
++ Load jQuery parameter
++ JavaScripts validation

@@ -1,0 +1,116 @@
+.boton-flotante-general { display: none !important; }
+
+/*404*/
+
+.error {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.error .intro > h2 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.link-404 {
+    padding-top: 40px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.link-404 a {
+    margin-bottom: 12px;
+}
+.noti-404 h2 {
+    font-size: 28px;
+}
+.noti-404 span {
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+}
+.btn-rojo{
+	background-color: #CF0F11;
+    border-color: #CF0F11;
+    width: 40%;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+div#noti-404 h2 {
+    color: #555555;
+    margin-top: 50px;
+    font-size: 28px;
+}
+footer h2::before, .intro h2::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 20px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #CF0F11;
+    margin-right: 10px;
+}
+#link-404 > a {
+    color: #d11f3e;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+#link-404 > a:after {
+    content: url(/images/maestrias/icon-forward.svg);
+    padding-left: 15px;
+}
+.img-404 {
+    width: 20%;
+    height: 74%;
+    float: left;
+    position: absolute;
+    left: 3%;
+    top: 18%;
+}
+.contenido-404 {
+    width: 77%;
+    float: right;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+.contenido-404 h4{
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+.img-404 img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 100%;
+}
+.fecha-404 {
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #c5c5c5;
+    width: 30%;
+    color: #000;
+    font-weight: bold;
+}
+.borde-404 {
+    display: block;
+    border-radius: 12px;
+    border: solid 1px #979797;
+    background-color: #ffffff;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    float: left;
+    height: 75%;
+    margin-top: 30px;
+}
+.error {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-image: url(/images/404/arbol.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}

@@ -1,0 +1,87 @@
+.dj-simple-contact-form.style-4 .error-dj-simple-contact-form{
+	color:red;
+}
+.dj-simple-contact-form.style-4 .inputbox{
+    background: none repeat scroll 0 0 #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #acacac;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 0 10px;
+    padding: 0 1px 0 16px;
+    width: 100%;
+}
+.dj-simple-contact-form.style-4 textarea{
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    background: none repeat scroll 0 0 #f2f2f2;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #acacac;
+    height: 100px;
+    line-height: 50px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0 0 10px;
+    padding: 0 1px 0 16px;
+    width: 100%;
+}
+.dj-simple-contact-form.style-4 .inputbox::-webkit-input-placeholder,
+.dj-simple-contact-form.style-4 textarea::-webkit-input-placeholder {
+	color: #acacac;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+.dj-simple-contact-form.style-4 .inputbox::-moz-placeholder,
+.dj-simple-contact-form.style-4 textarea::-moz-placeholder {
+	color: #acacac;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+.dj-simple-contact-form.style-4 .inputbox:-moz-placeholder,
+.dj-simple-contact-form.style-4 textarea:-moz-placeholder {   /* Older versions of Firefox */
+	color: #acacac;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+.dj-simple-contact-form.style-4 .inputbox:-ms-input-placeholder,
+.dj-simple-contact-form.style-4 textarea:-ms-input-placeholder { 
+	color: #acacac;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+.dj-simple-contact-form.style-4 .button-box{
+	text-align: right;
+}
+.dj-simple-contact-form.style-4 .dj-simple-contact-form.button {
+    background: none repeat scroll 0 0 #35adeb;
+    border: medium none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5px;
+    text-transform: uppercase;
+    width: 50%;
+}
+.dj-simple-contact-form.style-4 .dj-simple-contact-form.button:hover,
+.dj-simple-contact-form.style-4 .dj-simple-contact-form.button:focus{
+	background:#236a8e;
+}
+.dj-simple-contact-form.style-4 .dj-simple-contact-form-introtext{
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 5px;
+    text-align: center;	
+}
+.captcha-box{
+	margin:0 0 10px;
+}

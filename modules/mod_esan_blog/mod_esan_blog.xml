@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_esan_blog</name>
+	<creationDate>2020-06-15</creationDate>
+	<author>Attach</author>
+	<authorEmail>lgarcia@attachmedia.com</authorEmail>
+	<authorUrl>http://attachmedia.com</authorUrl>
+	<version>0.3.0</version>
+	<description>Muestra lista de artículos de un blog</description>
+	<files>
+		<filename module="mod_esan_blog">mod_esan_blog.php</filename>
+		<filename>mod_esan_blog.xml</filename>
+		<filename>helper.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_esan_blog.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_esan_blog.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_esan_blog/models/fields">
+			<fieldset name="basic">
+				<field name="blog_id"         type="Blog"         label="Blog"></field>
+				<field name="especialidad_id" type="Especialidad" label="Especialidad"></field>
+				<field name="categoria_id"    type="Categoria"    label="Categoría"></field>
+				<field name="usuario_id"      type="Autor"        label="Autor"></field>
+
+				<field name="destacados"      type="radio"    label="Solo destacados" default="0" class="btn-group btn-group-yesno"><option value="0">No</option><option value="1">Sí</option></field>
+				<field name="limite"          type="number"   label="Cantidad" default="5" min="1" max="100" step="1" />
+				<field name="menu_item"       type="menuitem" label="Menu Item" default="" description="Memú item del blog" published="1" />
+				<field name="template"        type="textarea" label="Plantilla" filter="raw" cols="20" rows="10" description="Está disponible la variable $articulos" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

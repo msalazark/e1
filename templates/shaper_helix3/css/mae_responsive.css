@@ -1,0 +1,3504 @@
+	@media (max-width: 1920px){
+  .internacionalizacion {
+    min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.tabs-cuarto-esan li {
+    width: 25% !important;
+}
+.slick-slide img {
+    height: 200px;
+}
+  .slide-internacional-semana .slick-initialized .slick-slide {
+    width: 17%;
+}
+      .online-info h1 {
+    margin-top: -34% !important;
+}
+.online-info {
+    height: 600px;
+}
+      .online-slider {
+    margin-top: -27%;
+}
+#video-internacionalizacion-banner {
+    position: absolute;
+    top: 56%;
+    right: 45%;
+}
+ #internacional-menu ul {
+    padding-top: 0px;
+    width: 80%;
+    margin-top: -19px;
+}
+.acerca-mba {
+    padding-top: 50px;
+}
+   #internacional-menu .page-title {
+    width: 20%;
+    font-size: 25px;
+    padding-top: 5px;
+    float: left;
+}
+.exp-item .imagen > img {
+    width: 100%;
+}
+      .experiencias .exp-item {
+        height: 500px;
+      }
+ .acerca-mba .btn {
+    margin-top: 0px;
+}
+   #hover-linkedin {
+    left: -8px;
+    top: -17%;
+    width: 67%;
+}
+.imagen-docente {
+
+    width: 80%;
+}
+      #hover-youtube {
+    left: 1px;
+    top: 1%;
+    width: 60%;
+}
+      #hover-instagram {
+    left: 0px;
+    top: 2%;
+    width: 58%;
+}
+      #hover-facebook {
+    left: -7px;
+
+}
+      #hover-twiter {
+    left: -3px;
+    top: -7%;
+    width: 70%;
+}
+  .card-item .content .logo img {
+    height: 59px;
+}
+  .imagen-horario img {
+    width: 70%;
+    position: relative;
+    right: -10%;
+}
+.slide-ranking-22 .slider .item {
+    width: 100%;
+    max-width: 200px;
+}
+  .modulo-malla h4 {
+    font-size: 20px;
+}
+  .sub-header {
+    height: 107px;
+
+}
+  #internacional-menu {
+    padding-top: 53px;
+}
+}
+@media (max-width: 1440px){
+	#ventajas {
+    margin-top: 40px;
+	}
+  .online-info .row {
+    margin-top: -19%;
+}
+  .malla-mba-modulos {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+  .acerca-mba {
+    padding-top: 33px;
+}
+  .online-info h1 {
+    margin-top: -10% !important;
+}
+  .online-info {
+    margin-bottom: 40px !important;
+    padding-top: 0px;
+}
+  .online-slider {
+    margin-top: -13%;
+}
+  #internacional-menu ul {
+    padding-top: 0px;
+    width: 80%;
+}
+  .malla {
+    padding: 0;
+    margin-top: 40px;
+}
+  #video-internacionalizacion-banner {
+    top: 50%;
+}
+  .docentes {
+    margin-top: 50px;    margin-bottom: 0px;}
+  .experiencias .exp-item {
+        height: 400px;
+      }
+  .acerca-mba .btn {
+    margin-top: 10px !important;
+        border-radius: 20px;
+    border: solid 1px #d09b3e;
+    background-color: #ffffff !important;
+    float: right;
+        color: #000 !important;
+    
+}
+  .slide-ranking-22 .slider .item {
+    width: 100%;
+    max-width: 140px;
+}
+  #internacional-menu {
+    padding-top: 45px;
+
+}
+	.internacionalizacion {
+    min-height: calc(100vh - 240px);
+	}
+  .submenu li > a:not(.btn) {font-size: 15px;}
+  .menu-header-bottom .submenu {
+    padding-top: 14px;
+    width: 91% !important;
+    float: right;
+}
+
+}
+@media (max-width: 1370px){
+	.submenu li > a:not(.btn) {
+    font-size: 14px !important;
+}
+  .horario-mba {
+    margin-top: 5%;
+}
+  .nav-tabs .nav-item {
+    display: contents;
+}
+  .nav-tabs .nav-link {
+    height: 100px;
+}
+  #hover-linkedin {
+    left: 6px;
+    width: 80%;
+}
+  #hover-instagram {
+    left: 11px;
+    width: 65%;
+}
+  #hover-youtube {
+    left: 8px;
+    width: 76%;
+}
+  #hover-facebook {
+    left: 0px;
+}
+  #hover-twiter {
+    left: 4px;
+    width: 91%;
+}
+  .menu-header-bottom .submenu {
+    padding-top: 14px;
+    width: 91% !important;
+    float: right;
+}
+.maestria-info .evento {
+    margin-left: -55% !important;
+}
+}
+@media (max-width: 1360px) {
+  .maestria-info .evento {
+    margin-left: -50% !important;
+}
+}
+@media screen and (device-height: 1366px) {
+.online-info .container {
+    padding-bottom: 0px !important;
+    padding-top: 0px;
+    min-height: 120%;
+}
+  .internacional {
+    margin-bottom: 40px;
+    height: 500px;
+}
+  #video-internacionalizacion-banner {
+    top: 46%;
+}
+}
+@media screen and (device-height: 1024px){
+.maestria-info .title {
+    color: #fff !important;
+}
+  .maestria-info .content h1 {
+    margin-top: 10%;
+}
+  .duracion-horarios > .imagen{
+        z-index: 1;
+  }
+  .duracion-horarios .content {
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 12px;
+}
+  .duracion-horarios .container{
+    z-index: 9;
+  }
+  #mallaTabsContent {
+    width: 71.6%;
+    margin-bottom: 20px;
+}
+.maestria-info .content h1 {
+    font-size: 36px !important;
+    line-height: 30px !important;
+}
+  .cuadro-art {
+    height: 314px;
+    margin-bottom: 60px;
+}
+  #mooc-slider .slick-arrow {
+    top: 107% !important;
+}
+  #mooc-slider .slick-dots{
+    top: 107% !important;
+  }
+  #mooc-online-btn {
+    top: 200% !important;
+    left: 0px !important;
+    z-index: 999;
+}
+div#online-slider .slick-dots {
+    top: 90% !important;
+}
+div#online-slider .slick-arrow {
+    top: 90% !important;
+}
+  .online-info .content {
+    top: -22% !important;
+    margin-top: 40% !important;
+}
+  div#video-online-2 {
+    margin-top: 45% !important;
+}
+  .experiencia .calendario {
+    width: 100%;
+    border-left: none;
+    padding-bottom: 40px;
+}
+  .experiencia .content {
+    width: 100%;
+}
+  .inversion > .imagen {
+    display: none;
+}
+  #especialidadesTabs .nav-link {
+    font-size: 14px !important;
+}
+  .modulo-malla {
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 122px;
+}
+  .internacionalizacion {
+    padding-bottom: 20px;
+}
+  .ventajas .video{
+    display:none !important;
+  }
+div#internacional-carusel {
+    margin-top: 40%;
+}
+  .maestria-info > .container .imagen{
+    height:auto !important;
+  }
+#palabra-internacional {
+    margin-top: -70px!important;
+}
+  .caja-palabras-dorector {
+    margin-top: -90px;
+}
+  .video-inter {
+    margin-top: 34px !important;
+}
+
+}
+@media screen and (device-height: 823px) {
+
+.slider-certifiado .slick-dots {
+    top: 190% !important;
+}
+  .slide-ranking .slick-slide img {
+    width: 250px !important;
+}
+#online-slider-responsive {
+    top: 100% !important;
+}
+  div#video-online-2 {
+    margin-top: 73% !important;
+}
+}
+@media screen and (device-height: 812px) 
+{
+.online-info .content {
+    top: 0% !important;
+}
+  .slider-certifiado .slick-arrow {
+    top: 190% !important;
+}
+  .slider-certifiado .slick-dots{
+     top: 190% !important;
+  }
+  .online-slider {
+    margin-top: -5% !important;
+}
+  #online-slider-responsive {
+    top: 100%;
+}
+.online-info {
+    height: 460px !important;
+}
+  
+.online-info .content h1 {
+    line-height: 33px !important;
+    margin-bottom: 21px;
+    margin-top: 51px !important;
+}
+}
+@media screen and (device-height: 731px) {
+
+#online-slider-responsive {
+    top: 95% !important;
+}
+div#video-online-2 {
+    margin-top: 83% !important;
+}
+.slider-certifiado .slick-dots {
+    top: 190% !important;
+}
+}
+
+@media screen and (device-height: 736px) {
+
+.slider-certifiado .slick-dots {
+    top: 190% !important;
+}
+
+}
+@media screen and (device-height: 640px){
+
+#online-slider-responsive {
+    top: 100% !important;
+}
+}
+@media screen and (device-height: 667px){
+
+  #online-slider-responsive {
+    top: 90% !important;
+}
+.slider-certifiado .slick-dots {
+    top: 270px !important;
+}
+.slider-certifiado .slick-arrow {
+    top: 270px !important;
+}
+}
+
+@media screen and (device-height: 736px) {
+
+  #online-slider-responsive {
+    top: 150% !important;
+}
+
+}
+@media screen and (device-height: 568px) {
+
+#online-slider-responsive {
+    top: 54% !important;
+}
+
+}
+@media (max-width: 1200px){
+  .submenu li > a:not(.btn) {
+    font-size: 13px !important;
+}
+}
+@media (max-width: 1025px) {
+  #sp-header {
+    height: 70px;
+}
+  .parrafo-mba {
+    top: 20%;
+}
+  .info-mba {
+    margin-top: 9%;
+    padding-bottom: 40px;
+}
+.logo-mba-info {
+    padding-bottom: 5px;
+}
+.btn-ppal-mba {
+    width: 32%;
+    margin-top: -6%;
+}
+  .btn-mba-informacion {
+    margin-left: 20px;
+}
+  #informacion {
+    margin-top: 10%;
+}
+  ol.breadcrumb {
+    left: 17%;
+}
+.nav-item {
+    padding-left: 9px !important;
+}
+  #video-internacionalizacion-banner {
+    top: 48%;
+}
+  #internacional-menu {
+    padding-top: 21px;
+}
+#internacional-menu .page-title {
+    width: 16%;
+    font-size: 20px;
+    padding-top: 9px;
+    float: left;
+}
+#internacional-menu ul > li {
+    margin: 0 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 22px;
+}
+  #mooc-online {
+    padding-bottom: 40%;
+}
+.site-header {
+    height: 70px;
+}
+  #menu-edux .submenu .nav-item {
+    padding-left: 5px;
+}
+#sp-header .logo {
+    width: 10%;
+    height: 40px;
+}
+.mba-menu-principal .submenu {
+    float: left;
+    top: 70px;
+    width: 100%;
+    padding-left: 2%;
+    position: fixed;
+    left: 0;
+    overflow: hidden;
+    overflow-x: auto;
+    background-color: #F7F7F7;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+    padding-top: 5%;
+    margin: auto;
+    text-align: center;
+}
+  .mba-menu-principal .nav-item {
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+.sp-module ul >li >a {
+    line-height: 25px;
+}
+  .idioma {
+    margin-right: 0px;
+}
+.submenu li {
+    margin-left: 5px;
+}
+.submenu li > a:not(.btn) {
+    font-size: 13px !important;
+}
+  .btn-close, .btn-trigger {
+    width: 30px;
+    height: 30px;
+}
+.mba-menu-principal .d-flex.align-items-center {
+    padding-top: 0px !important;
+}
+  .info-mba h3 {
+    font-size: 20px;
+    line-height: 9px;
+}
+.info-mba h4 {
+    font-size: 16px;
+}
+.cuadro-info-mba {
+    padding: 15px;
+    margin-top: -12px;
+}
+}
+@media (max-width: 960px){
+  .primera-opcion {
+    width: 45%;
+    margin-top: 26px;
+    float: left;
+    margin: 5px;
+}
+  .movil-img img {
+    border-radius: 12px;
+    position: relative;
+    left: 5%;
+    text-align: center;
+}
+  .banner-semana {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+  .btn-ppal-mba {
+    width: 27%;
+    margin-top: -3%;
+    left: 0px !important;
+}
+  ol.breadcrumb {
+    top: 87px;
+    left: 7% !important;
+}
+  .tabla-ppal {
+    width: 46%;
+}
+  #btn-descripcion-malla {
+    position: relative;
+    top: -11%;
+}
+  #btn-descripcion-malla {
+    display:block;
+  } 
+  h3#ranking-text {
+    color: #fff !important;
+}
+  .online-info .content {
+    position: relative;
+    top: -60%;
+}
+  .online-info {
+    height: 502px !important;
+}
+  .sub-header {
+    height: 73px;
+}
+  #internacional-menu .page-title {
+    font-size: 17px;
+    padding-top: 0px;
+    float: left;
+    color: #5c5c5c;
+    padding-left: 15px;
+        display: none;
+}
+  #internacional-menu ul > li {
+    margin-top: -7px;
+}
+#internacional-menu {
+    height: 60px;
+    z-index: 999;
+    top: 70px;
+    padding-top: 15px;
+}
+#internacional-menu ul {
+    padding-top: 10px;
+    width: 100%;
+    padding-left: 10px;
+}
+  section#curso-online h2 {
+    margin-top: 30px;
+}
+  li {
+    font-size: 14px;
+}
+  .tabla-ppal {
+    display: block;
+    overflow-x: scroll;
+}
+  span.title-breadcrumbs {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 5px;
+}
+section#sp-breadcrumbs {
+    display: block !important;
+    position: absolute;
+    top: 37px;
+    padding: 20px;
+}
+  .breadcrumb>li+li:before{
+  display: none;
+}
+  section#docentes .col-lg-5 {
+    display: none;
+}
+  img#dipl-res {
+    position: relative;
+    top: 20px;
+}
+  .btn-inversion {
+    border-bottom: 0.5px solid #C8C8C8;
+    width: 100%;
+}
+  .descripcion {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+}
+.diploma-pade-ico {
+    float: left;
+}
+.descripcion {
+    text-align: left;
+    margin-top: 0;
+    float: right;
+    width: 100%;
+}
+  #sp-header a:hover {
+    color: #000;
+}
+  #sp-header a {
+    font-weight: 600;
+}
+  .form-group {
+    margin-bottom: 13px;
+}
+ i.icon.icon-next {
+    position: relative;
+    top: 5px;
+    left: 15px
+} 
+#menu-maestria-ppal .submenu {
+    position: fixed;
+    top: 65px !important;
+    padding-left: 17%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#menu-maestria-ppal .submenu ul {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+  .info-educacion-ejecutiva a {
+    line-height: 22px !important;
+}
+  #menu-edux .submenu {
+    position: fixed;
+    top: 71px;
+    height: auto !important;
+    padding: 0px;
+    padding-left: 3%;
+}
+  #menu-edux .submenu {
+    position: fixed;
+    top: 71px;
+}
+.info-mba h3 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 21px;
+}
+  .sp-module ul >li >a {
+    line-height: 18px;
+}
+  #sp-header .logo {
+    width: 40%;
+}
+  .mba-menu-principal .submenu {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    padding-left: 2%;
+}
+  .en-que-consiste {
+    padding-bottom: 0px;
+}
+  .certificado-online img {
+    height: auto;
+}
+  #curso-online > div > div > div > div > div > div.imagen.col-lg-6 > img {
+    display: none;
+}
+section#curso-online {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    min-height: auto;
+    margin-bottom: 31px;
+}
+  .experiencia {
+    padding-top: 0px;
+    margin-top: -50px;
+}
+  .inversion .action-postular {
+    margin-bottom: 0px;
+}
+  .action-postular {
+    margin-top: 0px;
+}
+  .info-educacion-ejecutiva {
+    top: 4 !important;
+}
+  #cifra-online-docentes{
+    display:none !important;
+  }
+  .comp-online .content {
+    padding-top: 5px;
+}
+.online-slider {
+    margin-top: -14%;
+}
+.primera-opcion-img {
+    width:100% !important;
+}
+.segunda-opcion-img {
+    width: 100% !important;
+}
+.segunda-opcion {
+    width: 45%;
+    margin-top: 26px;
+    float: left;
+    margin: 5px;
+}
+.tercera-opcion-img {
+    width: 100% !important;
+}
+.tercera-opcion{
+    width: 45%;
+    margin-top: 26px;
+    float: left;
+    margin: 5px; 
+}
+.cuarta-opcion-img {
+    width: 100% !important;
+}
+.cuarta-opcion {
+    width: 45%;
+    margin-top: 26px;
+    float: left;
+    margin: 5px; 
+}
+  
+  
+  .mba-menu-principal li.nav-item {
+    padding-top: 0px !important;
+    top: 2px;
+}
+  .btn-mba-informacion {
+    top: 2px;
+    color: #fff !important;
+    font-size: 14px !important;
+    margin-right: 20px;
+}
+/*Tabs*/
+  
+.nav-tabs .nav-item {
+    width: 100%;
+    display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+}
+.programa-edu-intern {
+    width: auto;
+    margin: auto;
+}
+.nav-tabs .nav-link {
+    padding: 2px !important;
+    font-size: 14px;
+    border: none;
+}
+#home-tab {
+    border: none;
+    padding: 7px !important;
+}
+#profile-tab {
+    padding: 7px !important;
+}
+a#contact-tab {
+    padding: 7px !important;
+    }
+  
+
+  
+.modulo-malla h4 {
+    font-size: 14px;
+}
+.idioma-img-internacional {
+    display: none;
+}
+  #lista-agreditaciones .intro {
+    padding-top: 10px !important;
+}
+  div#ranking-acreditaciones {
+    display: none;
+}
+  #slider-agreditaciones {
+    display: block !important;
+    margin-bottom: 34px;
+}
+  #lista-agreditaciones .n-curso-caja {
+    border: none;
+    padding: 0px;
+}
+  #agreditaciones-internacional img {
+    display: none;
+}
+  img#img-doble-internacional {
+    display: none;
+}
+  .seminario.doble-grado-internacionalizacion {
+    margin-top: -39%;
+}
+  #img-inter{
+    display: none;
+  }
+  img#desk-cont {
+    display: none;
+}
+#movi-cont {
+    display: block;
+    width: 100%;
+    height: auto;
+    left: -10%;
+}
+  .info-semana .container {
+    width: 100%;
+    max-width: 330px;
+    margin-top: 30px;
+}
+  .info-semana p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+  .info-semana h2 {
+    font-size: 20px;
+}
+  #Week h4 {
+    float: right;
+    width: 70%;
+    font-weight: bold;
+}
+  #Week p {
+    margin-top: 30px;
+}
+  .semana-internacional .carousel-item {
+    padding: 0px !important;
+}
+  .semana-internacional .carousel-control-prev {
+    left: 68%;
+    top: 129%;
+}
+  .semana-internacional .carousel-item img {
+    height: auto !important;
+}
+  .semana-internacional .carousel-control-next {
+    top: 129%;
+}
+  .contenido-semana img {
+    position: relative;
+    left: -30%;
+    margin-top: 30px;
+}
+  .seminario-internacional {
+    margin-top: -27%;
+}
+  .seminario {
+    padding-top: 0px;
+  }
+  #seminario-internacionalizacion{
+    display:none;
+  }
+  #top-internacional {
+    background-image: url(/images/internacional/banner-seminario.png);
+}
+  .ventajas-internacional .ventajas-pee .btn-play {
+    top: -70%;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 38%;
+}
+  .caja-palabras-dorector {
+    padding: 30px;
+    top: 0px;
+    height: auto;
+}
+  .ventajas-internacional .ventajas-pee {
+    order: 2;
+    height: 306px;
+    position: relative;
+    left: -10%;
+}
+  #video-internacionalizacion-banner {
+    top: 40%;
+    width: 40px;
+}
+  .video-inter {
+    margin-top: -82px;
+}
+  .video-inter .exp-item {
+    transform: perspective(10px);
+}
+  #palabra-internacional .exp-item {
+    transform: perspective(10px);
+}
+  .comp-internacional .ventajas-pee {
+    order: 1;
+    margin-top: 30px;
+}
+#internacional-carusel h3 {
+    color: #000 !important;
+    margin-top: 30%;
+}
+.comp-internacional {
+    padding-bottom: 0px;
+    margin-top: 74%;
+}
+  .comp-internacional img {
+    position: relative;
+    left: -10%;
+}
+ #palabra-internacional {
+    margin-top: -40%;
+}
+.internacional {
+    margin-bottom: 0px;
+    height: auto;
+    min-height: auto;
+}
+  li.nav-item.info.info-educacion-ejecutiva {
+    position: relative;
+    top: 29px !important;
+}
+  .internacional .content {
+    background-color: transparent !important;
+}
+  #docentes .imagen-docente {
+    display: none;
+}
+.maestria-info .slide-ranking {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+  #ventajas {
+    margin-top: 0px;
+}
+  .maestria-info .title {
+    color: #000 !important;
+}
+  .maestria-info .evento {
+    margin-left: 0px !important;
+}
+  .maestria-info > .container .imagen {
+    height: 500px;
+}
+  #menu-maestria-ppal li.nav-item.info a {
+    color: #fff !important;
+}
+  #menu-maestria-ppal ul >li {
+    top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  #menu-maestria-ppal li.nav-item.info {
+    position: inherit;
+}
+  .malla-mba-modulos {
+    width: 100%;
+    margin-top: 0px
+  }
+  #periodo-tres-color {
+    background-color: #969a9c;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+  #periodo-uno-color {
+    background-color: #b28942;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  #periodo-dos-color {
+    background-color: #946200;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+  .sector-agricultura{
+    display:none;
+  }
+  #cabecera-sectores {
+    display: block;
+    width: 1882px;
+    max-width: initial;
+    position: relative;
+    left: -150%;
+}
+  #cifra-online {
+    display: none !important;
+}
+  .certificacion-online {
+    position: relative;
+    top: 100px;
+    margin-bottom: 22%;
+}
+  .online-item-1 {
+    transform-origin: left;
+        width: 580px;
+    position: relative;
+    left: -7%;
+    top: 14%;
+}
+  .online-beneficios {
+    position: relative;
+    top: -7%;
+}
+  div#video-online-2 {
+    margin-top: 45%;
+}
+  section.boletin h4 {
+    padding-left: 0px !important;
+}
+  #sp-footer1 > div > div > div > div > section > div > div > div > div > div > div > div > img {
+    width: 70% !important;
+}
+  label {
+    width: 100% !important;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+}
+#titulo-home h2 {
+    font-size: 25px;
+    line-height: 25px;
+}
+  .seminario-img {
+    position: inherit;
+    right: 0;
+    width: 100%;
+    margin-top: -60px;
+}
+  .seminario-text {
+    padding-top: 0px;
+    margin-top: 56%;
+    position: initial !important;
+}
+  .eventos-home {
+    padding-top: 40px;
+    padding-bottom: 94px;
+}
+  .conexion-home {
+    padding-top: 40px;
+}
+  .n-curso {
+    padding-top: 30px;
+  }
+  .item-sectores-2 {
+    width: 500px;
+    transform-origin: left;
+    position: relative;
+    left: -10%;
+}
+  #slider-sectores-ranking {
+    width: 100% !important;
+    margin-top: -50px;
+    right: -14%;
+}
+  .online-info .content h1 {
+    line-height: 50px !important;
+}
+  .internacional .content h1 {
+    line-height: 33px ;
+}
+  #sectores-info-ppal .content {
+    background: transparent;
+    padding-top: 0px;
+}
+  #sectores-info-ppal .container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+  .sectores-home {
+    margin-top: -112px;
+}
+  .docentes-mba .carousel-indicators li {
+    background-color: #666;
+    margin-top: -19px;
+}
+  #mba-experiencia .calendario .evento-item .evento-content .categoria {
+    color: #666;
+}
+  #mba-experiencia .calendario .evento-item .evento-content h3 {
+    color: #666;
+}
+  .mba-calendario{
+    position: absolute;
+    top: 157px;
+  }
+  #solicitud-mba-info{
+    margin-top: 70%;
+    margin-bottom: 26px;
+  }
+  #la-informacion{
+    margin-top: 20px;
+  }
+  .cuadro-inversion-mba .btn-dorado {
+    position: relative;
+    top: 56%;
+}
+  p#caja-inver-mba {
+    float: left;
+    width: 46%;
+    max-width: initial;
+}
+  .cuadro-inversion-mba {
+    margin-top: 30px;
+    margin-bottom: 51px;
+}
+  #duracion-horarios > div > div > div:nth-child(3) > img {
+    display: none;
+}
+  .parra-vent-mba {
+    position: relative;
+    top: 50px;
+    left: 7%;
+}
+  div#fortalezas {
+    border-bottom-right-radius: 50px;
+}
+  .tabs-requisitos-mba {
+    display: block;
+    margin-top: 24px;
+}
+.accordion > .card > .card-header button {
+    color: #666;
+    border-radius: inherit;
+    border: none;
+    box-shadow: none;
+    text-align: left !important;
+}
+#requisitos-mba .btn-dorado {
+    margin-bottom: 49px !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+#requisitos-mba-slider {
+    display: none;
+}
+  div#track-especialidades-mba {
+    right: 0px !important;
+    left: -5%;
+    top: 40px;
+    border-bottom-right-radius: 50px !important;
+}
+  img#mba-img-doble {
+    width: 100% !important;
+}
+
+  #intercambio-oculto-mba {
+    display: none;
+}
+.paises-intercambio {
+    display: block;
+    color: #fff;
+    background: #000;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    left: -5%;
+    border-bottom-right-radius: 50px;
+    background-image: url(/images/mapa.svg);
+    background-repeat: no-repeat;
+    background-position-y: 22px;
+}
+  #consortium-mba p {
+    margin-top: 32px;
+}
+  .acerca-mba .btn {
+    margin-top: 5px;
+}
+  #intenacional-img-mba{
+        width: 100%;
+  }
+  .innova-mba-interna h2 {
+    padding-top: 0%;
+}
+  .innova-mba-interna {
+    margin-bottom: 40px;
+    border-bottom-right-radius: 50px;
+}
+  .ventajas-mba-interna img {
+    width: 60%;
+    margin-top: 28px;
+}
+  .innova-mba-interna img {
+    margin-top: 30px;
+}
+  .contenedor-eventos {
+    padding-left: 40px;
+}
+  .resultados {
+    margin-top: 80px;
+}
+  #sect-agricultura-info2 h2 {
+    font-size: 22px;
+}
+  #sect-agricultura-info2 h1 {
+    font-size: 30px;
+}
+  #mision-vision-acerca{
+    display:none;
+  }
+.mba-slide-acerca-mi-vi{
+  display:block;
+}
+  .palabras-acerca{
+    display: block;
+    background: #000;
+    padding: 20px;
+    color: #fff;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    left: -4%;
+    margin-bottom: 33px;
+  }
+.mba-slide-acerca-logo  .carousel-item img {
+    margin: auto;
+}
+  #logo-mba-acerca {
+    display: none;
+}
+.mba-slide-acerca-logo {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.acerca-mba img {
+    display: none;
+}
+.acerca-mba {
+    padding-bottom: 40px;
+}
+.cuadro-palabras-director-mba {
+    display: none;
+}
+  #mba-experiencia .experiencias .exp-item img {
+    margin-top: 23px;
+}
+  #mba-experiencia .experiencias .exp-item {
+    height: 369px !important;
+}
+  #docentes-display{
+    display:none;
+  }
+  
+  .docentes-slider-mba{
+  display:block;
+}
+  .mba-track img {
+    display: none;
+}
+  .mba-malla-slick .slick-prev {
+    background-image: url(/images/mba/izquierda.svg);
+    right: 60px !important;
+}
+   .mba-malla-slick .slick-next {
+    background-image: url(/images/mba/derecha.svg);
+}
+ .mba-periodo-item > .content ul > li:before{
+	    background-color: #d09b3e !important;
+}
+.mba-malla-slick div.slick-slide::before {
+
+    background-color: #d09b3e !important;
+
+}
+  .mba-malla-slick {
+    margin-top: 25px;
+}
+  #img-vent-inten{
+    width: 66px;
+  }
+  .ranking-mba .slick-next {
+    background-image: url(/images/mba/derecha.svg);
+    right: 0;
+    position: relative;
+    left: 350px;
+    top: 20px;
+}
+  .ranking-mba .slick-prev {
+    background-image: url(/images/mba/izquierda.svg);
+    right: -2%;
+    position: relative;
+    top: 190px;
+}
+  .info-mba {
+    margin-top: 9%;
+    padding-bottom: 40px;
+}
+.dorado-ltr span {
+    margin-right: 40px;
+}
+.btn-modificar-custom {
+    position: relative;
+    top: 10px;
+}
+  .info-mba .img-info-mba {
+    display: none;
+}
+  	#calendario-mba {
+    border-left: none;
+    width: 100%;
+    padding: 20px;
+}
+#calendario-mba img {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+#inaguracion-mba {
+    width: 100%;
+    padding: 20px;
+}
+#calendario-mba p {
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+}
+div#reloj-mba img {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+#reloj-mba {
+    width: 100%;
+      padding: 20px;
+    border-bottom: solid rgba(204, 204, 204, 0.5) 1px;
+}
+  #question-mba p {
+    margin-left: 90px;
+}
+div#reloj-mba p {
+    margin-left: 90px;
+}
+div#question-mba {
+    width: 100%;
+    padding: 20px;
+    border-left: none;
+}
+#question-mba img {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+  .carousel-indicators {
+    top: 96%;
+}
+  #inaguracion-mba {
+
+    width: 100%;
+}
+#inaguracion-mba img {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+#inaguracion-mba p {
+    margin-right: 12px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+  #inaguracion-mba > p:nth-child(2) {
+    float: left;
+    margin-left: 15px;
+}
+    
+  .carousel-indicators li{
+    background-color: #000;
+  }
+  .cuadros-internacional-mba{
+    display:none !important;
+  }
+  .contenido-mba{
+    display:none;
+  }
+  .carousel-item {
+    padding: 40px;
+    text-align: center;
+
+}
+.internacional-mba .item {
+    max-width: 520px;
+    text-align: center;
+    margin: auto;
+    padding: 40px !important;
+    margin-top: 26px;
+    margin-right: 63px !important;
+    margin-left: 60px;
+}
+  .mba-menu-principal .submenu {
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+  .docentes-mba .col {
+    margin-bottom: 20px;
+}
+  .track-mba img {
+    margin-top: 31px;
+}
+  a.cursos-mba {
+
+    top: 103%;
+}
+  .cuadros-internacional-mba {
+    height: 50%;
+    padding: 16px;
+    margin-bottom: 30px;
+    display: inline-grid;
+}
+.cuadros-internacional-mba img {
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+  	.parrafo-mba img {
+    width: 43px;
+    margin-bottom: 10px;
+}
+.parrafo-mba h4 {
+    font-size: 16px;
+}
+.banner-internacional-mba {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.contenido-mba {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    height: auto;
+    margin-bottom: 20px;
+}
+.parrafo-mba {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: 3%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100%;
+    margin-bottom: 20px;
+}
+  .img-vent-mba {
+    margin-top: 22px;
+}
+  .parra-vent-mba {
+    margin-bottom: 22px;
+}
+  .img-ranking-mba{display:none}
+  #sect-agricultura-info2{
+    position: relative;
+    top: -148px;
+  }
+
+.seminario.agricultura-info img {
+    height: 170px;
+}
+  .img-agricultura {
+    margin-top: 53px;
+}
+.palabras .col-lg-4 {
+    display: none;
+}
+  .cifra-agricultura{
+    display:block !important;
+  }
+  .cifra-agricultura .cifra-item{
+    width: 33% !important;
+    padding: 0 !important;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+  
+  .item-responsive {
+    width: 320px;
+}
+  .slider-certificado-caja img {
+    margin: auto;
+    padding-bottom: 20px;
+}
+.slider-certifiado {
+    display: block !important;
+    top: -21px;
+    z-index: 99;
+    position: relative;
+}
+.slider-certifiado .slick-arrow {
+    position: absolute;
+    top: 190% !important;
+}
+   .slider-certifiado .slick-dots {
+    top: 88%;
+}
+  .slider-certificado-caja {
+    width: 150px !important;
+    border: none;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+  
+  .icon-number {
+
+    width: 45px;
+}
+  .cifras-docentes {
+    display: none;
+}
+#mooc-online-btn {
+    top: 188px;
+    margin-bottom: 120px;
+    left: 30%;
+}
+#fondo {
+    width: 42.6%;
+    left: 29%;
+}
+  .cuadro-art {
+    width: 300px;
+}
+  .certificado-enlace {
+    left: 17px;
+    top: 18px;
+    text-align: center;
+}
+  #mooc-slider .slick-dots{
+    top:355px;
+  }
+  #mooc-slider .slick-arrow {
+    top: 361px;
+}
+  .ventajas-pee img {
+    padding-bottom: 40px;
+}
+  .beneficios-video {
+    order: 2;
+    position: relative;
+    left: -4%;
+    margin-top: -25px;
+    margin-bottom: -40px;
+}
+  .online-slider h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+  .certificado {
+    right: 0px;
+    padding: 12px;
+}
+  #img-video-online-desktop {
+    display: none;
+}
+
+  #img-video-online-responsive{
+    display:block;
+    margin: auto;
+  }
+  #online-slider-responsive img {
+    border: solid 1px;
+    border-radius: 10px;
+}
+  .movil-home-rank {
+    display: none;
+}
+  .logos-home {
+    display: none;
+}
+  .movil-rank {
+    display: block;
+}
+  .cuadros-link {
+    padding: 15px;
+}
+  .buscador-home {
+    display: none;
+}
+  #buscador-menu-home {
+    margin-left: 65%;
+    width: 7%;
+}
+  .home1 {
+    background-position: 63%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  #buscador-movil {
+    display: block;
+    width: 100% !important;
+    top: -60px;
+    left: 18%;
+}
+  .contenedor-cuadro1 {
+    background-position: bottom;
+    background-image: url(/images/evento/programas-esan-resp-1.png);
+    border-radius: 17px;
+    padding: 20px;
+        font-size: 14px;
+}
+  .contenedor-cuadro2 {
+    background-image: url(/images/evento/programas-esan-resp-2.png);
+    border-radius: 17px;
+    margin-bottom: 30px;
+        padding: 20px;
+        font-size: 14px;
+}
+  .contenedor-cuadro3 {
+    background-image: url(/images/evento/programas-esan-resp-3.png);
+    border-radius: 17px;
+    margin-bottom: 30px;
+    height: 500px;
+    padding: 20px;
+        font-size: 14px;
+}
+  .contenedor-cuadro4 {
+    background-image: url(/images/evento/programas-esan-resp-4.png);
+    font-size: 14px;
+    border-radius: 17px;
+    height: auto;
+    padding: 20px;
+}
+  .contenedor-cuadro5 {
+    background-image: url(/images/evento/programas-esan-resp-5.png) !important;
+    font-size: 14px;
+    border-radius: 17px;
+    height: 456px;
+    padding: 20px;
+}
+  .contenedor-cuadro6 {
+    background-image: url(/images/evento/programas-esan-resp-6.png) !important;
+    font-size: 14px;
+    border-radius: 17px;
+    height: 456px;
+    padding: 20px;
+}
+  .home {
+    background-color: transparent !important;
+}
+
+#online-slider-responsive {
+    position: relative;
+    width: 100% !important;
+    top: 163%;
+    padding-left: 40px;
+}
+#especialidadesTabs > li {
+    width: 30.333%;
+}
+.especialidades-slick{
+	display: none !important;
+}
+  .imagen-horario{
+    display:none;
+  }
+  #fortalezas > div > div > div:nth-child(3) > img {
+    display: none;
+}
+  #fortalezas > div > div > div:nth-child(4) > a {
+    position: relative;
+    top: 130%;
+}
+  .container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;}
+}
+@media (max-width: 425px){
+.contenedor-eventos {
+    padding-left: 74px;
+    width: 370px;
+}
+  .programas {
+    padding-top: 20px;
+}
+  .universidad-block {
+    display: none;
+}
+  .resultados .container {
+    padding: 0px;
+}
+  .video-inter .exp-item {
+    transform: scale(1) !important;
+    margin-top: 30%;
+}
+  .internacional .slide-ranking {
+    position: absolute;
+}
+  #palabra-internacional {
+    margin-top: -15%;
+}
+  div#sp-breadcrumb {
+    margin-top: -21%;
+    margin-left: -8%;
+    color: #fff;
+}
+.breadcrumb .active {
+    color: #fff !important;
+    font-size: 14px !important;
+
+}
+.breadcrumb > li > .pathway {
+    color: #fff !important;
+    font-size: 14px !important;
+    
+}
+  #informacion {
+    margin-top: 50px;
+}
+  .tabla-ppal {
+    width: 97%;
+}
+  .icon-back-white {
+    left: 0;
+}
+  .home-btn-masinformacion-solicitar {
+    width: 100%;
+    margin-top: 20px !important;
+}
+  .internacional-mba .carousel-item img {
+    width: auto !important;
+}
+.dorado-ltr {
+    margin-bottom: 30px;
+}
+.btn-ppal-mba {
+    width: 45%;
+    margin-top: 0%;
+    margin-bottom: 6%;
+}
+.cuadro-info-mba p {
+    position: relative;
+    top: 7px;
+}
+.cuadro-info-mba p strong {
+    font-size: 18px;
+}
+.carousel-item img{
+    margin: auto;
+    text-align: center;
+    width: 80% !important;
+    height: auto !important;
+}
+#solicitud-mba-info {
+    margin-top: 131%;
+    margin-bottom: 0px;
+}
+#logo-esan-conexion {
+    position: relative;
+    width: 84px;
+}
+img#conexion-esan-logo {
+    width: 150px;
+}
+.logo-conexion-ppal-div{
+width: 80%;
+max-width: initial;
+}
+
+  #informacion {
+    margin-top: 50px;
+    margin-bottom: 15%;
+}
+  .maestria-info .slide-ranking {
+    padding-bottom: 60px;
+}
+h3#ranking-text {
+    color: #000 !important;
+}
+  .evento-info {
+    margin-top: 50%;
+}
+  .slider-certificado-caja p {
+    font-size: 14px !important;
+}
+  .slide-ranking .slick-slide img {
+    max-height: 140px;
+    width: 250px !important;
+}
+  .online-info .content {
+    position: relative;
+    top: -1%;
+}
+  .online-info .content h1 {
+    line-height: 29px !important;
+}
+  .sp-module ul >li >a {
+    font-size: 16px !important;
+}
+  .certificacion-online {
+    margin-bottom: 38%;
+}
+  div#duracion h2 {
+    margin-bottom: 44% !important;
+}
+  .beneficios-video {
+    margin-top: -50%;
+}
+.slider-certifiado {
+    top: -100px !important;
+}
+  .certificado {
+
+    margin-top: 9%;
+}
+  .beneficios-video {
+    margin-bottom: -40px;
+}
+  #online-slider-responsive {
+    top: 74%;
+}
+  div#video-online-2 {
+    margin-top: 96%;
+}
+  .online-info .row {
+    margin-top: 13%;
+}
+    .logo-mba-info {
+    margin-top: 20%;
+    padding-bottom: 13px;
+    width: 40%;
+}
+  #fortalezas > div > div > div:nth-child(4) > a {
+    position: relative;
+    top: 130%;
+}
+
+  .parra-vent-mba {
+    position: relative;
+    top: 50px;
+    left: 7%;
+}
+  #fortalezas > div > div > div:nth-child(3) > img {
+    display: none;
+}
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 1680px){
+
+	.maestria-info .content h1{
+		font-size: 65px;
+	}
+	.maestria-info .content p{
+		font-size: 22px;
+	}
+
+	.link-next, .link-back,
+	.why ul li,
+	.intro p{
+		font-size: 18px;
+	}
+
+	footer h2, .intro h2{
+		font-size: 32px;
+	}
+
+	.card-item{
+		max-width: 460px;
+	}
+
+	.periodo-item > .content::before, #mallaTabs .nav-link.active::before{
+		margin-top: 12px;
+	}
+
+	.periodo-item > .content{
+		width: 52%;
+	}
+	.periodo-item > .imagen{
+		width: 48%;
+	}
+}
+
+@media only screen and (max-width: 1442px){
+
+	.contenido-item .cifra,
+	footer h2, .intro h2{
+		font-size: 28px;
+	}
+
+	.menu-popup > .container > .row > div{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.maestria-page .content p,
+	.redes h3{
+		font-size: 20px;
+	}
+
+	.valores .title,
+	.why h3,
+	.maestria-page .content h2,
+	.menu-popup nav a{
+		font-size: 22px;
+	}
+
+	.exp-item .cargo,
+	.cifra-item .descripcion,
+	body, table, td{
+	}
+
+	.submenu li{
+		margin: 0 8px;
+          margin-right: 3px;
+	}
+
+	.docentes-page .content p,
+	.contenido-item,
+	.en-que-consiste > .content,
+	.valores > div,
+	.mision, .vision,
+	.acreditaciones h3, .membresias h3,
+	.palabras-directora .content .cargo,
+	.palabras-directora .content .scroll-content,
+	.page-content p,
+	.contacto-footer p,
+	.enlaces-footer ul,
+	.informacion .redes h3,
+	.evento-item .evento-content h3,
+	.evento-item .evento-content .categoria,
+	.experiencias .exp-item,
+	.links-info,
+	.action-postular,
+	.cifra-item .descripcion strong,
+	.grid-item .descripcion,
+	.especialidad-item > .content > ul,
+	#especialidadesTabs .nav-link,
+	#mallaTabs .nav-link,
+	.periodo-item > .content ul,
+	.link-next, .link-back, .why ul li, .intro p,
+	.btn,
+	.submenu li > a:not(.btn){
+		font-size: 16px;
+	}
+
+	.evento p,
+	.maestria-info .content p{
+		font-size: 18px;
+	}
+
+	.select-items div, .select-selected{
+		padding: 8px;
+	}
+	.select-selected{
+		padding-right: 32px;
+	}
+
+	.maestria-info > .container{
+		padding-bottom: 180px;
+	}
+  	.online-info .container{
+		padding-bottom: 0px !important;
+	}
+
+	.maestria-info .content h1{
+		font-size: 54px;
+		line-height: 1.1;
+	}
+
+	.maestria-info .link-back{
+		margin-bottom: 20px;
+	}
+
+	.btn-lg.btn-circle{
+		width: 50px;
+	}
+	.btn-lg, .btn-group-lg > .btn{
+		height: 40px;
+    	font-size: 14px !important;
+	}
+
+	footer h2, .intro h2,
+	.maestria-info .content p{
+		margin-bottom: 20px;
+	}
+
+	.maestria-info .evento-item{
+		max-width: 420px;
+	}
+
+	.intro{
+		margin-bottom: 30px;
+	}
+
+	.mision h3, .vision h3,
+	.item-consejo .nombre,
+	.palabras-directora .content .nombre,
+	.maestria-info .evento-item .fecha{
+		font-size: 25px;
+	}
+	.maestria-info .evento-item .lugar{
+		font-size: 20px;
+	}
+
+	.maestria-page .content h1,
+	.ventajas .why h3,
+	.slide-ranking .title h3{
+		font-size: 28px;
+	}
+
+	.slide-ranking .slick-slide img{
+		max-height: 140px;
+	}
+
+	.card-item{
+		max-width: 380px;
+	}
+	.card-item .content{
+		padding: 20px;
+	}
+	.exp-item .imagen,
+	.card-item .content .logo{
+		margin-bottom: 20px;
+	}
+
+	.card-item .content .logo > img{
+		max-height: 50px;
+		width: auto;
+	}
+	.inversion .content h3,
+	.card-item .content h3{
+		font-size: 27px;
+	}
+.malla-mba-tabs .nav-link.active::before {
+    background-color: #d09b3e !important;
+}
+	.periodo-item > .content::before, #mallaTabs .nav-link.active::before{
+		width: 26px;
+		height: 8px;
+	}
+
+	.periodo-item > .content ul > li:not(:last-child){
+		margin-bottom: 10px;
+	}
+
+	#mallaTabs .nav-link span.nro{
+		font-size: 40px;
+	}
+
+	#especialidadesTabs .nav-link{
+		padding: 18px 25px;
+	}
+
+	.grid-item{
+		padding: 30px 40px 40px 30px;
+	}
+
+	.grid-item .descripcion{
+		max-width: 180px;
+	}
+	.icon-peru, .icon-world, .icon-build, .icon-birrete,
+	.icon{
+		background-size: cover;
+	}
+
+	.icon-horario,
+	.icon-calendar,
+	.icon-inauguracion{
+		width: 60px;
+		height: 60px;
+	}
+	.icon-examenes{
+		width: 80px;
+		height: 58px;
+	}
+
+	.docentes .mapa > img{
+		max-width: 370px;
+	}
+
+	.icon-peru, .icon-world, .icon-build, .icon-birrete{
+		width: 55px;
+		height: 55px;
+	}
+	.cifra-item .icono{
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	.action-postular{
+		padding: 20px;
+	}
+	.experiencia{
+		padding: 40px 0;
+	}
+
+	.experiencia .content{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.experiencias .exp-item{
+		max-width: 270px;
+	}
+
+	.exp-item .descripcion{
+		padding-bottom: 20px;
+		border-bottom-width: 4px;
+	}
+
+	.informacion .redes{
+		max-width: 600px;
+	}
+	.redes a{
+		width: 42px;
+		height: 42px;
+		background-size: cover;
+	}
+
+	.menu-popup nav li h3{
+		font-size: 28px;
+	}
+
+	.custom-select, .form-control{
+		height: 40px;
+	}
+	.custom-input > label .etiqueta{
+		top: 12px;
+	}
+
+	.custom-input > label input:focus + span {
+	  color: #363636;
+	  transform: translateY(-18px) scale(0.85);
+	}
+
+	.maestria-page{
+		min-height: calc(100vh - 118px);
+	}
+
+	.contacto-footer .redes{
+		margin-top: 30px;
+	}
+
+	.maestria-page .imagen{
+		height: calc(100% - 80px);
+	}
+	.maestria-page .content .actions{
+		max-width: 400px;
+	}
+	.objetivo > .content{
+		padding: 50px;
+		width: calc(100% - 574px);
+	}
+	.objetivo > .imagen{
+		max-width: 460px;
+	}
+
+	.acreditaciones > div .item, .membresias > div .item{
+		margin-right: 30px;
+		margin-bottom: 20px;
+	}
+
+	.acreditaciones > div .item img, .membresias > div .item img{
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	.palabras-directora .content .scroll-content{
+		max-height: 170px;
+	}
+
+	.palabras-directora .content{
+		padding: 40px 0;
+	}
+
+	.consejo-integrantes{
+		font-size: 16px;
+	}
+	.item-consejo .pais img{
+		max-width: 34px;
+	}
+	.mision, .vision{
+		padding: 50px;
+		min-height: 520px;
+	}
+
+	.mision{
+		background-size: auto 40%;
+	}
+	.vision{
+		background-size: auto 55%;
+		background-position: right -15px bottom 5px;
+	}
+
+	.contacto-footer,
+	.enlaces-footer{
+		font-size: 12px;
+	}
+
+	.enlaces-footer ul li{
+		margin-bottom: 5px;
+	}
+
+	.redes li:not(:last-child){
+		margin-right: 15px;
+	}
+	footer .redes h3{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	footer .redes a{
+		width: 100%;
+		height: 30px;
+	}
+
+	.ventajas-page .why li .title{
+		width: 370px;
+	}
+	.ventajas-page .why li .descripcion{
+		width: calc(100% - 460px);
+	}
+
+	.convalida-item{
+		max-width: 560px;
+	}
+	.convalida-item .logo{
+		margin-top: 20px;
+	}
+
+	.convalida-item .logo > img{
+		max-width: 300px;
+		max-height: 85px;
+	}
+
+	.convalida .video{
+		height: 300px;
+	}
+
+	.contenido-item .icono > img,
+	.valores > div .icon > img{
+		max-width: 50px;
+	}
+
+	.innovation-hub .logos > div > img{
+		max-width: 210px;
+		max-height: 55px;
+	}
+
+	.contenido-item .icono{
+		margin-bottom: 20px;
+	}
+
+	.docentes-page{
+		padding: 0px 0 120px 0;
+	}
+
+	.imagen-nacional{
+		background-size: auto 390px;
+    	background-position-x: 402px;
+	}
+	.imagen-internacional{
+		background-size: auto 400px;
+	}
+
+	.maestria-info .evento{
+		max-width: 1400px;
+		margin-left: -700px;
+	}
+
+}
+@media (max-width: 320px){
+  .slider-certifiado .slick-dots {
+    top: 190% !important;
+}
+  #online-slider-responsive {
+    top: 85%;
+}
+}
+@media only screen and (max-width: 990px){
+
+	.submenu{
+		position: fixed;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		overflow-x: auto;
+		background-color: #F7F7F7;
+		padding-left: 15px;
+		padding-right: 15px;
+		-webkit-overflow-scrolling: touch;
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+		box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+		padding: 8px 0;
+	}
+
+	.submenu::-webkit-scrollbar {
+		display: none;
+	}
+
+	.submenu > ul{
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	.submenu li{
+		white-space: nowrap;
+	}
+
+	.submenu li > a:not(.btn){
+		color: #363636;
+	}
+	.submenu li > a.active:not(.btn), .submenu li > a:not(.btn):hover{
+		color: #363636;
+		font-family: 'ceraBold';
+	}
+
+	.submenu li > a.active:not(.btn)::after, .submenu li > a:not(.btn):hover::after{
+		background-color: #363636;
+		bottom: -4px;
+	}
+
+	.buscador-header{
+		padding: 15px 0;
+	}
+
+	.buscador-header .caption{
+		padding-top: 25px;
+		max-width: 700px;
+	}
+
+	.buscador-header .caption p{
+		font-size: 22px;
+	}
+
+	.radio-buscador label .checkmark{
+		width: 30px;
+		height: 30px;
+	}
+	.radio-buscador label > input:checked ~ .checkmark::after{
+		width: 18px;
+		height: 18px;
+		top: calc(50% - 9px);
+	    left: calc(50% - 9px);
+	}
+	.buscador .btn-down{
+		bottom: 30px;
+	}
+
+	.buscador-page .content h1{
+		font-size: 26px;
+	}
+	.buscador-page .content h2{
+		font-size: 22px;
+	}
+	.buscador-page .content p{
+		font-size: 20px;
+	}
+	.searchbox > input {
+		height: 50px;
+		padding-left: 50px;
+		background-position: 15px center;
+		background-size: 20px 20px;
+	}
+}
+
+@media only screen and (max-width: 992px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+	.financiamiento-page .content p,
+	.consejo-integrantes,
+	.maestria-page .content p,
+	.maestria-info .content p,
+	.docentes-page .content p, .contenido-item, .en-que-consiste > .content, .valores > div, .mision, .vision, .palabras-directora .content .cargo, .palabras-directora .content .scroll-content, .page-content p, .contacto-footer p, .enlaces-footer ul, .informacion .redes h3, .evento-item .evento-content h3, .evento-item .evento-content .categoria, .experiencias .exp-item, .links-info, .action-postular, .cifra-item .descripcion strong, .grid-item .descripcion, .especialidad-item > .content > ul, #especialidadesTabs .nav-link, #mallaTabs .nav-link, .periodo-item > .content ul, .link-next, .link-back, .why ul li, .intro p, .btn, .submenu li > a:not(.btn){
+		font-size: 14px;
+	}
+
+	.card-item .content h3{
+		font-size: 16px;
+		font-family: 'ceraBold';
+	}
+
+	.maestria-info .evento-item .fecha{
+		font-size: 22px;
+	}
+	 .acreditaciones h3, .membresias h3,
+	.maestria-info .evento-item .lugar{
+		font-size: 18px;
+	}
+
+	.site-header{
+		height: 70px;
+	}
+
+	.submenu{
+		top: 70px;
+		padding: 0 8px;
+      padding-top: 10px;
+    padding-bottom: 10px;
+	}
+
+	.site-header .logo{
+		max-width: 95px;
+	}
+
+	.btn-close, .btn-trigger{
+		width: 28px;
+		height: 28px;
+		background-size: 100% auto;
+	}
+
+	.idioma{
+		margin-right: 20px;
+	}
+	.select-selected{
+		padding-right: 25px;
+	}
+
+	.select-selected:after{
+		right: 0;
+	}
+
+	main{
+		margin-top: 114px;
+	}
+
+	.maestria-info > .container{
+		position: relative;
+		padding-top: 30px;
+		padding-bottom: 0;
+		min-height: 0;
+	}
+
+	.maestria-info .content{
+		position: relative;
+		background-color: rgba(255,255,255,0.7);
+		padding: 20px 20px 20px 0;
+		width: 87%;
+		border-bottom-right-radius: 12px;
+		border-top-right-radius: 12px;
+		z-index: 9;
+	}
+
+	.maestria-info > .container .imagen{
+		width: 50%;
+		background-position: left center;
+		background-size: auto 160%;
+	}
+
+	.maestria-info .evento{
+		position: static;
+		margin-left: 0;
+		max-width: inherit;
+		margin-top: -8px;
+	}
+	.maestria-info .evento-item{
+		padding: 15px;
+		line-height: 1.4;
+	}
+
+	.maestria-info .evento-item .link-next{
+		bottom: 10px;
+	}
+
+	.maestria-info .link-back,
+	.maestria-info .breadcrumbs{
+		display: none;
+	}
+
+	.maestria-info .content .btn-primary{
+		padding: 0 25px;
+	}
+
+	.maestria-info .actions{
+		position: static;
+		padding: 0 15px;
+		margin-top: 30px;
+		text-align: right;
+	}
+
+	.slide-ranking > div .title{
+		color: #000;
+		text-align: left !important;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.slide-ranking > div{
+		width: 100%;
+		margin-left: 0;
+		padding: 0 15px;
+	}
+
+	.grid-item .descripcion strong{
+		font-size: 18px;
+	}
+
+	.ventajas .why h3{
+		font-size: 20px;
+	}
+
+	.slide-ranking .title h3{
+		font-size: 22px;
+	}
+
+	.slide-ranking .slider .item{
+		max-height: 120px;
+		margin-right: 15px;
+	}
+
+	.slide-ranking .item:not(.slick-active){
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		transform-origin: left bottom;
+	}
+
+	.slide-ranking .slick-slide img{
+		max-height: 120px;
+		width: auto;
+	}
+
+	.slide-ranking .slider .item:not(.slick-current){
+		max-height: 140px;
+	}
+
+	.slick-dots{
+		color: #000;
+		right: 80px;
+		bottom: -55px;
+	}
+
+	.contenido-item .cifra, footer h2, .intro h2{
+		font-size: 22px;
+	}
+
+	.slide-ranking{
+		position: relative;
+		width: 100%;
+		bottom: auto;
+		right: auto;
+		top: auto;
+		margin-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	.maestria-info .content h1{
+		font-size: 30px;
+	}
+
+	.ventajas > .video{
+		display: none !important;
+	}
+
+	.ventajas .content > .video{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex !important;
+		width: 100%;
+		position: relative;
+		height: 184px;
+		margin-left: -15px;
+		margin-bottom: 30px;
+	}
+
+	.btn-play{
+		width: 40px;
+		height: 40px;
+		background-size: cover;
+	}
+
+	.why li .icon{
+		width: 75px;
+	}
+
+	.why li .title{
+		width: calc(100% - 75px);
+		font-size: 18px;
+		padding-right: 0;
+	}
+	.why li .descripcion{
+		width:83%;
+		margin-top: 8px;
+	}
+
+	.ventajas .content{
+		padding-bottom: 0;
+	}
+
+	.card-item{
+		max-width: 246px;
+	}
+
+	.docentes .mapa > img{
+		max-width: 100%;
+	}
+
+	.experiencia .content,
+	.experiencia .calendario{
+		width: 100%;
+	}
+
+	.experiencia .content{
+		padding-right: 0;
+	}
+
+	.experiencias .exp-item {
+    max-width: 300px;
+    width: 380px;
+    margin-right: 40px;
+    height: 370px;
+}
+
+	.experiencias{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.experiencia .calendario{
+		padding-left: 0;
+		border: 0 none;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.calendario .evento-item{
+		padding: 15px;
+	}
+	.calendario .evento-item:not(:last-child){
+		margin-bottom: 15px;
+	}
+
+	.docentes{
+		padding: 0;
+		margin-bottom: 40px;
+      min-height: auto;
+	}
+
+	.docentes .btn-primary{
+		width: 100%;
+	}
+
+	.inversion > .imagen,
+	.docentes > .imagen{
+		display: none;
+	}
+
+	.cifras-docentes .cifra-item{
+		width: 50%;
+		padding: 0 10px;
+	}
+
+	.cifra-item .icono,
+	.cifra-item .descripcion{
+		text-align: left;
+      margin: auto;
+    margin-bottom: 16px;
+	}
+
+	.cifra-item .descripcion strong{
+		font-size: 18px !important;
+	}
+
+	.duracion-horarios{
+		padding: 20px 0;
+	}
+
+	.duracion-horarios .content{
+		position: relative;
+		z-index: 9;
+		padding: 30px 15px 30px 0;
+		background-color: rgba(255,255,255,0.95);
+		width: 100%;
+		border-bottom-right-radius: 12px;
+		border-top-right-radius: 12px;
+
+	}
+
+	.duracion-horarios .imagen{
+		width: 50%;
+		background-position: right -40px center;
+	}
+
+	.duracion-horarios .grid-item{
+		width: 100% !important;
+		padding: 15px 10px 15px 0;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		border: 0 none;
+		border-bottom: 1px solid #D8D8D8;
+	}
+
+	.duracion-horarios .grid-item:last-child{
+		border: 0 none !important;
+	}
+
+	.grid-item .icono{
+		width: 40px;
+		margin-right: 20px;
+	}
+
+	.icon-horario, .icon-calendar, .icon-inauguracion{
+		width: 40px;
+		height: 40px;
+	}
+
+	.icon-examenes {
+		width: 40px;
+		height: 29px;
+	}
+
+	.grid-item .descripcion{
+		width: calc(100% - 60px);
+	}
+	.inversion .action-postular{
+		padding: 15px;
+		flex-wrap: wrap;
+	}
+
+	.inversion .action-postular > span{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.inversion .action-postular > .btn{
+		margin-left: auto;
+	}
+
+	.btn-lg.btn-circle{
+		width: 40px !important;
+	}
+
+	.icon-download{
+		width: 16px;
+		height: 20px;
+	}
+
+	.btn-lg, .btn-group-lg > .btn{
+		height: 40px;
+	}
+
+	.links-info > p{
+		font-size: 18px;
+	}
+
+	.links-info .link-item{
+		width: calc(50% - 7.5px);
+		padding: 15px;
+	}
+
+	.link-next > span{
+		width: calc(100% - 22px);
+	}
+
+	.link-item p{
+		font-size: 16px;
+		line-height: 1.3;
+		margin-bottom: 12px;
+	}
+
+	.slick-prev, .slick-next{
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+		bottom: -50px;
+	}
+
+	.experiencias .slick-next{
+		right: 15px;
+	}
+	.experiencias .slick-prev{
+		right: 55px;
+	}
+	.experiencias .slick-dots{
+		right: 100px;
+		line-height: 1;
+		bottom: -50px;
+	}
+
+	.exp-item .descripcion{
+		border-bottom: 0 none;
+		padding-bottom: 0;
+	}
+	.exp-item .nombre{
+		font-size: 18px;
+	}
+	.exp-item .cargo{
+		font-size: 16px;
+	}
+
+	.exp-item.prevdiv{
+		transform-origin: right bottom;
+	}
+	.exp-item{
+		transform-origin: left bottom;
+	}
+
+	.exp-item:not(.slick-current){
+		-moz-transform: scale(0.6);
+		-webkit-transform: scale(0.6);
+		-o-transform: scale(0.6);
+		-ms-transform: scale(0.6);
+		transform: scale(0.6);
+	}
+
+	.why ul li{
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #D8D8D8;
+	}
+	.why ul{
+		margin-bottom: 0;
+	}
+
+	.internacionalizacion{
+		border-bottom: 0 none;
+		padding-bottom: 0;
+	}
+
+	.internacionalizacion .intro{
+		margin-bottom: 30px;
+	}
+
+	.cards{
+		width: calc(100% + 15px);
+	}
+
+	.card-item{
+		margin-right: 15px;
+	}
+
+	.card-item:not(.slick-active){
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		transform-origin: left bottom;
+	}
+
+	.card-item .content .logo{
+		margin-bottom: 10px;
+	}
+	.card-item .content .logo > img{
+		max-height: 40px;
+	}
+
+	.especialidades-slick,
+	.malla-slick{
+		display: block;
+		width: calc(100% + 15px);
+		padding-bottom: 50px;
+		margin-bottom: 60px;
+	}
+
+	.malla-slick div.slick-slide::before{
+		content: '';
+		display: block;
+		width: 30px;
+		height: 10px;
+		background-color: #CF0F11;
+		border-radius: 5px;
+		margin-bottom: 15px;
+	}
+
+	#especialidadesTabs,
+	#especialidadesTabsContent,
+	#mallaTabsContent,
+	#mallaTabs{
+		display: none;
+	}
+
+	.especialidades-slick .slick-dots,
+	.malla-slick .slick-dots{
+		bottom: -10px;
+		right: 100px;
+	}
+
+	.especialidades-slick .slick-prev,
+	.especialidades-slick .slick-next,
+	.malla-slick .slick-prev,
+	.malla-slick .slick-next{
+		bottom: 0;
+	}
+
+	.especialidades-slick .slick-prev,
+	.malla-slick .slick-prev{
+		right: 55px;
+	}
+	.especialidades-slick .slick-next,
+	.malla-slick .slick-next{
+		right: 15px;
+	}
+
+	.especialidad-item,
+	.periodo-item{
+		overflow: hidden;
+		border-radius: 12px;
+		max-width: 280px;
+		margin-right: 15px;
+	}
+	.especialidad-tab{
+		max-width: 280px;
+		font-family: 'ceraBold';
+		font-size: 18px;
+		color: #000;
+		 margin-bottom: 8px;
+		align-items: flex-start !important;
+		line-height: 1.2;
+	}
+
+	.especialidad-tab > span:not(.flags){
+		width: calc(100% - 70px);
+	}
+
+	.especialidad-item > .content,
+	.periodo-item > .content{
+		order: 2;
+		padding: 15px;
+	}
+
+	.periodo-item > .content::before{
+		display: none;
+	}
+	.periodo-item > .content ul > li::before{
+		width: 3px;
+		height: 5px;
+		top: 4px;
+	}
+
+	.especialidad-item > .content > ul,
+	.periodo-item > .content ul{
+		margin-top: 0;
+	}
+	.periodo-item > .content ul > li{
+		padding-left: 20px
+	}
+	.especialidad-item > .imagen,
+	.periodo-item > .imagen{
+		order: 1;
+	}
+	.especialidad-item > .content,
+	.especialidad-item > .imagen,
+	.periodo-item > .content,
+	.periodo-item > .imagen{
+		width: 100%;
+	}
+
+	.especialidad-item{
+		border: 0.5px #c7c7c7 solid;
+	}
+	.especialidad-item .imagen{
+		border-bottom-left-radius: 0;
+	}
+	.especialidad-tab > .flags > img{
+		max-width: 30px;
+		display: inline-block;
+		margin-right: 4px;
+	}
+
+	.especialidades-slick{
+		margin-bottom: 0;
+	}
+
+	.custom-select, .form-control{
+		height: 46px;
+	}
+	.custom-input > label .etiqueta{
+		top: 18px;
+	}
+	.custom-input > label input:focus + span {
+	  transform: translateY(-25px) scale(0.85);
+	}
+
+	.boletin .btn,
+	.formulario .btn-primary{
+		width: 100%;
+	}
+
+	.informacion .redes{
+		padding: 15px;
+		flex-wrap: wrap;
+	}
+	.informacion .redes h3{
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.redes ul{
+		margin-left: auto;
+	}
+	.informacion > .container{
+		padding-bottom: 30px;
+	}
+
+	footer > .container > .row:first-child > div:first-child{
+		border-right: 0 none;
+		border-bottom: 1px solid #393939;
+		padding-bottom: 20px;
+	}
+	footer > .container > .row > div{
+		padding-top: 20px;
+	}
+	.contacto-footer{
+		padding-left: 0;
+	}
+	footer .redes a{
+		width: 38px;
+		height: 38px;
+	}
+	footer > .container > .row > div{
+		padding-top: 20px;
+		padding-bottom: 20px;
+      border-right: transparent !important;
+	}
+
+	section {
+    min-height: auto;
+}
+
+	.modal-header{
+		padding: 30px 20px 10px 20px;
+	}
+	.modal-body{
+		padding: 0 20px;
+	}
+	.modal-footer{
+		padding: 10px 20px 30px 20px;
+	}
+
+	.modal-title{
+		font-size: 20px;
+		line-height: 1.3;
+	}
+	.modal-content p{
+		font-size: 14px;
+	}
+
+	.modal-header .close{
+		top: -40px;
+	}
+
+	.modal-header .close .icon-close{
+		width: 30px;
+		height: 30px;
+	}
+
+	#modalSolicitud .modal-content p,
+	#modalSolicitud .modal-title{
+		max-width: 142px;
+	}
+
+	.menu-popup > .container > .row > div{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+
+	.menu-popup nav > ul{
+		width: 100%;
+		margin-top: 0px;
+		padding: 0 30px;
+	}
+
+.menu-popup nav li h3 {
+    font-size: 18px;
+    line-height: normal;
+    margin-top: 20px;
+
+}
+	.menu-popup nav a {
+    font-size: 15px;
+    line-height: 14px !important;
+}
+	.menu-popup nav {
+    margin-top: auto;
+    max-height: none;
+    overflow-y: clip;
+    position: absolute;
+    top: 14%;
+}
+	.menu-popup .redes{
+		display: none;
+	}
+
+	/*------------------------------------ page ------------------------------------------*/
+
+	.maestria-page{
+		min-height: inherit;
+		border-bottom: 0 none;
+		padding-top: 30px;
+	}
+
+	main.page{
+		margin-top: 70px;
+	}
+
+	.page-top .page-title{
+		display: block;
+		font-family: 'ceraBold';
+		font-size: 24px;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+
+	.page-top .breadcrumbs{
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+
+	.maestria-page .video,
+	.buscador-page .video,
+	.maestria-page .content h1,
+	.maestria-page .imagen{
+		display: none !important;
+	}
+
+	.maestria-page .content h2{
+		margin-bottom: 15px;
+		font-size: 22px;
+		font-family: 'ceraBold';
+	}
+	.maestria-page .content .actions{
+		margin-top: 20px;
+	}
+	.maestria-page .content .actions > a:not(:last-child){
+		margin-bottom: 15px;
+	}
+	.btn-lg, .btn-group-lg > .btn{
+		padding: 0 15px;
+	}
+
+	.en-que-consiste,
+	.sobre-el-programa{
+		width: auto;
+	}
+
+	.en-que-consiste > .content,
+	.sobre-el-programa > .content{
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.palabras-directora > .video{
+		display: none !important;
+	}
+
+	.palabras-directora .content > .video{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex !important;
+	}
+
+	.palabras-directora .content > .video,
+	.sobre-el-programa > .imagen{
+		width: calc(100% + 15px);
+		border-top-left-radius: 0;
+    	border-bottom-left-radius: 0;
+		border-top-right-radius: 12px;
+    	border-bottom-right-radius: 12px;
+		margin-left: -15px;
+	}
+
+	.en-que-consiste > .imagen img{
+		border-top-left-radius: 0;
+    	border-bottom-left-radius: 0;
+		border-top-right-radius: 12px;
+    	border-bottom-right-radius: 12px;
+	}
+
+	.en-que-consiste > .imagen{
+		width: calc(100% + 15px);
+		margin-left: -15px;
+	}
+
+	.palabras-directora .nombre,
+	.palabras-directora .cargo,
+	.palabras-directora .scroll-content{
+		display: none;
+	}
+
+	.acreditaciones > div .item, .membresias > div .item{
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.membresias{
+		margin-top: 30px;
+	}
+
+	.membresias > div .item{
+		margin-bottom: 0;
+	}
+
+	.membresias .slick-track{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex !important;
+		align-items: center;
+	}
+
+	.objetivo{
+		border: 0 none;
+	}
+
+	.objetivo > .content,
+	.objetivo > .imagen{
+		width: 100%;
+	}
+	.objetivo > .content{
+		padding: 0;
+	}
+
+	.palabras-directora .content > .video{
+		position: static;
+		height: 184px;
+		margin-bottom: 30px;
+	}
+
+	.palabras-directora .content{
+		padding: 0 0 60px 0;
+	}
+
+	.consejo-consultivo .imagen{
+		display: none;
+	}
+
+	.item-consejo .nombre{
+		font-size: 18px;
+		color: #000;
+	}
+
+	.buscamos,
+	.consejo-consultivo{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.buscamos{
+		min-height: inherit;
+	}
+
+	.item-consejo .pais img{
+		max-width: 20px;
+	}
+
+	.item-consejo:not(:first-child){
+		width: 100%;
+		padding-right: 0;
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px solid #D8D8D8;
+	}
+
+	.buscamos .intro{
+		margin-bottom: 30px;
+	}
+
+	.mision, .vision{
+		padding: 0;
+		border: 0 none !important;
+		min-height:inherit;
+	}
+
+	.mision h3, .vision h3{
+		font-size: 18px;
+		font-family: 'ceraBold';
+	}
+	.mision p, .vision p{
+		max-width: 70%;
+	}
+
+	.mision{
+		background-position: right bottom;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #D8D8D8 !important;
+		border-radius: 0;
+		padding-bottom: 30px;
+	}
+	.vision{
+		background-position: right bottom;
+	}
+
+	.boletin{
+		padding: 40px 0;
+	}
+
+	#modalModificar button[type=submit],
+	.buscador-content button[type=submit]{
+		min-width: 100%;
+	}
+
+	.buscador-header .caption p{
+		font-size: 16px;
+	}
+
+	.buscador-header .logo{
+		padding-bottom: 15px;
+	}
+
+	.buscador-header .caption{
+		padding-top: 15px;
+		max-width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.buscador-header .logo img{
+		max-width: 110px;
+	}
+
+	.radio-buscador label .etiqueta{
+		font-size: 14px;
+	}
+
+	.buscador-content{
+		padding-top: 20px;
+	}
+	.buscador .btn-down{
+		position: static;
+		margin: 20px auto;
+	}
+
+	.buscador-page{
+		min-height: 0;
+		padding-top: 60px;
+	}
+
+	.buscador-page .content h2{
+		font-family: 'ceraBold';
+		color: #000;
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+
+	.resultados{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	.resultado-item{
+		margin-top: 30px;
+	}
+
+	.resultado-item .link-next {
+		right: 0;
+		width: 40px;
+	}
+
+	.en-que-consiste > .content .logo{
+		margin: 20px 0;
+	}
+	.en-que-consiste > .content .logo img{
+		max-width: 100px;
+	}
+
+	.convalida::before,
+	.imagen-nacional,
+	.imagen-internacional{
+		display: none !important;
+	}
+
+	.financiamiento-page::before, .docentes-page::before{
+		display: none;
+	}
+
+	.content.facultad-internacional,
+	.content.facultad-nacional{
+		position: relative;
+	}
+
+	.content.financiamiento-solicitud,
+	.content.facultad-internacional{
+		padding-left: 0;
+		margin-top: 40px;
+	}
+
+	.intro{
+	margin-bottom: 20px;
+    margin-top: 20px;
+	}
+
+	.docentes-page,
+	.financiamiento-page{
+		padding: 60px 0;
+	}
+
+	.international-week-page{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.contenido-items{
+		margin-top: 0;
+	}
+	.contenido-item{
+		width: 100%;
+		border: 0;
+		border-bottom: 1px solid #D8D8D8;
+		padding-right: 0;
+		margin-right: 0;
+		padding-top: 0;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.contenido-item .icono{
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+
+	.contenido-item .cifra{
+		font-size: 18px;
+		color: #000;
+		font-family: 'ceraBold';
+	}
+	.why h3{
+		font-size: 18px;
+	}
+
+	.ventajas-page .why li .title{
+		width: calc(100% - 75px);
+	}
+	.ventajas-page .why li .descripcion{
+		width: 100%;
+	}
+
+	.ventajas-page{
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+
+	.convalida{
+		padding-top: 20px;
+	}
+}

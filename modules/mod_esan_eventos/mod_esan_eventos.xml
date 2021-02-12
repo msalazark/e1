@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_esan_eventos</name>
+	<creationDate>2020-06-15</creationDate>
+	<author>Attach</author>
+	<authorEmail>lgarcia@attachmedia.com</authorEmail>
+	<authorUrl>http://attachmedia.com</authorUrl>
+	<version>0.1.2</version>
+	<description>Muestra lista de eventos</description>
+	<files>
+		<filename module="mod_esan_eventos">mod_esan_eventos.php</filename>
+		<filename>mod_esan_eventos.xml</filename>
+		<filename>helper.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_esan_eventos.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_esan_eventos.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_esan_eventos/models/fields">
+			<fieldset name="basic">
+				<field name="area_id"     type="Area"     label="Área"></field>
+				<field name="tipo_id"     type="Tipo"     label="Tipo"></field>
+				<field name="ciudad_id"   type="Ciudad"   label="Ciudad"></field>
+				<field name="ponente_id"  type="Ponente"  label="Ponente"></field>
+				<field name="curso_id"    type="Curso"    label="Curso"></field>
+				<field name="programa_id" type="Programa" label="Curso Programa"></field>
+
+				<field name="limite"      type="number"   label="Cantidad" default="5" min="1" max="100" step="1" />
+				<field name="destacados"  type="radio"    label="Solo destacados" default="0" class="btn-group btn-group-yesno"><option value="0">No</option><option value="1">Sí</option></field>
+				<field name="menu_item"   type="menuitem" label="Menu Item" default="" description="Memú item del blog" published="1" />
+				<field name="template"    type="textarea" label="Plantilla" filter="raw" cols="20" rows="10" description="Está disponible la variable $eventos" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

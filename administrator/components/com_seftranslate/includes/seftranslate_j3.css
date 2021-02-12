@@ -1,0 +1,47 @@
+/**
+ * FileName: seftranslate.php
+ * Date: 09/09/2015
+ * Development Aleksey Pakholkov, Andrey Kvasnevskiy - OrdaSoft(http://ordasoft.com)
+ * @package SefTranslate
+ * @copyright 2010 Andrey Kvasnevskiy-OrdaSoft(akbet@mail.ru);Aleksey Pakholkov
+ * Homepage: http://www.ordasoft.com
+ * @version: 5.0 free
+ * @license GNU General Public license version 2 or later; see LICENSE.txt
+ **/
+
+#tab_group_id dt a {
+  display:block;
+  text-decoration:none;
+  padding:8px 18px;
+  margin-right:2px;
+  line-height:18px;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+
+#tab_group_id dt a:hover {
+  background:#EEE;
+}
+
+#tab_group_id dt.open a {
+  border:1px solid #ddd;
+  border-bottom:0;
+  padding:7px 17px;
+}
+
+#tab_group_id dt.open a {
+  background:none;
+}
+
+
+.current, .cont_wrapper {
+  margin-left:20px;
+}
+
+#tab_group_id {
+  border-bottom:1px solid #DDD;
+  overflow:hidden;
+  height:45px;
+  padding-left:20px;
+}

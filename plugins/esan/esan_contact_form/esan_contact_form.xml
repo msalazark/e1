@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="esan" method="upgrade">
+	<name>ESAN Contact Form</name>
+	<author>Attach</author>
+	<creationDate>2020-08-11</creationDate>
+	<version>0.1.1</version>
+	<description>Stores contact form data in db.</description>
+
+	<files>
+		<filename plugin="esan_contact_form">esan_contact_form.php</filename>
+		<filename>esan_contact_form.xml</filename>
+		<filename>helper.php</filename>
+		<filename>process.php</filename>
+	</files>
+</extension>

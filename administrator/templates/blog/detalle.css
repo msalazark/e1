@@ -1,0 +1,171 @@
+h1 {
+	font-weight: bold;
+	color: #000;
+	font-size: 2rem;
+	padding-top: 50px;
+}
+
+.descripcion {
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20PX;
+}
+
+.descripcion a {
+	color: #cf0f11;
+	text-decoration: underline;
+}
+
+.author {
+	color: #000;
+	font-size: 19px;
+	margin-top: 28px;
+}
+
+.author strong {
+	font-weight: bold;
+}
+
+.encuentranos p {
+	font-weight: bold;
+	color: #000;
+	padding-top: 6px;
+}
+
+.blog-articulo .genits-redes-nav {
+	text-align: left;
+}
+
+.compartir {
+	float: left;
+}
+
+#imagen1 {
+	position: relative;
+	right: -54px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.cuadro1 {
+	border-radius: 10px;
+	background-color: #eeeeee;
+	padding: 60px;
+}
+
+.cuadro1 p {
+	font-weight: bold;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+@media (max-width: 959px) {
+	.cuadro1 {
+		display: none;
+	}
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.cuadro2 {
+	margin-top: 35px;
+	padding: 35px;
+	border-radius: 10px;
+	border: solid 1px #979797;
+	background-color: #ffffff;
+}
+
+.cuadro2 img {
+	border-radius: 43px;
+	padding: 20px;
+	width: 27%;
+	height: auto;
+}
+
+.cuandro-interno {
+	padding-top: 30px;
+	width: 100%;
+	border-top: solid 1px #979797;
+	font-size: 14px;
+}
+
+.cuandro-interno ul {
+	list-style: none;
+}
+
+.cuandro-interno ul li:before {
+	content: '';
+	display: block;
+	position: relative;
+	left: -11px;
+	top: 14px;
+	width: 4px;
+	height: 7px;
+	border-radius: 2px;
+	background-color: #CF0F11;
+}
+
+.cuandro-interno ul a {
+	color: #CF0F11;
+	text-decoration: underline;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+#profe-title {
+	color:#CF0F11;
+	font-weight: 600
+}
+
+.segundo-contenido {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.page-top2 {
+	display: none;
+}
+
+
+@media (max-width: 959px) {
+	.page-top2 {
+		display: block;
+	}
+
+	#imagen1 {
+		display: none;
+	}
+
+	#responsive {
+		width: 100%;
+		padding: 0px;
+		position: relative;
+		left: 0;
+		top: 0px;
+	}
+
+	.page-title {
+		color: #fff !important;
+		position: absolute;
+		top: 30%;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 20px !important;
+	}
+
+	#title {
+		display: none;
+	}
+
+	.genits-slider .slider-item > .container > div {
+		width: 100%;
+		padding-left:20px;
+	}
+
+	.submenu {
+		display: none;
+	}
+}

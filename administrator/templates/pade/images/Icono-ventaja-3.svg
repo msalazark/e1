@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="66px" viewBox="0 0 51 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PADE-DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-Home-(PADE---Desktop)" transform="translate(-862.000000, -1762.000000)" stroke="#CF0F11" stroke-width="3">
+            <g id="Group-19" transform="translate(865.000000, 1764.000000)">
+                <ellipse id="Oval" cx="22.5" cy="44" rx="9.5" ry="10"></ellipse>
+                <circle id="Oval" cx="23" cy="44" r="18"></circle>
+                <path d="M0,0 L15.8912469,0 L27,20.5090804 C19.7914676,19.8693934 14.3760356,20.6996999 10.753704,23 C7.68512371,16.219563 4.10055571,8.55289633 0,0 Z" id="Path-5"></path>
+                <polygon id="Path-8" points="26 5.52864427 33.787699 20 45 0 29.0254583 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

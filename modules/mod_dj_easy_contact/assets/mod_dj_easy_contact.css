@@ -1,0 +1,37 @@
+.badge-inline .grecaptcha-badge{
+    margin: 10px 0;
+    clear: both;
+}
+.badge-csshidden .grecaptcha-badge{
+	display: none !important;
+}
+.dj-simple-contact-form-row.terms-conditions{
+	margin: 0 0 10px;
+}
+.dj-simple-contact-form-row.terms-conditions a{
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.dj-simple-contact-form-row.terms-conditions input[type="checkbox"],
+.dj-simple-contact-form-row.terms-conditions2 input[type="checkbox"]{
+    float: left;
+    vertical-align: middle;
+    margin: 2px 5px 0px 0;
+}
+.dj-simple-contact-form-row.terms-conditions label,
+.dj-simple-contact-form-row.terms-conditions2 label{
+	margin: 0;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid">
+	<circle cx="12" cy="12" r="10" stroke="#e5e5e5" stroke-width="4" fill="none"></circle>
+	<circle cx="12" cy="12" r="10" stroke="#dd0332" stroke-width="2" stroke-linecap="round" fill="none">
+		<animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 12 12;180 12 12;720 12 12" keyTimes="0;0.5;1"></animateTransform>
+		<animate attributeName="stroke-dasharray" repeatCount="indefinite" dur="1s" values="6.283185307179586 56.548667764616276;31.41592653589793 31.41592653589793;6.283185307179586 56.548667764616276" keyTimes="0;0.5;1"></animate>
+	</circle>
+</svg>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.18" client="site" method="upgrade">
+    <name>DJ-EasyContact</name>
+    <creationDate>July 2018</creationDate>
+	<author>DJ-Extensions.com</author>
+    <copyright>Copyright (C) 2013 DJ-Extensions.com, All rights reserved.</copyright>
+	<license> http://www.gnu.org/licenses GNU/GPL</license>
+	<authorEmail>contact@dj-extensions.com</authorEmail>
+	<authorUrl>http://dj-extensions.com</authorUrl>
+    <version>1.4.9</version>
+    <description>Simple Contact Form for Joomla</description>
+    <files>
+        <filename module="mod_dj_easy_contact">mod_dj_easy_contact.php</filename>
+        <filename>index.html</filename>
+        <filename>changelog.txt</filename>
+        <folder>assets</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+	<updateservers>
+		<server type="extension" priority="1" name="DJ-EasyContact">http://dj-extensions.com/updates/djeasycontact.xml</server>
+	</updateservers>
+    <config>
+    	<fields name="params">
+			<fieldset name="basic">
+				<field name="jquery"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_JQUERY"
+				description="MOD_DJ_EASYCONTACT_JQUERY">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_YES</option>
+				</field> 
+				<field name="styles"
+				type="list"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_STYLES"
+				description="MOD_DJ_EASYCONTACT_STYLES">
+					<option value="0">Style 1</option>
+					<option value="1">Style 2</option>
+					<option value="2">Style 3</option>
+					<option value="3">Style 4</option>
+					<option value="4">Style 5</option>
+				</field>   
+				<field name="spacert1" type="spacer" class="text" label="MOD_DJ_EASYCONTACT_EMAIL_PARAMETERS"/>
+								<field name="email_required"
+				type="radio"
+				class="btn-group"
+				default="1"
+				label="MOD_DJ_EASYCONTACT_EMAIL_IN_FORM"
+				description="MOD_DJ_EASYCONTACT_EMAIL_DISPLAYED">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_YES</option>
+				</field>  
+				
+				<field name="email_recipient"
+				type="text"
+				default="email@email.com"
+				label="MOD_DJ_EASYCONTACT_EMAIL_RECIPIENT"        
+				description="MOD_DJ_EASYCONTACT_EMAIL_RECIPIENT" />         	
+				<field name="from_email"
+				type="text"
+				default="email@email.com"
+				label="MOD_DJ_EASYCONTACT_EMAIL_FROM"
+				description="MOD_DJ_EASYCONTACT_EMAIL_FROM_DESC" />          	
+				<field name="from_email_name"
+				type="text"
+				default="Default Sender Name"
+				label="MOD_DJ_EASYCONTACT_EMAIL_FROM_NAME"
+				description="MOD_DJ_EASYCONTACT_EMAIL_FROM_NAME" />    
+				
+				<field name="email_subject"
+				type="text"
+				default="Default Subject"
+				label="MOD_DJ_EASYCONTACT_DEFAULT_LABEL"
+				description="MOD_DJ_EASYCONTACT_DEFAULT_LABEL" />
+				
+				<field name="email_thanks"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_EMAIL_THANKS"
+				description="MOD_DJ_EASYCONTACT_EMAIL_THANKS_DESC">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_YES</option>
+				</field>  
+				
+				<field name="thanks_subject"
+				type="text"
+				default="Thanks Subject"
+				label="MOD_DJ_EASYCONTACT_EMAIL_THANKS_SUBJECT"
+				description="MOD_DJ_EASYCONTACT_EMAIL_THANKS_SUBJECT" />
+				
+				<field name="email_thanks_message"
+				type="textarea"
+				default="Message example"
+				label="MOD_DJ_EASYCONTACT_THANKS_MESSAGE"
+				description="MOD_DJ_EASYCONTACT_THANKS_MESSAGE" />  
+				
+				<field name="redirect_url_switch"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_REDIRECT_URL_SWITCH"
+				description="MOD_DJ_EASYCONTACT_REDIRECT_URL_SWITCH_DESC">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_YES</option>
+				</field>  
+				
+				<field name="redirect_url"
+				type="text"
+				default=""
+				label="MOD_DJ_EASYCONTACT_REDIRECT_URL"
+				description="MOD_DJ_EASYCONTACT_REDIRECT_URL" />
+				
+				<field name="spacer1" type="spacer" hr="true"/>	
+				<field name="spacert2" type="spacer" class="text" label="MOD_DJ_EASYCONTACT_TEXT_PARAMETERS"/>  
+								<field name="introtext"
+				type="text"
+				default=""
+				label="MOD_DJ_EASYCONTACT_INTROTEXT"
+				description="MOD_DJ_EASYCONTACT_INTROTEXT_DESC" />             
+	
+				<field name="message_type"
+				type="radio"
+				class="btn-group"
+				default="1"
+				label="MOD_DJ_EASYCONTACT_MESSAGE_TYPE"
+				description="MOD_DJ_EASYCONTACT_MESSAGE_TYPE_DESC">
+					<option value="0">Text Input</option>
+					<option value="1">Textarea</option>
+				</field>   
+				
+				<field name="message_label"
+				type="text"
+				default="Message"
+				label="MOD_DJ_EASYCONTACT_MESSAGE_LABEL"
+				description="MOD_DJ_EASYCONTACT_MESSAGE_LABEL" />   	
+				<field name="spacer4" type="spacer" hr="true"/>
+				
+				<field name="spacert7" type="spacer" class="text" label="MOD_DJ_EASYCONTACT_CONSENT"/>
+				
+				<field name="rodo_enabled"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_CONSENT_REQUIRE"
+				description="MOD_DJ_EASYCONTACT_CONSENT_REQUIRE_DESC">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_YES</option>
+				</field> 
+
+				<field name="rodo_text"
+				type="textarea"
+				default="I agree with terms and conditions"
+				filter="raw"
+				label="MOD_DJ_EASYCONTACT_CONSENT_LABEL"
+				description="MOD_DJ_EASYCONTACT_CONSENT_LABEL_DESC" /> 
+				
+				<field name="rodo_enabled2"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_CONSENT_REQUIRE2"
+				description="MOD_DJ_EASYCONTACT_CONSENT_REQUIRE_DESC2">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_YES</option>
+				</field> 
+
+				<field name="rodo_text2"
+				type="textarea"
+				default="I agree with terms and conditions"
+				filter="raw"
+				label="MOD_DJ_EASYCONTACT_CONSENT_LABEL2"
+				description="MOD_DJ_EASYCONTACT_CONSENT_LABEL_DESC2" /> 
+				
+				<field name="spacer6" type="spacer" hr="true"/>
+								<field name="spacert5" type="spacer" class="text" label="MOD_DJ_EASYCONTACT_CAPTCHA"/>   
+								<field name="enable_anti_spam"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_ENABLE_CAPTCHA"
+				description="MOD_DJ_EASYCONTACT_ENABLE_CAPTCHA_DESC">
+					<option value="0">MOD_DJ_EASYCONTACT_NO</option>
+					<option value="1">MOD_DJ_EASYCONTACT_NO_CAPTCHA</option>
+					<option value="2">MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA</option>
+				</field>    
+
+				<field name="invisible_captcha_badge"
+				type="radio"
+				class="btn-group"
+				default="0"
+				label="MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA_BADGE"
+				description="MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA_BADGE_DESC">
+					<option value="0">MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA_BADGE_1</option>
+					<option value="1">MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA_BADGE_2</option>
+					<option value="2">MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA_BADGE_3</option>
+					<option value="3">MOD_DJ_EASYCONTACT_INVISIBLE_CAPTCHA_BADGE_4</option>
+				</field>  
+				
+				<field name="recaptcha_site_key"
+				type="text"
+				default=""
+				label="MOD_DJ_EASYCONTACT_RECAPTCHA_SITEKEY"
+				description="MOD_DJ_EASYCONTACT_RECAPTCHA_SITEKEY" />     
+				
+				<field name="recaptcha_secret_key"
+				type="text"
+				default=""
+				label="MOD_DJ_EASYCONTACT_RECAPTCHA_SECRETKEY"
+				description="MOD_DJ_EASYCONTACT_RECAPTCHA_SECRETKEY" />                	
+				<field name="spacer5" type="spacer" hr="true"/> 
+								<field name="spacert6" type="spacer" class="text" label="MOD_DJ_EASYCONTACT_MOD"/>
+								<field name="moduleclass_sfx"
+				type="text"
+				default=""
+				label="MOD_DJ_EASYCONTACT_SUFFIX"
+				description="MOD_DJ_EASYCONTACT_SUFFIX_DESC" />                
+			</fieldset>
+			<fieldset name="advanced">
+			  <field name="cache" type="list"
+			  default="1" label="MOD_DJ_EASYCONTACT_CACHING"
+			  description="MOD_DJ_EASYCONTACT_CACHING_DESC">
+				<option value="1">MOD_DJ_EASYCONTACT_GLOBAL</option>
+				<option value="0">MOD_DJ_EASYCONTACT_NO_CACHING</option>
+			  </field>
+			  <field name="cache_time" type="text"
+			  default="900" label="MOD_DJ_EASYCONTACT_CACHE_TIME"
+			  description="MOD_DJ_EASYCONTACT_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>     
+</extension>

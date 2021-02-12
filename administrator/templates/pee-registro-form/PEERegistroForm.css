@@ -1,0 +1,106 @@
+.prfm-overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,0.75);
+	z-index: 9999;
+}
+
+.prfm-wrapper {
+	position: relative;
+}
+
+.prfm-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font: 20px/30px Verdana;
+	color: #CCCCCC;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.prfm-close:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.prfm-content {
+	position: relative;
+	padding: 40px;
+	background: white;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+/* --------------- */
+
+.prf,
+.prf div,
+.prf span,
+.prf input,
+.prf select,
+.prf button {
+	box-sizing: border-box;
+}
+
+.prf {
+	width: 440px;
+}
+
+.prf-title,
+.prf-price {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.prf-price {
+	color: #2287D0;
+}
+
+.prf-input {
+	margin-bottom: 10px;
+}
+
+.prf-button {
+	text-align: center;
+}
+
+.prf-input input,
+.prf-input select {
+	display: block;
+	width: 100%;
+	height: 36px;
+	padding: 0 0 0 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.prf-input input::placeholder { color: #999999 !important; }
+.prf-input input::-webkit-input-placeholder { color: #999999 !important; }
+.prf-input input::-moz-placeholder { color: #999999 !important; }
+.prf-input input:-ms-input-placeholder { color: #999999 !important; }
+.prf-input input:-moz-placeholder { color: #999999 !important; }
+
+
+.prf-input-error {
+	font-size: 12px;
+	padding: 0 0 0 10px;
+	color: red;
+}
+
+.prf-input .is-invalid {
+	border-color: red;
+}
+
+.no-scroll {
+	overflow: hidden !important;
+}

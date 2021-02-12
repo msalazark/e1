@@ -1,0 +1,18 @@
+.dj-simple-contact-form.style-1 .error-dj-simple-contact-form{
+	color:red;
+}
+.dj-simple-contact-form.style-1 .inputbox{
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+.dj-simple-contact-form.style-1 textarea{
+    box-sizing: border-box;
+    height: 100px;
+    line-height: 20px;
+    width: 100%;	
+}
+.captcha-box{
+	margin:0 0 10px;
+}

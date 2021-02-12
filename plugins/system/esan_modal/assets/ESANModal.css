@@ -1,0 +1,85 @@
+[data-esan-modal] {
+	display: none;
+}
+
+body.no-scroll {
+	overflow: hidden;
+}
+
+.esan-modal-overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.75);
+	z-index: 99999;
+}
+
+.esan-modal {
+	position: relative;
+	padding: 32px;
+	background: white;
+	border-radius: 10px;
+}
+
+.esan-modal-close {
+	position: absolute;
+	right: 0;
+	top: -45px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	line-height: 40px;
+	font-size: 32px;
+}
+
+.esan-modal-close:hover {
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.esan-modal-content {
+	max-width: 80vw;
+	max-height: 75vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+@media (max-width: 959px) {
+	body.no-scroll {
+		position: fixed;
+	}
+
+	.esan-modal {
+		padding: 20px;
+	}
+
+	.esan-modal-close {
+		top: -35px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 24px;
+	}
+}
+
+
+@media (min-width: 960px) {
+	.esan-modal-content-arboles {
+		padding-right: 150px;
+		background-repeat: no-repeat;
+		background-image: url(/images/argbol-gris.svg), url(/images/argbol-gris.svg);
+		background-position: right bottom, right 100px bottom;
+		background-size: 100px 220px, 50px 110px;
+	}
+}

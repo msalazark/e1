@@ -1,0 +1,355 @@
+.tabs-intercambios-handlers {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.tabs-intercambios-handlers[data-length="1"] {
+	display: none;
+}
+
+.tabs-intercambios-handlers li {
+	list-style: none;
+	cursor: pointer;
+}
+
+.tabs-intercambios-handlers li.active {
+	font-weight: bold;
+}
+
+
+/* mobile */
+@media (max-width: 959px) {
+	.tabs-intercambios-handlers {
+		margin-bottom: 2rem;
+		padding: 0;
+		border-bottom: 1px solid black;
+	}
+
+	.tabs-intercambios-handlers li {
+		width: 50%;
+	}
+
+	.tabs-intercambios-handlers li span {
+		display: block;
+		width: 100%;
+		padding-bottom: 0.5rem;
+		text-align: center;
+	}
+
+	.tabs-intercambios-handlers li.active {
+		position: relative;
+		font-weight: bold;
+		color: black;
+	}
+
+	.tabs-intercambios-handlers li.active::after {
+		display: block;
+		content: '';
+		width: 100%;
+		height: 7px;
+		background: black;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+}
+
+
+/* desktop */
+@media (min-width: 960px) {
+	.tabs-intercambios-handlers {
+		padding: 0 40px;
+		height: 90px;
+		border-bottom: 1px solid #4A4A4A;
+	}
+
+	.tabs-intercambios-handlers li {
+		width: 49%;
+		height: 89px;
+		padding: 24px 32px 0 32px;
+		border-radius: 12px 12px 0 0;
+		border: 1px solid #C3C3C3;
+		border-bottom-width: 0;
+		background: #EDEDED;
+	}
+
+	.tabs-intercambios-handlers li:hover {
+		background: white;
+	}
+
+	.tabs-intercambios-handlers li.active {
+		height: 90px;
+		background: white;
+		border-color: #4A4A4A;
+	}
+
+	.tabs-intercambios-blocks {
+		padding: 90px 60px 50px 60px;
+	}
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.tabs-regiones-handlers {
+	height: 50px;
+	padding: 0 16px;
+	border-radius: 25px;
+	border: 1px solid #4A4A4A;
+	background: white;
+	font-weight: bold;
+}
+
+
+/* mobile */
+@media (max-width: 959px) {
+	.tabs-regiones-handlers {
+		width: 100%;
+	}
+
+	.tabs-regiones-blocks {
+		padding: 1rem 0 2rem 0;
+	}
+}
+
+
+/* desktop */
+@media (min-width: 960px) {
+	.tabs-regiones-blocks {
+		padding-top: 36px;
+	}
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* desktop */
+@media (min-width: 960px) {
+	.region-block {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.tabs-paises-handlers {
+		width: 52%;
+	}
+
+	.tabs-paises-blocks {
+		width: 44%;
+	}
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.tabs-paises-handlers .pais {
+	color: #CF0F11;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 12px;
+}
+
+.tabs-paises-handlers > ul {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+.tabs-paises-handlers .universidad {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 24px 8px 12px;
+	list-style: none;
+	color: #A0A0A0;
+	cursor: pointer;
+}
+
+.tabs-paises-handlers .universidad:hover {
+	color: black;
+}
+
+.tabs-paises-handlers .universidad strong {
+	font-weight: normal;
+}
+
+.tabs-paises-handlers .universidad span {
+	color: #CFCFCF;
+}
+
+.tabs-paises-handlers .universidad.active {
+	position: relative;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background: #F2F2F2;
+	border-radius: 10px;
+	color: black;
+}
+
+.tabs-paises-handlers .universidad.active::after {
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #F2F2F2;
+	position: absolute;
+	right: -10px;
+	top: 50%;
+	margin-top: -10px;
+}
+
+.tabs-paises-handlers .universidad.active span {
+	color: #808080;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.universidad-block {
+	color: #5C5C5C;
+}
+
+.universidad-nombre {
+	position: relative;
+	font-size: 28px;
+	font-weight: bold;
+	color: #363636;
+}
+
+.universidad-nombre::before {
+	display: block;
+	content: '';
+	width: 5px;
+	height: 20px;
+	background: #CF0F11;
+	border-radius: 0 5px 5px 0;
+	position: absolute;
+	left: -15px;
+	top: 11px;
+}
+
+.universidad-descripcion {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.universidad-contenido p {
+	margin: 8px 0;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.universidad-gallery {
+	margin: 20px 0 70px 0;
+	padding: 0;
+}
+
+.universidad-gallery li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.universidad-gallery li[video-url] {
+	position: relative;
+	cursor: pointer;
+}
+
+.universidad-gallery li[video-url]::before {
+	display: block;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -39px 0 0 -39px;
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.75);
+}
+
+.universidad-gallery li[video-url]::after {
+	display: block;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -14px 0 0 -10px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 14px 0 14px 22px;
+	border-color: transparent transparent transparent #CF0F11;
+}
+
+.universidad-gallery li img {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.universidad-gallery .slick-dots {
+	list-style: none;
+	position: absolute;
+	bottom: -50px;
+	right: 94px;
+	margin: 0;
+	padding: 0;
+	font: 20px 'ceraMedium', sans-serif;
+	color: black;
+}
+
+.universidad-gallery .slick-dots > li a {
+	font: 35px 'ceraBold', sans-serif;
+}
+
+.universidad-gallery .slick-dots > li:not(.slick-active) {
+	display: none;
+}
+
+.universidad-gallery .slick-prev,
+.universidad-gallery .slick-next {
+	display: block;
+	position: absolute;
+	bottom: -50px;
+	background: transparent no-repeat center;
+	padding: 0;
+	border: 0 none;
+	font-size: 0;
+	width: 37px;
+	height: 37px;
+	z-index: 9;
+}
+
+.universidad-gallery .slick-prev {
+	background-image: url(/images/maestrias/prev-01.svg);
+	right: 47px;
+}
+
+.universidad-gallery .slick-next{
+	background-image: url(/images/maestrias/next-01.svg);
+	right: 0;
+}
+
+
+/* mobile */
+@media (max-width: 959px) {
+	.universidad-gallery li img {
+		height: 200px;
+	}
+}
+
+
+/* desktop */
+@media (min-width: 960px) {
+	.universidad-gallery li img {
+		height: 300px;
+	}
+}
